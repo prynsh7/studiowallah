@@ -42,7 +42,7 @@ const ProductDetails = () => {
                                 product?.images?.map((item, index) => (
                                     <div className="box1 border-[1px]">
                                         <div className="image">
-                                            <img src="/images/newfront.png" style={{ width: '300px', float: 'left', marginTop: '60px' }} />
+                                            <img src={item} style={{ width: '300px', float: 'left', marginTop: '60px' }} />
                                         </div>
                                     </div>))
                             }
