@@ -108,8 +108,9 @@ const Home = () => {
                   </div>
                 </div>
               </div>
+          
             </div>
-            <div className="container">
+            <div className="container"> 
               <ol className="carousel-indicators">
                 <li data-target="#customCarousel1" data-slide-to={0} className="active" />
                 <li data-target="#customCarousel1" data-slide-to={1} />

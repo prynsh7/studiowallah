@@ -7,12 +7,12 @@
 body {
     font-family: 'Montserrat', sans-serif;
     color: #0c0c0c;
-    background-color: rgb(244, 246, 252);
+    background-color: white;
     overflow-x: hidden;
 }
 
 .navbar {
-    background-color: rgb(244, 246, 252);
+    background-color: white;
 
 }
 
@@ -300,7 +300,7 @@ nav {
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 10px;
-    background-color: #002c3e;
+    
     line-height: 70px;
 }
 
@@ -316,7 +316,7 @@ nav {
 
 .slider_section .detail-box a {
     display: inline-block;
-    background-color: #f7444e;
+   
     border: 1px solid #f7444e;
     color: #000000;
     border-radius: 0;

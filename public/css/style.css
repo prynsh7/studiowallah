@@ -64,7 +64,7 @@ h2 {
     display: block;
     width: 70px;
     height: 5px;
-    background: #f7444e;
+    
     margin: 10px auto 10px;
 }
 
@@ -257,7 +257,8 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  padding: 60px 0 75px 0;
+  padding: 40px 0 55px 0;
+  height: 100px;
 }
 
 .slider_section .row {
@@ -292,7 +293,7 @@ a:focus {
 .slider_section .detail-box a {
     display: inline-block;
     padding: 12px 45px;
-    background-color: #f7444e;
+   
     border: 1px solid #f7444e;
     color: #ffffff;
     border-radius: 0;
@@ -355,6 +356,9 @@ a:focus {
      object-position: top right;
 }
 
+.container{
+  background-color: white;
+}
 .product_section .heading_container {
   margin-bottom: 20px;
 }
