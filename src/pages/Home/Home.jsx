@@ -25,9 +25,7 @@ const Home = () => {
           <div id="customCarousel1" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <div className="slider_bg_box">
-                  <img src="/images/banner1.png" alt=""  />
-                </div>
+           
                 <div className="container ">
                   <div className="row">
                     <div className="col-md-7 col-lg-6 ">
@@ -47,15 +45,19 @@ const Home = () => {
                             Shop Now
                           </a>
                         </div>
+                      </div>
+                    </div>
+
+                    <div className="col-md-5 col-lg-6 ">
+                      <div className="detail-box">
+                      <img src="/images/banner1.png" alt=""   />
                       </div>
                     </div>
                   </div>
                 </div> 
               </div>
               <div className="carousel-item ">
-                <div className="slider_bg_box">
-                  <img src="images/slide2.png" />
-                </div>
+                
                 <div className="container ">
                   <div className="row">
                     <div className="col-md-7 col-lg-6 ">
@@ -77,13 +79,16 @@ const Home = () => {
                         </div>
                       </div>
                     </div>
+                    <div className="col-md-5 col-lg-6 ">
+                      <div className="detail-box">
+                      <img src="/images/banner1.png" alt=""   />
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="carousel-item">
-                <div className="slider_bg_box">
-                  <img src="images/slider.png" alt="" />
-                </div>
+                
                 <div className="container ">
                   <div className="row">
                     <div className="col-md-7 col-lg-6 ">
@@ -103,6 +108,11 @@ const Home = () => {
                             Shop Now
                           </a>
                         </div>
+                      </div>
+                    </div>
+                    <div className="col-md-5 col-lg-6 ">
+                      <div className="detail-box">
+                      <img src="/images/banner1.png" alt=""   />
                       </div>
                     </div>
                   </div>
