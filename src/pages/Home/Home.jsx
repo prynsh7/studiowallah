@@ -26,7 +26,7 @@ const Home = () => {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <div className="slider_bg_box">
-                  <img src="images/banner.png" alt="" wi />
+                  <img src="/images/banner1.png" alt=""  />
                 </div>
                 <div className="container ">
                   <div className="row">
@@ -50,7 +50,7 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> 
               </div>
               <div className="carousel-item ">
                 <div className="slider_bg_box">
