@@ -25,7 +25,7 @@ const Home = () => {
           <div id="customCarousel1" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
-           
+
                 <div className="container ">
                   <div className="row">
                     <div className="col-md-7 col-lg-6 ">
@@ -50,14 +50,14 @@ const Home = () => {
 
                     <div className="col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                      <img src="/images/banner1.png" alt=""   />
+                        <img src="/images/banner1.png" alt="" />
                       </div>
                     </div>
                   </div>
-                </div> 
+                </div>
               </div>
               <div className="carousel-item ">
-                
+
                 <div className="container ">
                   <div className="row">
                     <div className="col-md-7 col-lg-6 ">
@@ -81,14 +81,14 @@ const Home = () => {
                     </div>
                     <div className="col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                      <img src="/images/banner1.png" alt=""   />
+                        <img src="/images/banner1.png" alt="" />
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="carousel-item">
-                
+
                 <div className="container ">
                   <div className="row">
                     <div className="col-md-7 col-lg-6 ">
@@ -112,15 +112,15 @@ const Home = () => {
                     </div>
                     <div className="col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                      <img src="/images/banner1.png" alt=""   />
+                        <img src="/images/banner1.png" alt="" />
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-          
+
             </div>
-            <div className="container"> 
+            <div className="container">
               <ol className="carousel-indicators">
                 <li data-target="#customCarousel1" data-slide-to={0} className="active" />
                 <li data-target="#customCarousel1" data-slide-to={1} />
@@ -421,8 +421,16 @@ const Home = () => {
 
           <div className="grid grid-cols-4 product_section container mx-auto gap-[20px]">
             {
-              ProductList && ProductList.map((item, index) => (<ProductCard item={item} />))
+              ProductList && ProductList.map((item, index) => {
+
+                if (index < 12) return <ProductCard item={item} />
+
+              })
             }
+          </div>
+
+          <div className='more-product-btn'>
+            <a href="/products">View More</a>
           </div>
 
         </div></section>
