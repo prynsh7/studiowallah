@@ -270,11 +270,11 @@ a:focus {
 .slider_section #customCarousel1 {
   width: 50%;
   position: unset;
-  float: left;
+  margin-left: 150px;
 }
 
 .slider_section .detail-box h1 {
-    font-size: 4.5rem;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 15px;
     color: #002c3e;
@@ -286,7 +286,7 @@ a:focus {
 }
 
 .slider_section .detail-box p {
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 20px;
     margin-bottom: 1.5rem;
 }
@@ -311,7 +311,7 @@ a:focus {
 
 .slider_section .img-box img {
   width: 50%;
-  float: right;
+  
 }
 
 .slider_section .carousel-indicators {
@@ -348,6 +348,7 @@ a:focus {
   height: 100%;
   z-index: -1;
   float: left;
+
 }
 
 .slider_bg_box img {
@@ -358,6 +359,7 @@ a:focus {
   -o-object-position: top right;
      object-position: top right;
      float: right;
+     margin-left: 150px;
 }
 
 .container{
@@ -397,6 +399,7 @@ a:focus {
   max-height: 160px;
   -webkit-transition: all .3s;
   transition: all .3s;
+  margin-left: 150px;
 }
 
 .product_section .box .detail-box {
@@ -548,6 +551,7 @@ a:focus {
     width: 100%;
     height: 100%;
     z-index: 3;
+    margin-left: 100px;
 }
 
 .arrival_section .arrival_bg_box img {
@@ -801,11 +805,13 @@ a:focus {
   background-color: #002c3e;
   color: #ffffff;
   padding-top: 70px;
+  margin-left: 100px;
 }
 
 .footer_section {
     color: #ffffff;
     text-align: left;
+    margin-left: 100px;
 }
 
 .footer_section h4 {
