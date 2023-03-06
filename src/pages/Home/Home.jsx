@@ -385,8 +385,8 @@ const Home = () => {
       <section className="arrival_section ">
         <div className="container">
           <div className="box">
-            <div className="arrival_bg_box">
-              <img src="/images/arrival.png" alt="" />
+           <div className="arrival_bg_box">
+            <img src="/images/arrival-bg.jpg" alt="" />
             </div>
             <div className="row">
               <div className="col-md-6 ml-auto">
@@ -405,6 +405,7 @@ const Home = () => {
             </div>
           </div>
         </div>
+        
       </section>
 
 
