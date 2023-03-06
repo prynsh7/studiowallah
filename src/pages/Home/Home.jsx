@@ -25,7 +25,6 @@ const Home = () => {
           <div id="customCarousel1" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
-
                 <div className="container ">
                   <div className="row">
                     <div className="col-md-7 col-lg-6 ">
@@ -41,7 +40,7 @@ const Home = () => {
                           Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
                         </p>
                         <div className="btn-box">
-                          <a href className="btn1">
+                          <a href className="btn1 bg-[#f7444e]">
                             Shop Now
                           </a>
                         </div>
@@ -73,7 +72,7 @@ const Home = () => {
                           Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
                         </p>
                         <div className="btn-box">
-                          <a href className="btn1">
+                          <a href className="btn1 bg-[#f7444e]">
                             Shop Now
                           </a>
                         </div>
@@ -104,7 +103,7 @@ const Home = () => {
                           Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
                         </p>
                         <div className="btn-box">
-                          <a href className="btn1">
+                          <a href className="btn1 bg-[#f7444e]">
                             Shop Now
                           </a>
                         </div>
@@ -383,7 +382,7 @@ const Home = () => {
 
       {/* end why section */}
       {/* arrival section */}
-      <section className="arrival_section">
+      <section className="arrival_section ">
         <div className="container">
           <div className="box">
             <div className="arrival_bg_box">

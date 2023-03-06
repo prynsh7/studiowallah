@@ -42,7 +42,7 @@ const Navbar = () => {
 
 
     return (
-        <header className="header_section border-b-[1px]">
+        <header className="header_section">
             <div className="container">
                 <nav className="navbar navbar-expand-lg custom_nav-container ">
                     <a className="navbar-brand" href="javascript:void(0)" onClick={() => navigate("/")}><img width={150} src="/images/logo1-removebg-preview.png" alt="#" /></a>
