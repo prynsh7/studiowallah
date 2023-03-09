@@ -434,10 +434,11 @@ width: 150px;
   visibility: visible;
   -webkit-transform: translateY(0);
           transform: translateY(0);
-}
-/* .arrival_section {
+} .arrival_section {
     background-color: #d4ced0 !important;
-} */
+padding-left: 170px;
+padding-right: 180px;
+  } 
 .product_section .option_container {
   position: absolute;
   top: 0;
@@ -555,12 +556,13 @@ width: 150px;
 }
 
 .arrival_section .arrival_bg_box img {
-    width: 50%;
+    width: 30%;
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
     -o-object-position: top left;
     object-position: top left;
+    margin-left: 70px;
 }
 
 .arrival_section a {
@@ -569,9 +571,8 @@ width: 150px;
   background-color: #f7444e;
   border: 1px solid #f7444e;
   color: #ffffff;
-  border-radius: 0;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  
+  cursor: pointer;
 }
 
 .arrival_section a:hover {
