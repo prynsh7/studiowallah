@@ -32,12 +32,12 @@ const ProductDetails = () => {
         <div>
             <Navbar />
 
-            <div className='container mx-auto py-[50px]'>
+            <div className='container shadow-md'>
 
 
-                <div className='flex gap-[50px] items-center'>
-                    <div className="left w-[50%]  px-[20px] shadow-md">
-                        <div className="grid bg-[fff]  py-[30px] my-auto grid-cols-2 gap-[10px]">
+                <div className='flex gap-[50px] items-center '>
+                    <div className="left w-[50%] shadow-2xl py-[10px] px-[30px] border-20px">
+                        <div className="grid bg-[fff]  py-[30px] px-[30px ] my-auto grid-cols-2 gap-[10px]">
                             {
                                 product?.images?.map((item, index) => (
                                     <div className="box1 border-[1px]">

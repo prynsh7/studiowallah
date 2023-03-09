@@ -385,8 +385,8 @@ const Home = () => {
       <section className="arrival_section ">
         <div className="container">
           <div className="box">
-            <div className="arrival_bg_box">
-              <img src="/images/arrival.png" alt="" />
+           <div className="arrival_bg_box">
+            <img src="/images/arriveclear.png" alt="" />
             </div>
             <div className="row">
               <div className="col-md-6 ml-auto">
@@ -399,12 +399,13 @@ const Home = () => {
                   Vitae fugiat laboriosam officia perferendis provident aliquid voluptatibus dolorem, fugit ullam sit earum id eaque nisi hic? Tenetur commodi, nisi rem vel, ea eaque ab ipsa, autem similique ex unde!
                 </p>
                 <a href>
-                  Now Shop
+                  Shop Now
                 </a>
               </div>
             </div>
           </div>
         </div>
+        
       </section>
 
 

@@ -266,7 +266,7 @@ a:focus {
 }
 
 nav {
-    background: rgb(244, 246, 252);
+    background: white
 }
 
 /*end header section*/
@@ -318,12 +318,13 @@ nav {
     display: inline-block;
    
     border: 1px solid #f7444e;
-    color: #ffff;
+    
     border-radius: 0;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     margin-top: 10px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .slider_section .detail-box a:hover {
@@ -374,8 +375,8 @@ nav {
 .slider_bg_box img {
     width: 100%;
     height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
+    /*-o-object-fit: cover;*/
+   /* object-fit: cover;*/
     -o-object-position: top right;
     object-position: top right;
     
@@ -556,32 +557,32 @@ nav {
 .arrival_section .heading_container {
     color: #002c3e;
     margin-bottom: 10px;
-}
-
-.arrival_section .box {
+  }
+  
+  .arrival_section .box {
     padding: 120px 45px;
     position: relative;
-}
-
-.arrival_section .arrival_bg_box {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 3;
-}
-
-.arrival_section .arrival_bg_box img {
-    width: 50%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    -o-object-position: top left;
-    object-position: top left;
-}
-
-.arrival_section a {
+  }
+  
+  .arrival_section .arrival_bg_box {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 3;
+  }
+  
+  .arrival_section .arrival_bg_box img {
+      width: 50%;
+      height: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+      -o-object-position: top left;
+      object-position: top left;
+  }
+  
+  .arrival_section a {
     display: inline-block;
     padding: 10px 45px;
     background-color: #f7444e;
@@ -590,12 +591,12 @@ nav {
     border-radius: 0;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-}
-
-.arrival_section a:hover {
+  }
+  
+  .arrival_section a:hover {
     background-color: transparent;
     color: #f7444e;
-}
+  }
 
 .why_section .box {
     text-align: center;
@@ -1009,8 +1010,12 @@ li.nav-item ul li a:focus {
 /** footer **/
 
 footer {
-    background: #f8f8f8;
-    padding: 90px 0 70px;
+    background: white;
+    padding-left: 100px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    /*margin-right: 220px;
+    margin-left: 100px;*/
 }
 
 .logo_footer {
