@@ -386,16 +386,16 @@ const Home = () => {
         <div className="container">
           <div className="box">
            <div className="arrival_bg_box">
-            <img src="/images/arriveclear.png" alt="" />
+            <img src="/images/arrival-bg1.png" alt="" style={{ width: '380px', height:'500px' }}/>
             </div>
             <div className="row">
-              <div className="col-md-6 ml-auto">
+              <div className="col-md-6 ml-auto" style={{ padding: '70px'}}>
                 <div className="heading_container remove_line_bt">
                   <h2>
                     #NewArrivals
                   </h2>
                 </div>
-                <p style={{ marginTop: '20px', marginBottom: '30px' }}>
+                <p style={{ marginTop: '20px', marginBottom: '30px'}}>
                   Vitae fugiat laboriosam officia perferendis provident aliquid voluptatibus dolorem, fugit ullam sit earum id eaque nisi hic? Tenetur commodi, nisi rem vel, ea eaque ab ipsa, autem similique ex unde!
                 </p>
                 <a href>
