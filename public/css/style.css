@@ -380,6 +380,7 @@ a:focus {
     overflow: hidden;
     box-shadow: 5px 5px 5px -5px rgba(0,0,0,.2);
     border: solid #fff 10px;
+    height: 300px;
 }
 
 .product_section .box .img-box {
@@ -434,11 +435,7 @@ width: 150px;
   visibility: visible;
   -webkit-transform: translateY(0);
           transform: translateY(0);
-} .arrival_section {
-    background-color: #d4ced0 !important;
-padding-left: 170px;
-padding-right: 180px;
-  } 
+} 
 .product_section .option_container {
   position: absolute;
   top: 0;
@@ -535,14 +532,17 @@ padding-right: 180px;
   background-color: transparent;
   color: #f7444e;
 }
-
+.arrival_section {
+  background-color: #d4ced0 !important;
+padding-right: 130px;
+} 
 .arrival_section .heading_container {
   color: #002c3e;
   margin-bottom: 10px;
 }
 
 .arrival_section .box {
-  padding: 120px 100px;
+  padding: 60px 45px;
   position: relative;
 }
 
@@ -551,18 +551,18 @@ padding-right: 180px;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 70%;
     z-index: 3;
 }
 
 .arrival_section .arrival_bg_box img {
-    width: 30%;
+    width: 50%;
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
     -o-object-position: top left;
     object-position: top left;
-    margin-left: 70px;
+   margin-left: 140px;
 }
 
 .arrival_section a {
@@ -571,7 +571,9 @@ padding-right: 180px;
   background-color: #f7444e;
   border: 1px solid #f7444e;
   color: #ffffff;
-  
+  border-radius: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   cursor: pointer;
 }
 
