@@ -401,7 +401,7 @@ const Home = () => {
                 </p>
                 <div className="btn-box">
                           <a href className="btn1 bg-[#f7444e] font-bold">
-                            Shop Now
+                            shop Now
                           </a>
                 </div>
               </div>
