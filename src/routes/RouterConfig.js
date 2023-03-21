@@ -1,4 +1,5 @@
 export const ROUTES = {
     Home:'/',
-    Product:'/products'
+    Product:'/products',
+    Contact : '/contact'
 }
