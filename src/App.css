@@ -1066,6 +1066,7 @@ footer {
     width: 100%;
 }
 
+
 div.form_sub .field input[type="email"],
 div.form_sub .field input[type="email"]:hover,
 div.form_sub .field input[type="email"]:focus {
@@ -1207,3 +1208,4 @@ form input[type="submit"]:focus {
     color: #fff;
     border-radius: 30px;
 }
+

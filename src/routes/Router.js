@@ -2,6 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import About from '../pages/About/About';
 import Contact from '../pages/Contact/Contact';
+import Login from '../pages/Login/Login'
 import Home from '../pages/Home/Home';
 import ProductDetails from '../pages/ProductDetails/ProductDetails';
 import { ROUTES } from './RouterConfig';
@@ -23,6 +24,7 @@ const Router = () => {
             <Route exact path={ROUTES.Product} element={<RouteWithRole Element={About} />}></Route>
             <Route exact path={ROUTES.Product + '/:id'} element={<RouteWithRole Element={ProductDetails} />}></Route>
             <Route exact path={ROUTES.Contact} element={<RouteWithRole Element={Contact} />}></Route>
+            <Route exact path={ROUTES.Login} element={<RouteWithRole Element={Login} />}></Route>
         </Routes>
     </div>
   )

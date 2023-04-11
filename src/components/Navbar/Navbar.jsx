@@ -17,6 +17,11 @@ const navItems = [
         name: 'Contact',
         link: '/contact'
     },
+    {
+        id: 4,
+        name: 'Log in',
+        link: '/Login'
+    },
 ]
 
 const Navbar = () => {
@@ -59,6 +64,18 @@ const Navbar = () => {
                                     </li>))
 
                             }
+
+                               {/* <li className={"nav-item"}>
+                               <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label"></span>Pages <span class="caret"></span></a>
+                                        <a className="nav-link" href="javascript:void(0)" ></a>
+                                </li> */}
+                                
+                                {/* <li className={"nav-item"}>
+                               <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label"></span>Pages <span class="caret"></span></a>
+                                        <a className="nav-link" href="javascript:void(0)" ></a>
+                                        
+
+                                </li> */}
 
                                 <div className="form_sub">
                                         <div className='flex'>
