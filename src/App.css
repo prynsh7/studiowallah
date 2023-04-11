@@ -154,7 +154,10 @@ a:focus {
 }
 
 .custom_nav-container {
-    padding: 0;
+
+    padding-left: 130px;
+    padding-right: 150px;
+
 }
 
 .custom_nav-container .navbar-nav {
