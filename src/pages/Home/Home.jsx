@@ -1,10 +1,11 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate} from 'react-router-dom'
 import Footer from '../../components/footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
 import ProductCard from '../../components/ProductCard/ProductCard'
 import { ProductList } from '../../data/productList'
 import { ROUTES } from '../../routes/RouterConfig'
+
 
 const Home = () => {
 
@@ -21,7 +22,7 @@ const Home = () => {
         <Navbar />
         {/* end header section */}
         {/* slider section */}
-        <section className="slider_section ">
+        <section className="slider_section gap-7" >
           <div id="customCarousel1" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
@@ -398,11 +399,11 @@ const Home = () => {
                 <p style={{ marginTop: '20px', marginBottom: '30px'}}>
                   Vitae fugiat laboriosam officia perferendis provident aliquid voluptatibus dolorem, fugit ullam sit earum id eaque nisi hic? Tenetur commodi, nisi rem vel, ea eaque ab ipsa, autem similique ex unde!
                 </p>
-                
-                          <a href ="">
-                            Shop Now
+                <div className="btn-box">
+                          <a href className="btn1 bg-[#f7444e] font-bold">
+                            shop Now
                           </a>
-                        
+                </div>
               </div>
             </div>
           </div>

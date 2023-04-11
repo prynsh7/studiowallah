@@ -1001,6 +1001,7 @@ footer {
 }
 
 .information_f p {
+  color: #fff;
     margin-bottom: 1.2rem;
     line-height: 25px;
     font-size: 15px;
@@ -1120,7 +1121,8 @@ form input[type="submit"]:focus {
 /** cpy **/
 
 .cpy_ {
-    background: #222;
+    background: #002c3e !important;
+    border-top: 1px solid rgba(255,255,255,0.2);
     text-align: center;
     padding: 20px 0;
 }
