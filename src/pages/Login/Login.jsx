@@ -11,24 +11,38 @@ const Contact = () => {
     <div>
         <Navbar/>
 <div className=''>
+
 <div className='text-center bg-[#f7444e] pt-[40px] pb-[40px]'>
    <h6 className='text-[42px] font-extrabold text-white text-capitalize'>Log in to your account</h6>
 </div>
-
-
-<div className='text-center pt-[40px] pb-[20px]'>
-<input className='border-2 w-[25%] h-[40px] rounded px-[15px] text-[14px]' name='email' placeholder='Enter Your Email Address' />
+<div className='p-[40px]'>
+<div className='border-4 border-black-300 p-[20px]'>
+  <div className='justify-start'>
+<div>
+<h4 className='text-[42px] font-bold text-[#f7444e] text-capitalize mt-[15px] pr-0'>WELCOME</h4>
 </div>
-<div className='text-center '>
+<div className='pt-[30px] pb-[20px] pr-0'>
+
+<input className='border-2 w-[25%] h-[40px] rounded text-[14px]' name='email' placeholder='Enter Your Email Address' />
+</div>
+<div className='pr-0'>
 <input className='border-2  w-[25%] h-[40px] rounded px-[15px] text-[14px]' type='password' name='password' placeholder='Enter Password' />
 </div>
-
-
+<div className='passforg pt-[30px]'>
+  <h3 className='font-medium'>Forgot password?</h3>
+ <h3 className='mt-[10px] font-medium'>Don't have an account yet?<h3 className='text-[#f7444e] underline font-bold mt-[6px]'><a href='' className='text-[#f7444e]'>sign-in</a></h3></h3>
+ </div>
+ </div>
+ <div className='ml-auto mr-0'>
+ <img src="/images/log1.png" alt="" />
+</div>
+</div>
+</div>
 <div className='text-center pt-[30px] pb-[30px]'>
     <button className='border-2 text-white p-2 w-[120px] rounded bg-[#f7444e]'>Login</button>
 </div>
-</div>
 
+</div>
 
 <Footer/>
     </div>
