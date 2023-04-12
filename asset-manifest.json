@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.91cc931b.css",
-    "main.js": "/static/js/main.e26a5717.js",
-    "index.html": "/index.html",
-    "main.91cc931b.css.map": "/static/css/main.91cc931b.css.map",
-    "main.e26a5717.js.map": "/static/js/main.e26a5717.js.map"
+    "main.css": "/studiowallah/static/css/main.55a9551e.css",
+    "main.js": "/studiowallah/static/js/main.b94cfdda.js",
+    "index.html": "/studiowallah/index.html",
+    "main.55a9551e.css.map": "/studiowallah/static/css/main.55a9551e.css.map",
+    "main.b94cfdda.js.map": "/studiowallah/static/js/main.b94cfdda.js.map"
   },
   "entrypoints": [
-    "static/css/main.91cc931b.css",
-    "static/js/main.e26a5717.js"
+    "static/css/main.55a9551e.css",
+    "static/js/main.b94cfdda.js"
   ]
 }
