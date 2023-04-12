@@ -1,10 +1,11 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate} from 'react-router-dom'
 import Footer from '../../components/footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
 import ProductCard from '../../components/ProductCard/ProductCard'
 import { ProductList } from '../../data/productList'
 import { ROUTES } from '../../routes/RouterConfig'
+
 
 const Home = () => {
 
@@ -21,11 +22,10 @@ const Home = () => {
         <Navbar />
         {/* end header section */}
         {/* slider section */}
-        <section className="slider_section ">
+        <section className="slider_section gap-7" >
           <div id="customCarousel1" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
-
                 <div className="container ">
                   <div className="row">
                     <div className="col-md-7 col-lg-6 ">
@@ -41,7 +41,7 @@ const Home = () => {
                           Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
                         </p>
                         <div className="btn-box">
-                          <a href className="btn1">
+                          <a href className="btn1 bg-[#f7444e]">
                             Shop Now
                           </a>
                         </div>
@@ -73,7 +73,7 @@ const Home = () => {
                           Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
                         </p>
                         <div className="btn-box">
-                          <a href className="btn1">
+                          <a href className="btn1 bg-[#f7444e]">
                             Shop Now
                           </a>
                         </div>
@@ -104,7 +104,7 @@ const Home = () => {
                           Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
                         </p>
                         <div className="btn-box">
-                          <a href className="btn1">
+                          <a href className="btn1 bg-[#f7444e]">
                             Shop Now
                           </a>
                         </div>
@@ -383,29 +383,32 @@ const Home = () => {
 
       {/* end why section */}
       {/* arrival section */}
-      <section className="arrival_section">
+      <section className="arrival_section ">
         <div className="container">
           <div className="box">
-            <div className="arrival_bg_box">
-              <img src="images/arrival-bg.png" alt="" />
+           <div className="arrival_bg_box">
+            <img src="/images/arrival-bg1.png" alt="" style={{ width: '380px', height:'500px' }}/>
             </div>
             <div className="row">
-              <div className="col-md-6 ml-auto">
+              <div className="col-md-6 ml-auto" style={{ padding: '70px'}}>
                 <div className="heading_container remove_line_bt">
                   <h2>
                     #NewArrivals
                   </h2>
                 </div>
-                <p style={{ marginTop: '20px', marginBottom: '30px' }}>
+                <p style={{ marginTop: '20px', marginBottom: '30px'}}>
                   Vitae fugiat laboriosam officia perferendis provident aliquid voluptatibus dolorem, fugit ullam sit earum id eaque nisi hic? Tenetur commodi, nisi rem vel, ea eaque ab ipsa, autem similique ex unde!
                 </p>
-                <a href>
-                  Shop Now
-                </a>
+                <div className="btn-box">
+                          <a href className="btn1 bg-[#f7444e] font-bold">
+                            shop Now
+                          </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        
       </section>
 
 

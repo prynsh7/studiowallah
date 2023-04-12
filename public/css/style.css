@@ -270,11 +270,11 @@ a:focus {
 .slider_section #customCarousel1 {
   width: 50%;
   position: unset;
-  float: left;
+  margin-left: 150px;
 }
 
 .slider_section .detail-box h1 {
-    font-size: 4.5rem;
+    font-size: 60px !important;
     font-weight: bold;
     margin-bottom: 15px;
     color: #002c3e;
@@ -283,10 +283,11 @@ a:focus {
 
 .slider_section .detail-box h1 span {
   color: #f7444e;
+  font-size: 60px !important;
 }
 
 .slider_section .detail-box p {
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 20px;
     margin-bottom: 1.5rem;
 }
@@ -311,7 +312,7 @@ a:focus {
 
 .slider_section .img-box img {
   width: 50%;
-  float: right;
+  
 }
 
 .slider_section .carousel-indicators {
@@ -348,6 +349,7 @@ a:focus {
   height: 100%;
   z-index: -1;
   float: left;
+
 }
 
 .slider_bg_box img {
@@ -358,10 +360,11 @@ a:focus {
   -o-object-position: top right;
      object-position: top right;
      float: right;
+     margin-left: 150px;
 }
 
 .container{
-  background-color: white;
+  /*background-color: white;*/
 }
 .product_section .heading_container {
   margin-bottom: 20px;
@@ -377,6 +380,7 @@ a:focus {
     overflow: hidden;
     box-shadow: 5px 5px 5px -5px rgba(0,0,0,.2);
     border: solid #fff 10px;
+    height: 300px;
 }
 
 .product_section .box .img-box {
@@ -397,6 +401,7 @@ a:focus {
   max-height: 160px;
   -webkit-transition: all .3s;
   transition: all .3s;
+width: 150px;
 }
 
 .product_section .box .detail-box {
@@ -430,10 +435,7 @@ a:focus {
   visibility: visible;
   -webkit-transform: translateY(0);
           transform: translateY(0);
-}
-.arrival_section {
-    background-color: #d4ced0;
-}
+} 
 .product_section .option_container {
   position: absolute;
   top: 0;
@@ -530,14 +532,17 @@ a:focus {
   background-color: transparent;
   color: #f7444e;
 }
-
+.arrival_section {
+  background-color: #d4ced0 !important;
+padding-right: 130px;
+} 
 .arrival_section .heading_container {
   color: #002c3e;
   margin-bottom: 10px;
 }
 
 .arrival_section .box {
-  padding: 120px 45px;
+  padding: 60px 45px;
   position: relative;
 }
 
@@ -546,7 +551,7 @@ a:focus {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 70%;
     z-index: 3;
 }
 
@@ -557,6 +562,7 @@ a:focus {
     object-fit: cover;
     -o-object-position: top left;
     object-position: top left;
+   margin-left: 140px;
 }
 
 .arrival_section a {
@@ -568,6 +574,7 @@ a:focus {
   border-radius: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  cursor: pointer;
 }
 
 .arrival_section a:hover {
@@ -801,11 +808,13 @@ a:focus {
   background-color: #002c3e;
   color: #ffffff;
   padding-top: 70px;
+  margin-left: 100px;
 }
 
 .footer_section {
     color: #ffffff;
     text-align: left;
+    margin-left: 100px;
 }
 
 .footer_section h4 {
@@ -992,6 +1001,7 @@ footer {
 }
 
 .information_f p {
+  color: #fff;
     margin-bottom: 1.2rem;
     line-height: 25px;
     font-size: 15px;
@@ -1111,7 +1121,8 @@ form input[type="submit"]:focus {
 /** cpy **/
 
 .cpy_ {
-    background: #222;
+    background: #002c3e !important;
+    border-top: 1px solid rgba(255,255,255,0.2);
     text-align: center;
     padding: 20px 0;
 }
