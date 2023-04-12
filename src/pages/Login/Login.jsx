@@ -2,6 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import Footer from '../../components/footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
+import Signin from '../../pages/Sign/sign'
 import ProductCard from '../../components/ProductCard/ProductCard'
 import { ProductList } from '../../data/productList'
 import { ROUTES } from '../../routes/RouterConfig'
@@ -13,33 +14,36 @@ const Contact = () => {
 <div className=''>
 
 <div className='text-center bg-[#f7444e] pt-[40px] pb-[40px]'>
-   <h6 className='text-[42px] font-extrabold text-white text-capitalize'>Log in to your account</h6>
+   <h6 className='text-[42px] font-extrabold text-white text-capitalize'>Login to your account</h6>
 </div>
-<div className='p-[40px]'>
-<div className='border-4 border-black-300 p-[20px]'>
-  <div className='justify-start'>
+<div className='p-[40px] pr-[450px] pl-[450px]'>
+<div className='border-4 border-black-300 p-[20px] flex'>
+  <div className='pl-[25px]'>
 <div>
 <h4 className='text-[42px] font-bold text-[#f7444e] text-capitalize mt-[15px] pr-0'>WELCOME</h4>
 </div>
 <div className='pt-[30px] pb-[20px] pr-0'>
 
-<input className='border-2 w-[25%] h-[40px] rounded text-[14px]' name='email' placeholder='Enter Your Email Address' />
+<input className='border-2 w-[300px] h-[40px] rounded text-[14px] px-[15px]' name='email' placeholder='Enter Your Email Address' />
 </div>
 <div className='pr-0'>
-<input className='border-2  w-[25%] h-[40px] rounded px-[15px] text-[14px]' type='password' name='password' placeholder='Enter Password' />
+<input className='border-2  w-[300px] h-[40px] rounded px-[15px] text-[14px]' type='password' name='password' placeholder='Enter Password' />
 </div>
 <div className='passforg pt-[30px]'>
-  <h3 className='font-medium'>Forgot password?</h3>
- <h3 className='mt-[10px] font-medium'>Don't have an account yet?<h3 className='text-[#f7444e] underline font-bold mt-[6px]'><a href='' className='text-[#f7444e]'>sign-in</a></h3></h3>
+  <h3 className='font-medium'><a href='' className='text-[#f7444e]'>Forgot password?</a></h3>
+ <h3 className='mt-[10px] font-medium'>Don't have an account yet?<h3 className='text-[#f7444e] underline font-bold mt-[6px]'><a href='../../pages/Sign/sign.jsx' className='text-[#f7444e]'>sign-in</a></h3></h3>
  </div>
+ <div className=' pt-[30px] pb-[30px]'>
+    <button className='text-white p-2 w-[120px] rounded-full bg-[#f7444e]'>Login</button>
+</div>
  </div>
- <div className='ml-auto mr-0'>
- <img src="/images/log1.png" alt="" />
+ <div className='ml-auto p-[15px] mr-0 mt-[40px] height-[90px] width-[100px]'>
+ <img src="/images/login1.png" alt="" />
 </div>
+
+
 </div>
-</div>
-<div className='text-center pt-[30px] pb-[30px]'>
-    <button className='border-2 text-white p-2 w-[120px] rounded bg-[#f7444e]'>Login</button>
+
 </div>
 
 </div>
