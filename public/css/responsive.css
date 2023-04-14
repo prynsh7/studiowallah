@@ -34,6 +34,10 @@
 
 @media (max-width: 767px) {
 
+  .slider_section #customCarousel1{
+    margin-left: 3px;
+  }
+
   .slider_bg_box img {
     -o-object-position: top center;
     object-position: top center;
@@ -55,6 +59,7 @@
   .slider_section .detail-box,
   .about_section .detail-box {
     margin-bottom: 45px;
+    font-size: 2.3rem;
   }
 
   .about_section .row {
@@ -98,8 +103,19 @@
 @media (max-width: 420px) {}
 
 @media (max-width: 376px) {
-  .slider_section .detail-box h1 {
-    font-size: 3rem;
+  
+  .ml-5, .mx-5{
+    margin-left: 0px;
+  }
+  .ml-5{
+    margin-left: 0px;
+    margin: 0%;
+  }
+  .slider_section .detail-box h1 span {
+font-size: 20px;
+  }
+  .slider_section .detail-box h1{
+    font-size: 20px;
   }
 }
 

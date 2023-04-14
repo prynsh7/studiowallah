@@ -1,5 +1,5 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import Footer from '../../components/footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
 import Signin from '../../pages/Sign/sign'
@@ -36,7 +36,7 @@ const Contact = () => {
     <button className=' text-white p-2 w-[300px] btn1 bg-[#f7444e] font-bold rounded'>Sign in</button>
 </div>
 <div className='passforg pt-[5px]'>
- <h3 className='font-medium'>Already have an account?<h3 className='text-[#f7444e] underline font-bold mt-[6px]'><a href='../../pages/Sign/sign.jsx' className='text-[#f7444e]'>log-in</a></h3></h3>
+ <h3 className='font-medium'>Already have an account?<h3 className='text-[#f7444e] underline font-bold mt-[6px]'><Link to="/Login">log-in</Link></h3></h3>
  </div>
  
  </div>
