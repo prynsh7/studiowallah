@@ -29,7 +29,7 @@ const Home = () => {
                 <div className="container ">
                   <div className="row">
                     <div className="col-md-7 col-lg-6 ">
-                      <div className="detail-box">
+                      <div className="detail-box box-res">
                         <h1>
                           <span>
                             Sale 20% Off
@@ -50,7 +50,7 @@ const Home = () => {
 
                     <div className="col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                        <img src="/images/banner1.png" alt="" />
+                        <img className='banner-img' src="/images/banner1.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -81,7 +81,7 @@ const Home = () => {
                     </div>
                     <div className="col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                        <img src="/images/banner1.png" alt="" />
+                        <img className='banner-img' src="/images/banner1.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -112,7 +112,7 @@ const Home = () => {
                     </div>
                     <div className="col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                        <img src="/images/banner1.png" alt="" />
+                        <img className='banner-img' src="/images/banner1.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -120,7 +120,7 @@ const Home = () => {
               </div>
 
             </div>
-            <div className="container">
+            <div className="container carousel-res">
               <ol className="carousel-indicators">
                 <li data-target="#customCarousel1" data-slide-to={0} className="active" />
                 <li data-target="#customCarousel1" data-slide-to={1} />
