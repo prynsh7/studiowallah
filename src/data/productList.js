@@ -914,28 +914,27 @@ export const ProductList = [{
     image: '/images/maxhub.png',
     images: ['/images/maxhub.png', '/images/maxhub2.png'],
     highlights: ['', 'Supercardioid polar pattern', '', 'Integrated Rycote Lyreu shock mounting'],
-    specifications: ['Polar Pattern:   Supercardioid','Frequency Range:  40Hz - 20kHz', 'Power Requirements:  9V Battery', 'Weight (g)  176'],
+    specifications: ['Brand:   MAXHUB','Color:  Black','Power Consumption:  450W','Size/Dimension:  65", 75", 85"','Display Type:  LED','Resolution:  3840(H)x2160(V) p RAM:   8 GB','CPU:  I5 7th Genration','Usage/Application:   Recording','Writing Tools:  Finger + electromagnetic pen','Touch Accuracy:  +-1mm','Power:  100-240V~ 50 / 60Hz','Altitude:  Below 5000 meters','Frequency-Domain:  80Hz~20KHz','Pick-up Distance:  8m']
 },
 {
-    id: 86,
-    name: 'VideoMic',
-    price: '₹ 1000',
-    description: "The VideoMic is a high-quality on-camera shotgun microphone use.",
-    image: '/images/941.png',
-    images: ['/images/941.png', '/images/942.png'],
-    highlights: ['High-quality directional on-camera microphone', 'Supercardioid polar pattern', 'Two-stage gain control, high-pass filter (80Hz)', 'Integrated Rycote Lyreu shock mounting'],
-    specifications: ['Polar Pattern:   Supercardioid','Frequency Range:  40Hz - 20kHz', 'Power Requirements:  9V Battery', 'Weight (g)  176'],
+    id: 88,
+    name: 'Maxhub E65FA Model',
+    price: '₹170,000.00',
+    description: "Equipped with 7th Gen Intel CoreTM processors, MAXHUB X3 have strong performance and reliability, support Android 7.0 / Windows 10 dual-system and up to 16GB DDR4-RAM.",
+    image: '/images/maxhub.png',
+    images: ['/images/maxhub.png', '/images/maxhub2.png'],
+    highlights: ['', 'Supercardioid polar pattern', '', 'Integrated Rycote Lyreu shock mounting'],
+    specifications: ['Brand:   MAXHUB','Color:  Black','Power Consumption:  450W','Size/Dimension:  65", 75", 85"','Display Type:  LED','Resolution:  3840(H)x2160(V) p RAM:   8 GB','CPU:  I5 7th Genration','Usage/Application:   Recording','Writing Tools:  Finger + electromagnetic pen','Touch Accuracy:  +-1mm','Power:  100-240V~ 50 / 60Hz','Altitude:  Below 5000 meters','Frequency-Domain:  80Hz~20KHz','Pick-up Distance:  8m']
 },
 {
-    id: 86,
-    name: 'VideoMic',
-    price: '₹ 1000',
-    description: "The VideoMic is a high-quality on-camera shotgun microphone use.",
-    image: '/images/941.png',
-    images: ['/images/941.png', '/images/942.png'],
-    highlights: ['High-quality directional on-camera microphone', 'Supercardioid polar pattern', 'Two-stage gain control, high-pass filter (80Hz)', 'Integrated Rycote Lyreu shock mounting'],
-    specifications: ['Polar Pattern:   Supercardioid','Frequency Range:  40Hz - 20kHz', 'Power Requirements:  9V Battery', 'Weight (g)  176'],
+    id: 89,
+    name: 'Maxhub E65FA Model',
+    price: '₹170,000.00',
+    description: "Equipped with 7th Gen Intel CoreTM processors, MAXHUB X3 have strong performance and reliability, support Android 7.0 / Windows 10 dual-system and up to 16GB DDR4-RAM.",
+    image: '/images/maxhub.png',
+    images: ['/images/maxhub.png', '/images/maxhub2.png'],
+    highlights: ['', 'Supercardioid polar pattern', '', 'Integrated Rycote Lyreu shock mounting'],
+    specifications: ['Brand:   MAXHUB','Color:  Black','Power Consumption:  450W','Size/Dimension:  65", 75", 85"','Display Type:  LED','Resolution:  3840(H)x2160(V) p RAM:   8 GB','CPU:  I5 7th Genration','Usage/Application:   Recording','Writing Tools:  Finger + electromagnetic pen','Touch Accuracy:  +-1mm','Power:  100-240V~ 50 / 60Hz','Altitude:  Below 5000 meters','Frequency-Domain:  80Hz~20KHz','Pick-up Distance:  8m']
 },
-
 ]
 
