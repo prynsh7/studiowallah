@@ -299,8 +299,8 @@ nav {
     position: unset;
 }
 
-.slider_section .detail-box h1 {
-    font-size: 40px;
+/*.slider_section .detail-box h1 {
+    font-size: 60px;
     font-weight: bold;
     margin-bottom: 10px;
     
@@ -309,8 +309,8 @@ nav {
 
 .slider_section .detail-box h1 span {
     color: #f7444e;
-    font-size: 30px;
-}
+    font-size: 50px;
+}*/
 
 .slider_section .detail-box p {
     font-size: 16px;

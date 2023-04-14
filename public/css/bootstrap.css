@@ -248,7 +248,7 @@ textarea {
 
 button,
 input {
-  overflow: visible;
+  overflow: hidden;
 }
 
 button,
@@ -8052,7 +8052,6 @@ button.bg-dark:focus {
 .my-5 {
   margin-bottom: 3rem;
 }
-
 
 .p-0 {
   padding: 0 !important;

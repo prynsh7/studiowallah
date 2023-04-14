@@ -906,5 +906,36 @@ export const ProductList = [{
     highlights: ['High-quality directional on-camera microphone', 'Supercardioid polar pattern', 'Two-stage gain control, high-pass filter (80Hz)', 'Integrated Rycote Lyreu shock mounting'],
     specifications: ['Polar Pattern:   Supercardioid','Frequency Range:  40Hz - 20kHz', 'Power Requirements:  9V Battery', 'Weight (g)  176'],
 },
+{
+    id: 87,
+    name: 'Maxhub E65FA Model',
+    price: '₹170,000.00',
+    description: "Equipped with 7th Gen Intel CoreTM processors, MAXHUB X3 have strong performance and reliability, support Android 7.0 / Windows 10 dual-system and up to 16GB DDR4-RAM.",
+    image: '/images/maxhub.png',
+    images: ['/images/maxhub.png', '/images/maxhub2.png'],
+    highlights: ['', 'Supercardioid polar pattern', '', 'Integrated Rycote Lyreu shock mounting'],
+    specifications: ['Polar Pattern:   Supercardioid','Frequency Range:  40Hz - 20kHz', 'Power Requirements:  9V Battery', 'Weight (g)  176'],
+},
+{
+    id: 86,
+    name: 'VideoMic',
+    price: '₹ 1000',
+    description: "The VideoMic is a high-quality on-camera shotgun microphone use.",
+    image: '/images/941.png',
+    images: ['/images/941.png', '/images/942.png'],
+    highlights: ['High-quality directional on-camera microphone', 'Supercardioid polar pattern', 'Two-stage gain control, high-pass filter (80Hz)', 'Integrated Rycote Lyreu shock mounting'],
+    specifications: ['Polar Pattern:   Supercardioid','Frequency Range:  40Hz - 20kHz', 'Power Requirements:  9V Battery', 'Weight (g)  176'],
+},
+{
+    id: 86,
+    name: 'VideoMic',
+    price: '₹ 1000',
+    description: "The VideoMic is a high-quality on-camera shotgun microphone use.",
+    image: '/images/941.png',
+    images: ['/images/941.png', '/images/942.png'],
+    highlights: ['High-quality directional on-camera microphone', 'Supercardioid polar pattern', 'Two-stage gain control, high-pass filter (80Hz)', 'Integrated Rycote Lyreu shock mounting'],
+    specifications: ['Polar Pattern:   Supercardioid','Frequency Range:  40Hz - 20kHz', 'Power Requirements:  9V Battery', 'Weight (g)  176'],
+},
+
 ]
 

@@ -280,7 +280,7 @@ a:focus {
   .detail-box {
 
     h1 {
-      font-size: 3.5rem;
+      font-size: 0px;
       font-weight: bold;
       margin-bottom: 15px;
       color: $primary2;
@@ -808,3 +808,20 @@ a:focus {
 }
 
 // end footer section
+
+@media (max-width: 425px) {
+  .ml-5{
+    margin-left: 0% !important;
+    margin: 0% !important;
+    }
+
+    .slider_section .detail-box h1 span{
+      font-size: 20px !important; 
+    }
+    .why_section .box .img-box svg{
+      margin-left: 100px;
+    }
+    .arrival_section .arrival_bg_box img{
+      display: none;
+    }
+  }
