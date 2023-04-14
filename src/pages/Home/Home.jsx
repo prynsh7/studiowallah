@@ -412,7 +412,7 @@ const Home = () => {
       </section>
 
 
-      {/* end arrival section */}
+      {/* end arrival secti1n */}
       {/* product section */}
       <section className="product_section layout_padding">
         <div className="container">
