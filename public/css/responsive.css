@@ -178,6 +178,14 @@
   .df-btn{
     margin-right: -55px !important;
   }
+
+  /* coustomer testimonial */
+
+  .youtube-slider{
+    width: 300px !important;
+  }
+  
+
 }
 
 @media (max-width: 376px) {
@@ -193,4 +201,5 @@
   .container {
     max-width: 1170px;
   }
+}
 }

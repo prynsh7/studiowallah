@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useNavigate} from 'react-router-dom'
 import Footer from '../../components/footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
@@ -14,8 +14,8 @@ const Home = () => {
   const changeDir = (dir) => {
     navigate(dir)
   }
-
-  return (
+    return (
+   
     <div>
       <div className="hero_area">
         {/* header section strats */}
@@ -412,7 +412,7 @@ const Home = () => {
       </section>
 
 
-      {/* end arrival secti1n */}
+      {/* end arrival section */}
       {/* product section */}
       <section className="product_section layout_padding">
         <div className="container">
@@ -493,95 +493,125 @@ const Home = () => {
       </section>
       {/* end subscribe section */}
       {/* client section */}
-      <section className="client_section layout_padding">
-        <div className="container">
-          <div className="heading_container heading_center">
+      <div className="heading_container heading_center">
             <h2>
               Customer's Testimonial
             </h2>
-          </div>
-          <div id="carouselExample3Controls" className="carousel slide" data-ride="carousel">
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <div className="box col-lg-10 mx-auto">
-                  <div className="img_container">
-                    <div className="img-box">
-                      <div className="img_box-inner">
-                        <img src="images/client.jpg" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="detail-box">
-                    <h5>
-                      Anna Trevor
-                    </h5>
-                    <h6>
-                      Customer
-                    </h6>
-                    <p>
-                      Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <div className="box col-lg-10 mx-auto">
-                  <div className="img_container">
-                    <div className="img-box">
-                      <div className="img_box-inner">
-                        <img src="images/client.jpg" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="detail-box">
-                    <h5>
-                      Anna Trevor
-                    </h5>
-                    <h6>
-                      Customer
-                    </h6>
-                    <p>
-                      Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <div className="box col-lg-10 mx-auto">
-                  <div className="img_container">
-                    <div className="img-box">
-                      <div className="img_box-inner">
-                        <img src="images/client.jpg" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="detail-box">
-                    <h5>
-                      Anna Trevor
-                    </h5>
-                    <h6>
-                      Customer
-                    </h6>
-                    <p>
-                      Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="carousel_btn_box">
-              <a className="carousel-control-prev" href="#carouselExample3Controls" role="button" data-slide="prev">
-                <i className="fa fa-long-arrow-left" aria-hidden="true" />
-                <span className="sr-only">Previous</span>
-              </a>
-              <a className="carousel-control-next" href="#carouselExample3Controls" role="button" data-slide="next">
-                <i className="fa fa-long-arrow-right" aria-hidden="true" />
-                <span className="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
+  <div className='container mt-[25px] mb-[50px]' style={{ height: "100%", overflowX: "hidden", textAlign: "center" }}>
+  <div className="csslider infinity" id="slider1">
+    <input type="radio" name="slides" defaultChecked="checked" id="slides_1" />
+    <input type="radio" name="slides" id="slides_2" />
+    <input type="radio" name="slides" id="slides_3" />
+    <input type="radio" name="slides" id="slides_4" />
+    <input type="radio" name="slides" id="slides_5" />
+    <input type="radio" name="slides" id="slides_6" />
+    <input type="radio" name="slides" id="slides_7" />
+    <input type="radio" name="slides" id="slides_8" />
+    <input type="radio" name="slides" id="slides_9" />
+    <input type="radio" name="slides" id="slides_10" />
+    <ul className='youtube-slider'>
+      <li>
+        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/irIqm49Eyh4" title="YouTube video   player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;   picture-in-picture; web-share" allowFullScreen></iframe> 
+        <p />
+      </li>
+      <li>
+        <p>
+        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/FaBpcWkk3Qw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        </p>
+      </li>
+      <li>
+        <p>
+        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/DRYI8h6UsI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        </p>
+      </li>
+      <li>
+        <p>
+        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/EfVOvB657xA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        </p>
+      </li>
+      <li>
+        <p>
+        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/tZ3zhPTC8AY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        </p>
+      </li>
+      <li>
+        <p></p>
+        <p>
+        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/9PRi6lkUEnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        </p>
+      </li>
+      <li>
+        <p></p>
+        <p>
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/JGLhpfC8NnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        </p>
+      </li>
+      <li>
+        <p></p>
+        <p>
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/8cKYIruMah0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        </p>
+      </li>
+      <li>
+        <p></p>
+        <p>
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/1VCKNn-1PTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        </p>
+      </li>
+      <li>
+        <p></p>
+        <p>
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/vZCvluL50Ks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        </p>
+      </li>
+      {/* <li>
+        <p>
+          <video controls="" preload="">
+            <source src="" />
+          </video>
+        </p>
+      </li>
+      <li>
+        <p>
+          <video controls="" preload="">
+            <source src="" />
+          </video>
+        </p>
+      </li> */}
+    </ul>
+    <div className="arrows">
+      <label htmlFor="slides_1" />
+      <label htmlFor="slides_2" />
+      <label htmlFor="slides_3" />
+      <label htmlFor="slides_4" />
+      <label htmlFor="slides_5" />
+      <label htmlFor="slides_6" />
+      <label htmlFor="slides_7" />
+      <label htmlFor="slides_8" />
+      <label htmlFor="slides_9" />
+      <label htmlFor="slides_10" />
+      <label className="goto-first" htmlFor="slides_1" />
+      <label className="goto-last" htmlFor="slides_10" />
+    </div>
+    <div className="navigation">
+      <div>
+        <label htmlFor="slides_1" />
+        <label htmlFor="slides_2" />
+        <label htmlFor="slides_3" />
+        <label htmlFor="slides_4" />
+        <label htmlFor="slides_5" />
+        <label htmlFor="slides_6" />
+        <label htmlFor="slides_7" />
+        <label htmlFor="slides_8" />
+        <label htmlFor="slides_9" />
+        <label htmlFor="slides_10" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
       {/* end client section */}
       {/* footer start */}
       <Footer />
@@ -596,6 +626,7 @@ const Home = () => {
       {/* custom js */}
     </div>
   )
-}
+    }
+
 
 export default Home
