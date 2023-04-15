@@ -482,6 +482,23 @@ width: 150px;
   transition: all .3s;
   margin: 5px 0;
 }
+.col-md-6{
+  padding: '70px'
+}
+.product-box{
+  display: flex;
+  gap: 30px;
+  align-items:center; 
+}
+.highlights{
+  padding: 8px; 
+  padding-Left: 15px; 
+  width: 100%; 
+}
+.services{
+  padding-Left: 15px;
+   width: 100%; 
+}
 
 .product_section .options .option1 {
   background-color: #f7444e;
@@ -1164,7 +1181,7 @@ form input[type="submit"]:focus {
 }
 
 .box2{
-  float: left;
+
 
 }
 
