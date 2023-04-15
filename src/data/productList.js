@@ -1,7 +1,7 @@
 export const ProductList = [{
     id: 1,
     name: 'Canon XA 11',
-    price: '₹ 1000',
+    price: '₹ 96,795',
     category: 'Category 1',
     description: "Canon XA11 Professional Camcorder, Optical, Black",
     image: '/images/xa11 side.png',
@@ -23,7 +23,7 @@ export const ProductList = [{
 {
     id: 3,
     name: 'Panasonic CX8',
-    price: '₹ 1000',
+    price: '₹ 1,74,990',
     description: "Panasonic AG-CX8ED 4K Professional Camcorder",
     image: '/images/cx81.png',
     images: ['/images/cx81.png', '/images/cx82.png'],
@@ -44,7 +44,7 @@ export const ProductList = [{
 {
     id: 5,
     name: 'Panasonic PV100',
-    price: '₹ 1000',
+    price: '₹ 1,24,990',
     category: 'Category 1',
     description: "Panasonic HC-PV100GW Optical 6.03 MP Professional Camcorder (Black)",
     image: '/images/pv100.png',
@@ -55,7 +55,7 @@ export const ProductList = [{
 {
     id: 6,
     name: 'Panasonic CX7',
-    price: '₹ 1000',
+    price: '₹ 1,59,990',
     description: "Panasonic AG CX7 4K 24x Optical Zoom Professional Video Camera, Black",
     image: '/images/cx71.png',
     images: ['/images/cx71.png', '/images/cx72.png'],
@@ -87,7 +87,7 @@ export const ProductList = [{
 {
     id: 9,
     name: 'Sennheiser Xsw1 me2',
-    price: '₹ 1000',
+    price: '₹ 29,300',
     description: "Sennheiser wireless lavalier microphone XSW1-ME2-A for public speakers and presenters, Excellent for a powerful and inspiring presentation | 120feet Range & upto 10 channels",
     image: '/images/mic1.png',
     images: ['/images/mic1.png', ''],

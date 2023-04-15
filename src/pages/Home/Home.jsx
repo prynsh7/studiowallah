@@ -391,7 +391,7 @@ const Home = () => {
             <img src="/images/arrival-bg1.png" alt="" style={{ width: '380px', height:'500px' }}/>
             </div>
             <div className="row">
-              <div className="col-md-6 ml-auto" style={{ padding: '70px'}}>
+              <div className="col-md-6 ml-auto">
                 <div className="heading_container remove_line_bt">
                   <h2>
                     #NewArrivals

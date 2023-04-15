@@ -33,11 +33,20 @@ const ProductDetails = () => {
             <Navbar />
 
             <div className='container shadow-md'>
-
-
-                <div className='flex gap-[50px] items-center '>
-                    <div className="left w-[50%] shadow-xl py-[10px] px-[30px] border-20px">
+            <div className="box2">
+                            <div className="info flex flex-col gap-[10px] mb-[30px]">
+                                <h3 className='text-[2em] font-semibold' >{product?.name}</h3>
+                                <h3 className='text-[1.5em] text-[#000]/[0.5] font-semibold'>{product.price}</h3>
+                                <p className='text-[14px] font-medium'>{product.description}</p>
+                            </div>
+                        </div>
+            
+                <div className='product-box items-center'>
+              
+                    <div className=" w-[100%] shadow-xl py-[10px] px-[30px] border-20px">
+                        
                         <div className="grid bg-[fff]  py-[30px] px-[30px ] my-auto grid-cols-2 gap-[10px]">
+                            
                             {
                                 product?.images?.map((item, index) => (
                                     <div className="box1 border-[1px]">
@@ -53,17 +62,11 @@ const ProductDetails = () => {
                     <div className=" w-[50%]">
 
 
-                        <div className="box2">
-                            <div className="info flex flex-col gap-[10px] mb-[30px]">
-                                <h3 className='text-[2em] font-semibold' >{product?.name}</h3>
-                                <h3 className='text-[1.5em] text-[#000]/[0.5] font-semibold'>{product.price}</h3>
-                                <p className='text-[14px] font-medium'>{product.description}</p>
-                            </div>
-                        </div>
+                       
 
 
                         <div className="info2">
-                            <div className="highlights" style={{ padding: '8px', paddingLeft: '15px', width: '100%' }}>
+                            <div className="highlights">
                                 <h3 style={{ fontSize: '20px', fontWeight: 400, color: 'gray' }}>Highlights</h3>
                                 {
                                     product?.highlights?.map((item, index) => (
@@ -72,7 +75,7 @@ const ProductDetails = () => {
                                 }
 
                             </div>
-                            <div className="services" style={{ paddingLeft: '15px', width: '100%' }}>
+                            <div className="services">
                                 <h3 style={{ fontSize: '20px', fontWeight: 400, color: 'gray' }}>Specifications</h3>
 
                                 {

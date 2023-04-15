@@ -184,8 +184,21 @@
   .youtube-slider{
     width: 300px !important;
   }
-  
-
+  .arrival_section{
+    padding-right: 0%;
+  }
+  .arrival_section .arrival_bg_box img{
+    display: none;
+  }
+  .product-box{
+    display: grid;
+  }
+  .highlights{
+    width: 198%; 
+  }
+  .services{
+    width: 198%;
+  }
 }
 
 @media (max-width: 376px) {
