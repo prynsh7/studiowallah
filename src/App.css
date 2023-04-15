@@ -1168,15 +1168,7 @@ form input[type="submit"]:focus {
 
 /* slider */
 
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
 
-    100% {
-        transform: translateX(calc(-250px * 7));
-    }
-}
 
 .slider {
     height: 100px;
@@ -1189,7 +1181,19 @@ form input[type="submit"]:focus {
 .slider .slide-track {
     animation: scroll 40s linear infinite;
     display: flex;
-    width: calc(250px * 14);
+    align-items: center;
+    justify-content: center;
+    width: calc(250px * 20);
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 10));
+    }
 }
 
 .slider .slide {
@@ -1211,7 +1215,10 @@ form input[type="submit"]:focus {
     color: #fff;
     border-radius: 30px;
 }
-
+/* .logo-set{
+    max-width: 100%; 
+    height: auto;
+} */
 
 /* video */
 

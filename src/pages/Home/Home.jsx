@@ -136,8 +136,9 @@ const Home = () => {
         <div className="container">
           <div className="heading_container heading_center">
             <h2>
-              Why Shop With Us
+              Why Shop <span>With Us</span> 
             </h2>
+            
           </div>
           <div className="row">
             <div className="col-md-4">
@@ -443,48 +444,71 @@ const Home = () => {
         <div className="container-fuild">
           <div className="row logo-slide layout_padding">
             <div className="heading_container  heading_center">
-              <h2>Our Brands</h2>
+              <h2>
+              Our <span>Clients</span>
+            </h2>
             </div>
             <div className="slider">
               <div className="slide-track">
                 <div className="slide">
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height={100} width={250} alt="" />
+                  <img src="/images/Adda247.jpg" height={100} width={250} alt="" />
                 </div>
                 <div className="slide">
-                  <img src="https://logos-world.net/wp-content/uploads/2021/08/Byjus-Logo.png" height={100} width={250} alt="" />
+                  <img src="/images/byjuslogo.jpg" height={100} width={250} alt="" />
                 </div>
                 <div className="slide">
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height={100} width={250} alt="" />
+                  <img src="/images/gradeup.png" height={100} width={250} alt="" />
                 </div>
                 <div className="slide">
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height={100} width={250} alt="" />
+                  <img src="/images/unacademylogo.png" height={100} width={250} alt="" />
                 </div>
                 <div className="slide">
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height={100} width={250} alt="" />
+                  <img src="/images/pace.png" height={100} width={250} alt="" />
                 </div>
                 <div className="slide">
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height={100} width={250} alt="" />
+                  <img src="https://dog55574plkkx.cloudfront.net/storelogo/web/TeaFloor.png" height={100} width={250} alt="" />
                 </div>
                 <div className="slide">
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height={100} width={250} alt="" />
+                  <img src="https://cdn.blume.vc/blume/media/images/startups/classplus/logo/Classplus.f1670267326.PNG" height={100} width={250} alt="" />
                 </div>
                 <div className="slide">
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height={100} width={250} alt="" />
+                  <img src="/images/olive.png" height={100} width={250} alt="" />
                 </div>
                 <div className="slide">
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height={100} width={250} alt="" />
+                  <img src="/images/studyIQ.png" height={100} width={250} alt="" />
                 </div>
                 <div className="slide">
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height={100} width={250} alt="" />
+                  <img src="/images/sankalp.png" height={100} width={250} alt="" />
                 </div>
                 <div className="slide">
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height={100} width={250} alt="" />
+                  <img src="/images/Adda247.jpg" height={100} width={250} alt="" />
                 </div>
                 <div className="slide">
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height={100} width={250} alt="" />
+                  <img src="/images/byjuslogo.jpg" height={100} width={250} alt="" />
                 </div>
                 <div className="slide">
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height={100} width={250} alt="" />
+                  <img src="/images/gradeup.png" height={100} width={250} alt="" />
+                </div>
+                <div className="slide">
+                  <img src="/images/unacademylogo.png" height={100} width={250} alt="" />
+                </div>
+                <div className="slide">
+                  <img src="/images/pace.png" height={100} width={250} alt="" />
+                </div>
+                <div className="slide">
+                  <img src="https://dog55574plkkx.cloudfront.net/storelogo/web/TeaFloor.png" height={100} width={250} alt="" />
+                </div>
+                <div className="slide">
+                  <img src="https://cdn.blume.vc/blume/media/images/startups/classplus/logo/Classplus.f1670267326.PNG" height={100} width={250} alt="" />
+                </div>
+                <div className="slide">
+                  <img src="/images/olive.png" height={100} width={250} alt="" />
+                </div>
+                <div className="slide">
+                  <img src="/images/studyIQ.png" height={100} width={250} alt="" />
+                </div>
+                <div className="slide">
+                  <img src="/images/sankalp.png" height={100} width={250} alt="" />
                 </div>
               </div>
             </div>
@@ -495,7 +519,7 @@ const Home = () => {
       {/* client section */}
       <div className="heading_container heading_center">
             <h2>
-              Customer's Testimonial
+            Customer's <span>Testimonial</span>
             </h2>
       </div>
   <div className='container mt-[25px] mb-[50px]' style={{ height: "100%", overflowX: "hidden", textAlign: "center" }}>
