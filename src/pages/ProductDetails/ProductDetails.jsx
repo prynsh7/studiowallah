@@ -34,10 +34,10 @@ const ProductDetails = () => {
 
             <div className='container shadow-md'>
             <div className="box2">
-                            <div className="info flex flex-col gap-[10px] mb-[30px]">
+                            <div className="info flex flex-col gap-[10px] mb-[0px]">
                                 <h3 className='text-[2em] font-semibold' >{product?.name}</h3>
                                 <h3 className='text-[1.5em] text-[#000]/[0.5] font-semibold'>{product.price}</h3>
-                                <p className='text-[14px] font-medium'>{product.description}</p>
+                                <p className='text-[18px] font-medium mb-[10px]'>{product.description}</p>
                             </div>
                         </div>
             
@@ -49,23 +49,14 @@ const ProductDetails = () => {
                             
                             {
                                 product?.images?.map((item, index) => (
-                                    <div className="box1 border-[1px]">
+                                    <div className="box1 border-[1px] ">
                                         <div className="image">
                                             <img src={item} style={{ width: '300px', float: 'left', marginTop: '60px' }} />
                                         </div>
                                     </div>))
                             }
-                        </div>
-
-                    </div>
-
-                    <div className=" w-[50%]">
-
-
-                       
-
-
-                        <div className="info2">
+                        </div></div><div className=" w-[50%]">
+<div className="info2">
                             <div className="highlights">
                                 <h3 style={{ fontSize: '20px', fontWeight: 400, color: 'gray' }}>Highlights</h3>
                                 {

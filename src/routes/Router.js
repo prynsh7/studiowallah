@@ -5,6 +5,7 @@ import Contact from '../pages/Contact/Contact';
 import Login from '../pages/Login/Login';
 import Sign from '../pages/Sign/sign';
 import Home from '../pages/Home/Home';
+import Password from '../pages/Password/password';
 import ProductDetails from '../pages/ProductDetails/ProductDetails';
 import { ROUTES } from './RouterConfig';
 
@@ -27,6 +28,7 @@ const Router = () => {
             <Route exact path={ROUTES.Contact} element={<RouteWithRole Element={Contact} />}></Route>
             <Route exact path={ROUTES.Login} element={<RouteWithRole Element={Login} />}></Route>
             <Route exact path={ROUTES.Sign} element={<RouteWithRole Element={Sign} />}></Route>
+            <Route exact path={ROUTES.Reset} element={<RouteWithRole Element={Password} />}></Route>
             
         </Routes>
     </div>

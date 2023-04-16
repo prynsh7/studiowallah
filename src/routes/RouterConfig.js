@@ -3,5 +3,6 @@ export const ROUTES = {
     Product:'/products',
     Contact : '/contact',
     Login : '/Login',
-    Sign: '/sign'
+    Sign: '/sign',
+    Reset:'/password'
 }
