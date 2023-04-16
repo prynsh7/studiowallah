@@ -27,7 +27,7 @@ const Contact = () => {
 <h4 className='text-[30px] font-semibold text-[#f7444e] text-capitalize mt-[15px] pr-0'>Forgot Password?</h4>
 </div>
 <div>
-<h4 className='text-[17px] font-medium text-[#f7444e] text-capitalize mt-[15px] pr-0'>Don't worry! It happens. Please enter the registered E-mail Id</h4>
+<p className='text-[17px] font-medium text-[black] text-capitalize mt-[15px] pr-0'>Don't worry! It happens. Please enter the registered E-mail Id</p>
 </div>
 <div className='pt-[30px] pb-[20px] pr-0'>
 
