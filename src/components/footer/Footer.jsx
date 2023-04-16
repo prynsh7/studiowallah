@@ -11,9 +11,11 @@ const Footer = () => {
                                 <a href="#"><img width="120px" src="/images/logo1-removebg-preview.png" /></a>
                             </div>
                             <div className="information_f">
-                                <p><strong>ADDRESS:</strong> 28 White tower, Street Name New York City, USA</p>
-                                <p><strong>TELEPHONE:</strong> +91 987 654 3210</p>
-                                <p><strong>EMAIL:</strong> yourmain@gmail.com</p>
+                                <p><strong>ADDRESS:</strong> 1K, 56, Block J, New Industrial Twp 1, New Industrial Township, Faridabad, Haryana 121001
+</p>
+                                <p><strong>TELEPHONE:</strong>9871045001</p>
+                                <p><strong>EMAIL:</strong> studiowallah@gmail.com</p>
+                                <p><strong>For Enquiry</strong>info@studiowallah.com</p>
                             </div>
                         </div>
                     </div>
