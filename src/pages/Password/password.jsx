@@ -36,6 +36,7 @@ const Contact = () => {
 <div className='btn-box pt-[10px] pb-[20px]'>
     <button className=' text-white p-2 w-[300px] btn1 bg-[#f7444e] font-bold rounded'>Submit</button>
 </div>
+<h3 className='text-[#f7444e] underline font-bold mt-[6px]'><Link to="/Login">Login</Link></h3>
  </div>
  <div className='image2 ml-auto p-[15px] mr-0 mt-[40px] height-[90px] width-[50%]'>
  <img src="/images/forgot.png" alt="" />
