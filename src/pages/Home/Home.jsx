@@ -6,7 +6,8 @@ import ProductCard from '../../components/ProductCard/ProductCard'
 import { ProductList } from '../../data/productList'
 import { ROUTES } from '../../routes/RouterConfig'
 import Slider from "react-slick";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // optional
 
 const Home = () => {
   const settings = {
@@ -16,6 +17,9 @@ const Home = () => {
     slidesToShow: 1,
     slidesToScroll: 1
   };
+  useEffect(() => {
+    AOS.init();
+  }, [])
   const navigate = useNavigate()
 
   const changeDir = (dir) => {
@@ -139,7 +143,7 @@ const Home = () => {
         {/* end slider section */}
       </div>
       {/* why section */}
-      <section className="why_section layout_padding">
+      <section data-aos="fade-left" className="why_section layout_padding">
         <div className="container">
           <div className="heading_container heading_center">
             <h2>
@@ -389,14 +393,14 @@ const Home = () => {
       {/* end why section */}
       {/* arrival section */}
 
-<section className="product-cards">
-  <div className="container">
+<section data-aos="fade-right" className="product-cards">
+  <div className="container" >
   <div className="mb-[30px] heading_container heading_center">
             <h2>
               Our <span>Packages</span>
             </h2>
           </div>
-    <div className="product-cards__content gap-20">
+    <div className="row container product-cards__content gap-20">
       <article className="product-card product-card--small">
         <div className="product-card__top">
           <div className="product-card__slider">
@@ -890,8 +894,8 @@ const Home = () => {
 
       {/* end arrival section */}
       {/* product section */}
-      <section className="product_section layout_padding">
-        <div className="container">
+      <section  className="product_section layout_padding">
+        <div data-aos="zoom-in-up" className="container">
           <div className="heading_container heading_center">
             <h2>
               Our <span>products</span>
@@ -915,7 +919,7 @@ const Home = () => {
         </div></section>
       {/* end product section */}
       {/* subscribe section */}
-      <section className="subscribe_section">
+      <section data-aos="fade-right" className="subscribe_section">
         <div className="container-fuild">
           <div className="row logo-slide layout_padding">
             <div className="heading_container  heading_center">
@@ -992,12 +996,13 @@ const Home = () => {
       </section>
       {/* end subscribe section */}
       {/* client section */}
-      <div className="heading_container heading_center">
+      
+  <div data-aos="zoom-in-up" className='container mt-[25px] mb-[50px]' style={{ height: "100%", overflowX: "hidden", textAlign: "center" }}>
+  <div  className="heading_container heading_center">
             <h2>
             Customer's <span>Testimonial</span>
             </h2>
       </div>
-  <div className='container mt-[25px] mb-[50px]' style={{ height: "100%", overflowX: "hidden", textAlign: "center" }}>
   <div className="csslider infinity" id="slider1">
     <input type="radio" name="slides" defaultChecked="checked" id="slides_1" />
     <input type="radio" name="slides" id="slides_2" />
@@ -1113,9 +1118,9 @@ const Home = () => {
 
       {/* end client section */}
       {/* footer start */}
-      <Footer />
+      <Footer / >
       {/* footer end */}
-      <div className="cpy_">
+      <div  className="cpy_">
         <p className="mx-auto">© 2021 All Rights Reserved By <a href="https://html.design/">Studio Wallah</a><br />
         </p>
       </div>

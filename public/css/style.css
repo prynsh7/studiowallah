@@ -298,7 +298,7 @@ a:focus {
    
     border: 1px solid #f7444e;
     color: #ffffff;
-    border-radius: 0;
+    border-radius: 4px !important;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     margin-top: 10px;

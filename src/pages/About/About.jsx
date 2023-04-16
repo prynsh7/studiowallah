@@ -5,6 +5,9 @@ import Navbar from '../../components/Navbar/Navbar'
 import ProductCard from '../../components/ProductCard/ProductCard'
 import { ProductList } from '../../data/productList'
 import { ROUTES } from '../../routes/RouterConfig'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // optional
+import { useEffect } from 'react'
 
 const About = () => {
 
@@ -13,12 +16,14 @@ const About = () => {
   const changeDir = (dir) => {
     navigate(dir)
   }
-
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <div className='About'>
       <Navbar />
       
-      <div className="container  py-[100px] ">
+      <div data-aos="fade-right" className="container  py-[100px] ">
         <div className="heading_container heading_center">
           <h2>
             Our <span>products</span>

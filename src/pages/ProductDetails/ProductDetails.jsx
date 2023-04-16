@@ -56,7 +56,7 @@ const ProductDetails = () => {
                                     </div>))
                             }
                         </div></div><div className=" w-[50%]">
-<div className="info2">
+                         <div className="info2">
                             <div className="highlights">
                                 <h3 style={{ fontSize: '20px', fontWeight: 400, color: 'gray' }}>Highlights</h3>
                                 {
