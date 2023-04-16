@@ -817,7 +817,28 @@ padding-right: 130px;
 .client_section .carousel-control-next {
   right: 25%;
 }
-
+.big-box{
+  padding: 70px;
+  padding-right: 340px;
+  padding-left: 340px;
+  flex-direction: column;
+}
+.inside-box{
+ padding:25px ;
+ display:flex; 
+ 
+}
+.login-info{
+  float: left;
+}
+.big-box2{
+  padding:70px;
+  padding-left: 440px;
+  padding-right: 440px;
+}
+.image1{
+  display: none;
+}
 /* footer section*/
 .footer_section {
   background-color: #002c3e;
@@ -1181,8 +1202,7 @@ form input[type="submit"]:focus {
 }
 
 .box2{
-
-
+padding-left: 930px;
 }
 
 .buttons{

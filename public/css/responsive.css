@@ -199,6 +199,37 @@
   .services{
     width: 198%;
   }
+
+  .login-page{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .big-box{
+    padding: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: center;
+  }
+  .big-box2{
+    padding: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: center;
+  }
+  .inside-box{
+    display: grid;
+    padding-right: 13%;
+  }
+  .image2{
+    display: none;
+  }
+  .image1{
+    display: flex;
+  }
+  .box2{
+    padding-left:0px;
+    }
+    
 }
 
 @media (max-width: 376px) {

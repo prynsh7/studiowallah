@@ -7,7 +7,7 @@ export const ProductList = [{
     image: '/images/xa11 side.png',
     images: ['/images/xa11 side.png', '/images/xa11 back.png'],
     highlights: ['Genuine canon 20x high definition optical zoom lens', 'Full hd 1920x1080 recording capabilities', 'New, advanced hd cmos pro image sensor with improved low-light performanc', '3.0-inch lcd capacitive touchscreen with tilt able electronic viewfinder'],
-    specifications: ['Brand:  Canon', 'Connector Type:  Infrared', 'Flash Memory Type:  SD', 'Screen Size:  3 Inches'],
+    specifications: ['Brand:  Canon', 'Connector Type:  Infrared', 'Flash Memory Type:  SD', 'Screen Size:  3 Inches','Optical Zoom	20 x','Photo Sensor Technology	CMOS','Camcorder type	Video Camera','Model Name	Canon Camcorder'],
 }, 
 {
     id: 2,
@@ -1023,6 +1023,16 @@ export const ProductList = [{
     images: ['/images/atvi.png', '/images/atvi2.png'],
     highlights: ['High picture quality (UHD), and wide view angle (IPS) ','Support up to 20 points multi touch and 10 points writing with fast response.','Palm Erasing. ','Screen Sharing','Web Browser ','True Colours '],
     specifications:['Size: 75"','Android: 8.0','Wi-Fi: YES','Ram: 3G','Storage: 32G','OPS: (OPTIONAL)','CPU: i3 / i5 / i7','RAM: 4G / 8G / 16G','ROM: SSD 128G / 256G / 512G / 1TB']
+},
+{
+    id: 99,
+    name: 'Digitek Tripod',
+    price: '₹2,495',
+    description:'Digitek DTR 550 LW (67 Inch) Tripod For DSLR, Camera |Operating Height: 5.57 Feet | Maximum Load Capacity up to 4.5kg | Portable Lightweight Aluminum Tripod with 360 Degree Ball Head | Carry Bag Included (Black) (DTR 550LW)',
+    image: '/images/tripod.png',
+    images: ['/images/tripod.png', '/images/tripod2.png'],
+    highlights: ['Premium finish light weight professional tripod with adjustable height, multi level locking and steady rubberized legs','Multipurpose head with Quick Release helps ensure fast transitions between shots','This professional tripod features multipurpose head for DV cameras'],
+    specifications:['Brand	Digitek','Manufacturer	IMS Mercantiles Pvt Ltd, 011 4707 4444','Model	DTR 550LW','Model Name	DTR 550LW','Product Dimensions	60 x 10 x 9 cm; 2.3 Kilograms','Item model number:	DTR 550LW','Compatible Devices:	Camera, Smartphone','Special Features:	Lightweight,Portable','Mounting Hardware:	Tripod, Tripod Bag and Ball Head','Number of items:	1','Batteries Included:	No' ,'Batteries Required:No','Material:	Aluminium','Item Weight:	2 kg 300 g']
 },
 ]
 
