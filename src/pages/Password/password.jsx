@@ -22,7 +22,7 @@ const Contact = () => {
 <div className='image1'>
  <img src="/images/forgot.png" alt="" />
 </div>
-<div className='login-info pl-[25px] width-[50%]'>
+<div className='login-info pl-[26px] width-[50%]'>
 <div>
 <h4 className='text-[30px] font-semibold text-[#f7444e] text-capitalize mt-[15px] pr-0'>Forgot Password?</h4>
 </div>
