@@ -997,7 +997,7 @@ const Home = () => {
       {/* end subscribe section */}
       {/* client section */}
       
-  <div data-aos="zoom-in-up" className='container mt-[25px] mb-[50px]' style={{ height: "100%", overflowX: "hidden", textAlign: "center" }}>
+  <div  data-aos="zoom-in" className='container mt-[25px] mb-[50px]' style={{ height: "100%", overflowX: "hidden", textAlign: "center" }}>
   <div  className="heading_container heading_center">
             <h2>
             Customer's <span>Testimonial</span>
