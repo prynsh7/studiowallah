@@ -1856,6 +1856,7 @@ article {
 }
 .product-card .price span {
     display: inline-block;
+    margin-bottom: 8px;
 }
 .product-card .price del {
     display: inline-block;
