@@ -30,7 +30,7 @@ const About = () => {
           </h2>
         </div>
      
-      <div className="grid grid-cols-3 product_section container mx-auto gap-[20px]">
+      <div className="productlist product_section container mx-auto gap-[20px]">
         {
           ProductList && ProductList.map((item, index) => (<ProductCard item={item} />))
         }

@@ -117,7 +117,7 @@ export const ProductList = [{
 {
     id: 12,
     name: 'DigiTek® Wireless Microphone ',
-    price: '₹ 1000',
+    price: '₹ 1995',
     description: "DigiTek®(DWM-005) Wireless Microphone with Aux Connector, Compatible for Noise Cancellation Mic Suitable",
     image: '/images/digi41.png',
     images: ['/images/digi41.png', ''],
@@ -149,7 +149,7 @@ export const ProductList = [{
 {
     id: 15,
     name: 'DigiTek® (DWM 101) Wireless Microphone System',
-    price: '₹ 1000',
+    price: '₹ 4499',
     description: "DigiTek® (DWM 101) Wireless Microphone System for DSLR, Camcorder, Smartphone & Tablet DWM 101",
     image: '/images/digi2nd1.png',
     images: ['/images/digi2nd1.png', '/images/digi2nd2.png'],
@@ -159,7 +159,7 @@ export const ProductList = [{
 {
     id: 16,
     name: 'DigiTek®(DM 01) Lavalier Condenser Microphone',
-    price: '₹ 1000',
+    price: '₹ 1299',
     description: "DigiTek®(DM 01) Lavalier Condenser Microphone with Battery & 20ft Audio Cable for Smartphones | DSLR Cameras | PC with Omnidirectional Condenser for Content Creation | Vlogging | Recording | YouTube and More",
     image: '/images/digi31.png',
     images: ['/images/digi31.png', ''],
@@ -169,7 +169,7 @@ export const ProductList = [{
 {
     id: 17,
     name: 'DigiTek® (DWM-001) Wireless Microphone & Receiver',
-    price: '₹ 1000',
+    price: '₹ 3495',
     description: "DigiTek® (DWM-001) Wireless Microphone & Receiver with Type C, Compatible for Noise Cancellation Mic Suitable for Vlog You Tube Live Streaming Video Recording and More",
     image: '/images/shopping/set2.png',
     images: ['/images/digi2f.png', '/images/digi1s.png'],
@@ -179,7 +179,7 @@ export const ProductList = [{
 {
     id: 18,
     name: 'DigiTek®(DWM-005) Wireless Microphone',
-    price: '₹ 1000',
+    price: '₹ 1595',
     description: "DigiTek®(DWM-005) Wireless Microphone with Aux Connector, Compatible for Noise Cancellation Mic Suitable",
     image: '/images/shopping/set2.png',
     images: ['/images/shopping/set2.png', '/images/shopping/set3.png'],
@@ -189,7 +189,7 @@ export const ProductList = [{
 {
     id: 19,
     name: 'DigiTek® (DWM-003) 2 Unit Wireless Microphone',
-    price: '₹ 1000',
+    price: '₹ 2995',
     description: "DigiTek® (DWM-003) 2 Unit Wireless Microphone & 1 Unit Receiver with Type C, Compatible for Noise Cancellation Mic Suitable for Vlog, YouTube, Live Streaming, Video Recording and More",
     image: '/images/shopping/set2.png',
     images: ['/images/shopping/set2.png', '/images/shopping/set3.png'],
@@ -199,7 +199,7 @@ export const ProductList = [{
 {
     id: 20,
     name: 'DigiTek®(DWM-004) 2 nos of Noise Calcelling Wireless Microphone',
-    price: '₹ 1000',
+    price: '₹ 899',
     description: "DigiTek®(DWM-004) 2 nos of Noise Calcelling Wireless Microphone & one Receiver with 8-pin Connector, Fast Charging, Suitable for YouTube Vlog, Live Streaming, Video Shooting & More",
     image: '/images/shopping/set2.png',
     images: ['/images/shopping/set2.png', '/images/shopping/set3.png'],

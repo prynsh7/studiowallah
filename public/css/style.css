@@ -260,7 +260,9 @@ a:focus {
   padding: 20px 0 45px 0;
   height: 100px;
 }
-
+.slider_section .camera1{
+  display: none;
+}
 .slider_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -824,7 +826,7 @@ padding-right: 130px;
   flex-direction: column;
 }
 .inside-box{
- padding:25px ;
+ /*padding:25px ;*/
  display:flex; 
  
 }
@@ -1243,6 +1245,9 @@ color: red;
 background-color: white;
 border:solid red 3px;
 }
+.image1password{
+  display: none;
+}
 .highlights{
   padding: 10px;
   float: left;
@@ -1257,6 +1262,9 @@ border:solid red 3px;
   border: 2px solid rgb(225, 225, 225);
 
 
+}
+.lg\:w-1\/2{
+  width: 0px;
 }
 .other{
   padding: 5px;
@@ -1274,9 +1282,406 @@ padding-left: 10px;
   align-items: center;
 }
 
+.productlist{
+display: grid;
+grid-template-columns: repeat(3,minmax(0,1fr));
+}
+.grid-cols-3{
+  grid-template-columns: repeat(3,minmax(0,1fr));
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .productlist{
+    display: grid !important;
+    grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+    }
+    .grid-cols-4{
+      grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+    }
+    .slider_section #customCarousel1 {
+      width: 50%;
+      position: unset;
+      margin-left:0px;
+      padding-left: 30px;
+      margin-top: 0px;
+    }
+    .shopus{
+      display: grid;
+      padding-left: 140px;
+    }
+    .shopus .col-md-4{
+      max-width: 80%;
+    }
+.widget_menu{
+  margin-left: 0%;
+}
+.first{
+  display: grid !important;
+  font-size: 50px;
+}
+.information_f p{
+  font-size: 20px !important;
+line-height: 30px !important;
+}
+.first .col-md-4{
+  max-width: 100%;
+}
+.products{
+  margin-left: 70px;
+}
+.second{
+  display: grid;
+}
+.email{
+  width: 500px;
+}
+.email-text{
+font-size: 20px;
+}
+.widget_menu h3{
+  font-size: 23px !important;
+}
+.widget_menu a{
+  font-size: 20px !important;
+}
+.slider_section .row{
+  display: grid;
+  padding-right: 50px;
+}
+.slider_section .camera2{
+  display: none;
+}
+.image2{
+  display: none;
+}
+.image1{
+  display: flex;
+  max-width: 218% !important;
+  padding-left: 100px !important;
+}
+.col-md-7{
+  max-width: 100% !important;
+}
+.slider_section h1{
+font-size: 50px !important;
+  }
+.slider_section p{
+  font-size: 20px !important;
+}
+.btn-box{
+  padding-left: 200px;
+  max-width: 600px !important;
+  max-height: 100px;
+  font-size: 30px;
+}
+.slider_section .carousel-indicators{
+  padding-left: 300px !important;
+  margin-top: 20px !important;
+}
+.csslider > .navigation > div{
+  margin-left: -70px !important;
+}
+#slider1{
+  max-width: 680px !important;
+}
+.ytp-show-watch-later-title.ytp-watch-later-button{
+  margin-left: 0px !important;
+  margin-right: 48px !important;
+}
+.csslider{
+  display: inline-flex !important;
+}
+.csslider ul{
+  margin-left: 10px !important;
+}
+
+.youtubeslider{
+  margin-left: 15px !important;
+}
+.more-product-btn a{
+  font-size: 30px !important;
+}
+.box2{
+  padding-left: 0px;
+}
+.product-box{
+  display: flex;
+  display: grid;
+}
+.highlights{
+  width: 200%;
+}
+.services{
+  width: 200%;
+}
+.product-box h3{
+  font-size: 30px !important;
+}
+.product-box h4{
+  font-size: 20px !important;
+  line-height: 25px !important;
+}
+.info{
+  font-size: 30px !important;
+}
+.info p{
+  font-size: 25px !important;
+}
+.product-details{
+  padding: 50px !important;
+}
+.login-page{
+  padding-left: 0%;
+  padding-right: 0%;
+}
+.big-box{
+  padding: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+  text-align: center;
+}
+.big-box2{
+  padding: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+  text-align: center;
+}
+.inside-box{
+  display: grid;
+  padding-right: 13%;
+}
+.image2{
+  display: none;
+}
+.inside-box .image1{
+  display: flex;
+  max-width: 500px !important;
+  margin-left: -50px !important;
+}
+.inside-box .btn-box{
+  padding-left: 0% !important;
+}
+.box2{
+  padding-left:0px;
+  }
+  .login-info{
+    padding-left: 50px !important;
+  }
+  .image1password{
+    margin-left: 100px !important;
+    display: flex;
+  }
+  .passwordbtn-box{
+    padding-left: 0px;
+  }
+  .contact-page .big-box .secondcolumn{
+    margin-left:0px !important ;
+  }
+  .messagebox{
+    width:600px !important;
+  }
+  .contactbox .inside-box{
+    padding-right: 0% !important;
+  }
+  .contactbox h4{
+margin-left: 0px !important;
+  }
+  .contactbox .btn-box{
+    margin-left: 60px !important;
+  }
+}
 @media (max-width: 425px) {
-  footer{
-    padding-left: 0%;
-    padding-right: 0%;
+
+  @media (max-width: 420px) {
+     html{
+      overflow-x: hidden;
+     }
+  
+     .ml-5{
+      margin-left: 0px !important;
+    }
+    
+    .slider_section .detail-box h1 span{
+      font-size: 50px;
+    } 
+  
+    .slider_section .detail-box h1{
+      font-size: 50px !important;
+    }
+  
+    .heading_container h2{
+      font-size: 34px !important;
+    }
+    .slider_section .detail-box, .about_section .detail-box{
+      font-size: 20px;
+      justify-content: center;
+    }
+    
+    .btn-box{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .slider_section .detail-box, .about_section .detail-box{
+      margin-bottom: 0px !important;
+    }
+  
+    .slider_section .detail-box a{
+      position: absolute;
+      margin-top: 530px !important;
+    }
+    .banner-img{
+      margin-bottom: 110px !important;
+    }
+  
+    .slider_section .detail-box p{
+      text-align: justify;
+    }
+    .carousel-res{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  
+    .highlights{
+      width: 198%; 
+    }
+    .services{
+      width: 198%;
+    }
+  
+    .login-page{
+      padding-left: 0%;
+      padding-right: 0%;
+    }
+    .big-box{
+      padding: 0%;
+      padding-left: 0%;
+      padding-right: 0%;
+      text-align: center;
+    }
+    .big-box2{
+      padding: 0%;
+      padding-left: 0%;
+      padding-right: 0%;
+      text-align: center;
+    }
+    .inside-box{
+      display: grid;
+      padding-right: 13%;
+    }
+    .image2{
+      display: none;
+    }
+    .image1{
+      display: flex;
+    }
+    .box2{
+      padding-left:0px;
+      }
+    /* why section */
+  
+    .why_section .box .img-box svg{
+      margin-left: 98px !important;
+    }
+  
+    .grid{
+      display: block !important;
+    }
+  
+    footer{
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+      overflow: hidden;
+    }
+    .widget_menu{
+      margin-left: 0px !important;
+    }
+    .df-btn{
+      margin-right: -55px !important;
+    }
+  
+    /* coustomer testimonial */
+  
+    .youtube-slider{
+      width: 300px !important;
+    }
+    .arrival_section{
+      padding-right: 0%;
+    }
+    .arrival_section .arrival_bg_box img{
+      display: none;
+    }
+    .product-box{
+      display: grid;
+    }
+    .highlights{
+      width: 198%; 
+    }
+    .services{
+      width: 198%;
+    }
+    .login-page{
+      padding-left: 0%;
+      padding-right: 0%;
+    }
+    .big-box{
+      padding: 0%;
+      padding-left: 0%;
+      padding-right: 0%;
+      text-align: center;
+    }
+    .big-box2{
+      padding: 0%;
+      padding-left: 0%;
+      padding-right: 0%;
+      text-align: center;
+    }
+    .inside-box{
+      display: grid;
+      padding-right: 13%;
+    }
+    .image2{
+      display: none;
+    }
+    .image1{
+      display: flex;
+    }
+    .box2{
+      padding-left:0px;
+      }
+      .contactbox{
+        padding: 10px;
+      }
+      .contactbox .inside-box{
+        display: contents;
+      }
+      .contactbox h4{
+        margin-left: 0%;
+      }
+      .contactbox .w-1\/2{
+        display: contents;
+      }
+      .contactbox .relative{
+        width: -webkit-fill-available;
+      }
+      .contactbox .btn-box{
+        padding-left: 0%;
+        margin-left: 0%;
+      }
+      .image2password{
+        display: none;
+      }
+      .image1password{
+        display: flex;
+        margin-left: 30px;
+      }
+      .login-info{
+        padding-left: 42px !important;
+        margin-bottom: 40px !important;
+      }
+ 
   }
-  }
+}
+  

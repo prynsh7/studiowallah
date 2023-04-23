@@ -19,7 +19,7 @@ const Contact = () => {
 <div className='big-box2'>
 <div className='inside-box   border-[2px] drop-shadow rounded-[16px] justify-center  items-center'>
  
-<div className='image1'>
+<div className='image1password'>
  <img src="/images/forgot.png" alt="" />
 </div>
 <div className='login-info pl-[26px] width-[50%]'>
@@ -33,7 +33,7 @@ const Contact = () => {
 
 <input className='border-2 w-[300px] h-[40px] rounded text-[14px] px-[15px]' name='email' placeholder='Enter Your Email Address' />
 </div>
-<div className='btn-box pt-[10px] pb-[20px]'>
+<div className='passwordbtn-box pt-[10px] pb-[20px]'>
     <button className=' text-white p-2 w-[300px] btn1 bg-[#f7444e] font-bold rounded'>Submit</button>
 </div>
 <h3 className='text-[#f7444e] underline font-bold mt-[6px]'><Link to="/Login">Login</Link></h3>

@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer>
             <div className="container mx-auto">
-                <div className="row">
+                <div className="first row">
                     <div className="col-md-4">
                         <div className="full">
                             <div className="logo_footer">
@@ -20,7 +20,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="col-md-8">
-                        <div className="row">
+                        <div className="second row">
                             <div className="col-md-7">
                                 <div className="row">
                                     <div className="col-md-6">
@@ -37,6 +37,7 @@ const Footer = () => {
                                     </div>
                                     <div className="col-md-6">
                                         <div className="widget_menu">
+                                            <div className='products'>
                                             <h3>Products</h3>
                                             <ul>
                                                 <li><a href="#">Camera</a></li>
@@ -45,17 +46,20 @@ const Footer = () => {
                                                 <li><a href="#">Others</a></li>
                                             </ul>
                                         </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-md-5">
                                 <div className="widget_menu">
+                                    <div className='email'>
                                     <div className="form_sub">
-                                        <div className='flex' >
+                                        <div className='email-text flex' >
                                             <input type="text" placeholder='Enter email' className='border-[1px] p-[10px]' />
                                             <button className='p-[10px] font-bold bg-[#f7444e] text-[#fff]'>Subscribe</button>
                                         </div>
                                     </div>
+                                </div>
                                 </div>
                             </div>
                             

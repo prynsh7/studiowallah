@@ -236,17 +236,39 @@
   .services{
     width: 198%;
   }
-}
-
-@media (max-width: 376px) {
-  
-  .ml-5, .mx-5{
-    margin-left: 0px;
+  .login-page{
+    padding-left: 0%;
+    padding-right: 0%;
   }
-
+  .big-box{
+    padding: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: center;
+  }
+  .big-box2{
+    padding: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: center;
+  }
+  .inside-box{
+    display: grid;
+    padding-right: 13%;
+  }
+  .image2{
+    display: none;
+  }
+  .image1{
+    display: flex;
+  }
+  .box2{
+    padding-left:0px;
+    }
+    .contactbox .inside-box{
+      display: contents;
+    }
 }
-  
-
 @media (min-width: 1200px) {
   .container {
     max-width: 1170px;

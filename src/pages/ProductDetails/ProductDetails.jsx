@@ -32,7 +32,7 @@ const ProductDetails = () => {
         <div>
             <Navbar />
 
-            <div className='container shadow-md'>
+            <div className='product-details container shadow-md'>
             <div className="box2">
                             <div className="info flex flex-col gap-[10px] mb-[0px]">
                                 <h3 className='text-[2em] font-semibold' >{product?.name}</h3>
@@ -61,7 +61,7 @@ const ProductDetails = () => {
                                 <h3 style={{ fontSize: '20px', fontWeight: 400, color: 'gray' }}>Highlights</h3>
                                 {
                                     product?.highlights?.map((item, index) => (
-                                        <h3 style={{ fontSize: '15px', lineHeight: '20px', marginTop: '8px' }}>{item}</h3>
+                                        <h4 style={{ fontSize: '15px', lineHeight: '20px', marginTop: '8px' }}>{item}</h4>
                                     ))
                                 }
 
@@ -71,7 +71,7 @@ const ProductDetails = () => {
 
                                 {
                                     product?.specifications?.map((item, index) => (
-                                        <h3 style={{ fontSize: '15px', lineHeight: '20px', marginTop: '8px' }}>{item}</h3>
+                                        <h4 style={{ fontSize: '15px', lineHeight: '20px', marginTop: '8px' }}>{item}</h4>
                                     ))
                                 }
 

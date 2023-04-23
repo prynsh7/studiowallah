@@ -49,8 +49,14 @@ const Home = () => {
                           On Everything
                         </h1>
                         <p>
+                      
                           Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
                         </p>
+                        <div className="image1 col-md-5 col-lg-6 ">
+                      <div className="detail-box">
+                        <img className='banner-img' src="/images/banner1.png" alt="" />
+                      </div>
+                    </div>
                         <div className="btn-box">
                           <a href className="btn1 bg-[#f7444e]">
                             Shop Now
@@ -59,7 +65,7 @@ const Home = () => {
                       </div>
                     </div>
 
-                    <div className="col-md-5 col-lg-6 ">
+                    <div className="image2 col-md-5 col-lg-6 ">
                       <div className="detail-box">
                         <img className='banner-img' src="/images/banner1.png" alt="" />
                       </div>
@@ -83,6 +89,11 @@ const Home = () => {
                         <p>
                           Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
                         </p>
+                        <div className="image1 col-md-5 col-lg-6 ">
+                      <div className="detail-box">
+                        <img className='banner-img' src="/images/banner1.png" alt="" />
+                      </div>
+                    </div>
                         <div className="btn-box">
                           <a href className="btn1 bg-[#f7444e]">
                             Shop Now
@@ -90,7 +101,7 @@ const Home = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-5 col-lg-6 ">
+                    <div className="image2 col-md-5 col-lg-6 ">
                       <div className="detail-box">
                         <img className='banner-img' src="/images/banner1.png" alt="" />
                       </div>
@@ -114,6 +125,11 @@ const Home = () => {
                         <p>
                           Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
                         </p>
+                        <div className="image1 col-md-5 col-lg-6 ">
+                      <div className="detail-box">
+                        <img className='banner-img' src="/images/banner1.png" alt="" />
+                      </div>
+                    </div>
                         <div className="btn-box">
                           <a href className="btn1 bg-[#f7444e]">
                             Shop Now
@@ -121,7 +137,7 @@ const Home = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-5 col-lg-6 ">
+                    <div className="image2 col-md-5 col-lg-6 ">
                       <div className="detail-box">
                         <img className='banner-img' src="/images/banner1.png" alt="" />
                       </div>
@@ -151,7 +167,7 @@ const Home = () => {
             </h2>
             
           </div>
-          <div className="row">
+          <div className="shopus row">
             <div className="col-md-4">
               <div className="box ">
                 <div className="img-box">
@@ -997,7 +1013,7 @@ const Home = () => {
       {/* end subscribe section */}
       {/* client section */}
       
-  <div  data-aos="zoom-in" className='container mt-[25px] mb-[50px]' style={{ height: "100%", overflowX: "hidden", textAlign: "center" }}>
+  <div  data-aos="zoom-in" className='youtubeslider container mt-[25px] mb-[50px]' style={{ height: "100%", overflowX: "hidden", textAlign: "center" }}>
   <div  className="heading_container heading_center">
             <h2>
             Customer's <span>Testimonial</span>
