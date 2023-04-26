@@ -36,25 +36,26 @@ const Home = () => {
         <section className="slider_section gap-7" >
           <div id="customCarousel1" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
-              <div className="carousel-item active">
+            <div className="carousel-item active">
+
                 <div className="container ">
                   <div className="row">
                     <div className="col-md-7 col-lg-6 ">
-                      <div className="detail-box box-res">
+                      <div className="detail-box">
                         <h1>
                           <span>
-                            Sale 20% Off
+                            Interactive Flat Panels
                           </span>
                           <br />
-                          On Everything
+                          Interactive Flat Panels for Smart Teachers and Students
                         </h1>
                         <p>
-                      
-                          Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                          Price starts as low from INR 100000.<br/>
+                          Available in 65/75/86 inches.
                         </p>
                         <div className="image1 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                        <img className='banner-img' src="/images/banner1.png" alt="" />
+                        <img className='banner-img' src="/images/allbanner1.png" alt="" />
                       </div>
                     </div>
                         <div className="btn-box">
@@ -64,16 +65,15 @@ const Home = () => {
                         </div>
                       </div>
                     </div>
-
                     <div className="image2 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                        <img className='banner-img' src="/images/banner1.png" alt="" />
+                        <img className='banner-img' src="/images/allbanner1.png" alt="" />
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="carousel-item ">
+              <div className="carousel-item">
 
                 <div className="container ">
                   <div className="row">
@@ -81,17 +81,20 @@ const Home = () => {
                       <div className="detail-box">
                         <h1>
                           <span>
-                            Sale 20% Off
+                            Smart Class Solutions for School/College
                           </span>
                           <br />
-                          On Everything
+                          Interactive Flat Panels<br/>
+                          Camera & Microphone
                         </h1>
                         <p>
-                          Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                         Collaborative learning between students and teachers.<br/>
+                         Prices start as low from INR 100000.<br /> 
+                        Available in 65/75/86 inches.
                         </p>
                         <div className="image1 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                        <img className='banner-img' src="/images/banner1.png" alt="" />
+                        <img className='banner-img' src="/images/allbanner1.png" alt="" />
                       </div>
                     </div>
                         <div className="btn-box">
@@ -103,7 +106,7 @@ const Home = () => {
                     </div>
                     <div className="image2 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                        <img className='banner-img' src="/images/banner1.png" alt="" />
+                        <img className='banner-img' src="/images/allbanner1.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -127,7 +130,7 @@ const Home = () => {
                         </p>
                         <div className="image1 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                        <img className='banner-img' src="/images/banner1.png" alt="" />
+                        <img className='banner-img' src="/images/allbanner1.png" alt="" />
                       </div>
                     </div>
                         <div className="btn-box">
@@ -139,7 +142,7 @@ const Home = () => {
                     </div>
                     <div className="image2 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                        <img className='banner-img' src="/images/banner1.png" alt="" />
+                        <img className='banner-img' src="/images/allbanner1.png" alt="" />
                       </div>
                     </div>
                   </div>

@@ -276,16 +276,17 @@ a:focus {
 }
 
 .slider_section .detail-box h1 {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 15px;
     color: #002c3e;
-    line-height: 70px;
+    line-height: 55px;
 }
 
 .slider_section .detail-box h1 span {
   color: #f7444e;
-  font-size: 60px;
+  font-size: 40px;
+
 }
 
 .slider_section .detail-box p {
@@ -1363,7 +1364,8 @@ font-size: 20px;
   max-width: 100% !important;
 }
 .slider_section h1{
-font-size: 50px !important;
+font-size: 30px !important;
+line-height: 40px !important;
   }
 .slider_section p{
   font-size: 20px !important;
