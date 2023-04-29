@@ -69,10 +69,10 @@ const About = () => {
           </h2>
         </div>
      
-      <div className='flex gap-[20px] items-center max-w-[100%] justify-start mt-[20px] overflow-scroll'>
+      <div className='flex gap-[20px] scroll-hide items-center w-[fit-content] m-auto max-w-[100%] justify-start mt-[20px] overflow-scroll'>
       {
         categories.map((item, index) => (
-          <div className={"px-[20px] py-[7px] border-[1px] border-[#000]/[0.7] whitespace-nowrap cursor-pointer rounded-[20px]" + (selectedCategory == item ? " bg-[#f7444e] text-[#fff]" : " ") }
+          <div className={"px-[20px] py-[7px] border-[1px] border-[#000]/[0.7] text-[16px] whitespace-nowrap cursor-pointer rounded-[20px]" + (selectedCategory == item ? " bg-[#f7444e] text-[#fff] font-medium" : " ") }
           onClick={() => setSelectedCategory(item)}
           >{item}</div>
         ))
