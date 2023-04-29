@@ -257,8 +257,9 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  padding: 20px 0 45px 0;
+padding-left: 100px;
   height: 100px;
+  margin-left: 150px;
 }
 .slider_section .camera1{
   display: none;
@@ -269,10 +270,8 @@ a:focus {
           align-items: center;
 }
 
-.slider_section #customCarousel1 {
-  width: 50%;
-  position: unset;
-  margin-left: 150px;
+.slider_section .image2{
+  max-width: 500px;
 }
 
 .slider_section .detail-box h1 {
@@ -1305,6 +1304,8 @@ grid-template-columns: repeat(3,minmax(0,1fr));
       margin-left:0px;
       padding-left: 30px;
       margin-top: 0px;
+      padding: 30px !important;
+      margin-left: 0px !important;
     }
     .shopus{
       display: grid;
@@ -1510,7 +1511,10 @@ margin-left: 0px !important;
     .slider_section .detail-box h1{
       font-size: 50px !important;
     }
-  
+  .slider_section{
+    margin-left: 0% !important;
+    padding: 10px !important;
+  }
     .heading_container h2{
       font-size: 34px !important;
     }
@@ -1527,14 +1531,8 @@ margin-left: 0px !important;
     .slider_section .detail-box, .about_section .detail-box{
       margin-bottom: 0px !important;
     }
-  
-    .slider_section .detail-box a{
-      position: absolute;
-      margin-top: 530px !important;
-    }
-    .banner-img{
-      margin-bottom: 110px !important;
-    }
+
+ 
   
     .slider_section .detail-box p{
       text-align: justify;

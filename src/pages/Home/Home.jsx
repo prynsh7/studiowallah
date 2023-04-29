@@ -55,7 +55,7 @@ const Home = () => {
                         </p>
                         <div className="image1 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                        <img className='banner-img' src="/images/allbanner1.png" alt="" />
+                        <img className='banner-img' src="/images/evota.png" alt="" />
                       </div>
                     </div>
                         <div className="btn-box">
@@ -67,7 +67,7 @@ const Home = () => {
                     </div>
                     <div className="image2 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                        <img className='banner-img' src="/images/allbanner1.png" alt="" />
+                        <img className='banner-img' src="/images/evota.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -94,7 +94,7 @@ const Home = () => {
                         </p>
                         <div className="image1 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                        <img className='banner-img' src="/images/allbanner1.png" alt="" />
+                        <img className='banner-img' src="/images/evota.png" alt="" />
                       </div>
                     </div>
                         <div className="btn-box">
@@ -106,7 +106,7 @@ const Home = () => {
                     </div>
                     <div className="image2 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                        <img className='banner-img' src="/images/allbanner1.png" alt="" />
+                        <img className='banner-img' src="/images/evota.png" alt="" />
                       </div>
                     </div>
                   </div>
@@ -130,7 +130,7 @@ const Home = () => {
                         </p>
                         <div className="image1 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                        <img className='banner-img' src="/images/allbanner1.png" alt="" />
+                        <img className='banner-img' src="/images/evota.png" alt="" />
                       </div>
                     </div>
                         <div className="btn-box">
@@ -142,7 +142,7 @@ const Home = () => {
                     </div>
                     <div className="image2 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                        <img className='banner-img' src="/images/allbanner1.png" alt="" />
+                        <img className='banner-img' src="/images/evota.png" alt="" />
                       </div>
                     </div>
                   </div>
