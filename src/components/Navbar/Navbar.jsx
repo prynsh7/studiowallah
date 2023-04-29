@@ -18,11 +18,7 @@ const navItems = [
         name: 'Contact',
         link: '/contact'
     },
-    {
-        id: 4,
-        name: 'Log in',
-        link: '/Login'
-    },
+    
 ]
 
 const Navbar = () => {

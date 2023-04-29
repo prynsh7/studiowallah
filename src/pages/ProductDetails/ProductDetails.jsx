@@ -34,7 +34,7 @@ const ProductDetails = () => {
 
             <div className='product-details container shadow-md'>
             <div className="box2">
-                            <div className="info flex flex-col gap-[10px] mb-[0px]">
+                            <div className="info flex flex-col gap-[10px] mb-[0px] mr-[60px]">
                                 <h3 className='text-[2em] font-semibold' >{product?.name}</h3>
                                 <h3 className='text-[1.5em] text-[#000]/[0.5] font-semibold'>{product.price}</h3>
                                 <p className='text-[18px] font-medium mb-[10px]'>{product.description}</p>
