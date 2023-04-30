@@ -1427,6 +1427,9 @@ line-height: 40px !important;
 .info{
   font-size: 30px !important;
 }
+.slider_section{
+  margin-left: 0px !important;
+}
 .info p{
   font-size: 25px !important;
 }
@@ -1499,7 +1502,9 @@ margin-left: 0px !important;
      html{
       overflow-x: hidden;
      }
-  
+  .productlist{
+    grid-template-columns:repeat(1,minmax(0,1fr)) !important;
+  }
      .ml-5{
       margin-left: 0px !important;
     }
