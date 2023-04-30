@@ -22,10 +22,15 @@ const ProductDetails = () => {
     }
 
     useEffect(() => {
+        
         console.log(id)
         const product = ProductList.find(item => item.id === Number(id))
         setProduct(product)
     }, [id])
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    })
 
 
     return (

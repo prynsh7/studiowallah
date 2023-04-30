@@ -54,7 +54,7 @@ h2 {
 
 .heading_container h2 {
     position: relative;
-    margin-bottom: 0;
+    margin-bottom: 34px !important;
     font-size: 3.5rem;
     font-weight: bold;
 }
@@ -64,7 +64,6 @@ h2 {
     display: block;
     width: 70px;
     height: 5px;
-    
     margin: 10px auto 10px;
 }
 
