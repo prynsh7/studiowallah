@@ -448,7 +448,7 @@ export const ProductList = [{
     description: "RØDELink represents a range of digital wireless systems. Using a Series II 2.4GHz digital transmission with 128-bit encryption, it is able to constantly monitor and hop between frequencies to maintain the strongest possible signal level at a range of up to 100 metres* (over 100 yards).",
     image: '/images/rodelink.png',
     images: ['/images/rodelink.png', '/rodelink1.png'],
-    category: "Camera",
+    category: "Microphones",
     highlights: ['Transmission Type 2.4GHz Fixed Frequency Agile System', 'System Dynamic Range 112 dB', 'Range (Distance) Up to 100m', 'Frequency Range 35Hz - 22kHz'],
     specifications: ['Dimensions (mm):  RX-CAM - 111 (L) X 65 (W) X 52 (H) TX-BELT - 111 (L) X 65 (W) X 40 (H) RØDELink LAV - 1200 (L) x 4.5 (W) x 4.5 (H)', 'Weight: RX-CAM - 190 TX-BELT - 190'],
 },

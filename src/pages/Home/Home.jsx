@@ -60,7 +60,7 @@ const Home = () => {
                     </div>
                         <div className="btn-box">
                           <a href className="btn1 bg-[#f7444e]">
-                            Shop Now
+                            Message Now
                           </a>
                         </div>
                       </div>
@@ -99,7 +99,7 @@ const Home = () => {
                     </div>
                         <div className="btn-box">
                           <a href className="btn1 bg-[#f7444e]">
-                            Shop Now
+                            Message Now
                           </a>
                         </div>
                       </div>
@@ -135,7 +135,7 @@ const Home = () => {
                     </div>
                         <div className="btn-box">
                           <a href className="btn1 bg-[#f7444e]">
-                            Shop Now
+                            Message Now
                           </a>
                         </div>
                       </div>
@@ -150,7 +150,7 @@ const Home = () => {
               </div>
 
             </div>
-            <div className="container carousel-res">
+            <div className="container carousel-res mt-[12px]">
               <ol className="carousel-indicators">
                 <li data-target="#customCarousel1" data-slide-to={0} className="active" />
                 <li data-target="#customCarousel1" data-slide-to={1} />
