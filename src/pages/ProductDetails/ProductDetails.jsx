@@ -81,10 +81,14 @@ const ProductDetails = () => {
                                 }
 
                             </div>
+  
                         </div>
-
-
+                        <div className='mt-[60px]'>
+ <a href className="btn bg-[#f7444e] mt-[30px] ml-[200px] text-[25px] text-[#ffff]">
+                            Enquire Here
+                          </a>
                     </div>
+                 </div>
                 </div>
 
 

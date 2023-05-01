@@ -1262,6 +1262,9 @@ border:solid red 3px;
 
 
 }
+.btn{
+  cursor: pointer;
+}
 .lg\:w-1\/2{
   width: 0px;
 }
@@ -1500,6 +1503,13 @@ margin-left: 0px !important;
   .boxin{
     margin-bottom: 40px !important;
   }
+  .header_section{
+    background-color: #f7f8f9;
+   }
+   .why_section{
+    background-color: #f7f8f9;
+   }
+   
 }
 @media (max-width: 425px) {
 
@@ -1507,8 +1517,15 @@ margin-left: 0px !important;
      html{
       overflow-x: hidden;
      }
+   
      .boxin{
       margin-bottom: 40px !important;
+     }
+     .header_section{
+      background-color: #f7f8f9;
+     }
+     .why_section{
+      background-color: #f7f8f9;
      }
   .productlist{
     grid-template-columns:repeat(1,minmax(0,1fr)) !important;

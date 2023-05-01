@@ -447,7 +447,7 @@ const Home = () => {
       {/* end product section */}
       {/* subscribe section */}
       <section data-aos="fade-right" className="subscribe_section">
-        <div className="container-fuild bg-[#f7f8f9]">
+        <div className="container-fuild">
           <div className="row logo-slide layout_padding">
             <div className="heading_container  heading_center">
               <h2>
