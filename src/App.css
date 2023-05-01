@@ -1901,4 +1901,8 @@ article {
     width: 285px;
 }
 
-
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

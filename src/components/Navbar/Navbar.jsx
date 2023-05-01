@@ -99,14 +99,15 @@ const Navbar = () => {
                         <span className> </span>
                     </button>
 
-                    <div className="collapse navbar-collapse justify-center itmes-center" id="navbarSupportedContent">
-                        <ul className="navbar-nav flex ml-auto mr-5 gap-[20px] justify-center itmes-center">
+                    <div className="collapse navbar-collapse justify-center items-center" id="navbarSupportedContent">
+                        <ul className="navbar-nav flex ml-auto mr-5 gap-[20px] justify-center items-center">
                             {
                                 navItems.map((item) => {
                                     if(item.id == 2){
                                 return <Dropdown menu={{ items }}>
-                                <li className={"nav-item" + (selected == item.id ? ' active' : '')}>
-                                    <a className="nav-link" href="javascript:void(0)" onClick={() => navigate(item.link)}>{item.name}</a>
+                                <li className={"nav-item flex justify-center items-center" + (selected == item.id ? ' active' : '')}>
+                                    <a className="nav-link" href="javascript:void(0)" onClick={() => navigate(item.link)}>{item.name}</a> 
+                                    <i class="fa fa-caret-down"></i>
                                 </li>
                                 </Dropdown>
                             }else{
