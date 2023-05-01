@@ -1495,6 +1495,12 @@ margin-left: 0px !important;
   .contactbox .btn-box{
     margin-left: 60px !important;
   }
+  .box{
+    margin-bottom: 0% !important;
+  }
+  .boxin{
+    margin-bottom: 40px !important;
+  }
 }
 @media (max-width: 425px) {
 
@@ -1502,8 +1508,14 @@ margin-left: 0px !important;
      html{
       overflow-x: hidden;
      }
+     .boxin{
+      margin-bottom: 40px !important;
+     }
   .productlist{
     grid-template-columns:repeat(1,minmax(0,1fr)) !important;
+  }
+  .box{
+    margin-bottom: 0% !important;
   }
      .ml-5{
       margin-left: 0px !important;
