@@ -164,17 +164,20 @@ const Home = () => {
       </div>
       {/* why section */}
       <section data-aos="fade-left" className="why_section layout_padding">
-        <div className="container">
+        <div className="container bg-[#f7f8f9]">
+          
           <div className="heading_container heading_center">
-            <h2>
+         
+            <h2 className='mt-[40px]'>
               Why Shop <span>With Us</span> 
             </h2>
-            
           </div>
-          <div className="shopus row">
-            <div className="col-md-4">
-              <div className="box ">
-                <div className="img-box">
+          
+          <div className="shopus row ">
+          
+            <div className="firstwu col-md-4">
+              <div className="box mb-[60px]">
+                <div className="img-box ">
                   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style={{ enableBackground: 'new 0 0 512 512' }} xmlSpace="preserve">
                     <g>
                       <g>
@@ -387,7 +390,8 @@ const Home = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="box ">
+              <div className="box mb-[40px]">
+                <div className='boxin'>
                 <div className="img-box">
                   <svg id="_30_Premium" height={512} viewBox="0 0 512 512" width={512} xmlns="http://www.w3.org/2000/svg" data-name="30_Premium">
                     <g id="filled">
@@ -397,6 +401,8 @@ const Home = () => {
                     </g>
                   </svg>
                 </div>
+                
+                
                 <div className="detail-box">
                   <h5>
                     Best Quality
@@ -409,140 +415,10 @@ const Home = () => {
             </div>
           </div>
         </div>
+    </div>
       </section>
       {/* end why section */}
       {/* arrival section */}
-
-<section data-aos="fade-right" className="product-cards">
-  <div className="container" >
-  <div className="mb-[30px] heading_container heading_center">
-            <h2>
-              Our <span>Packages</span>
-            </h2>
-          </div>
-    <div className="row container product-cards__content gap-20">
-      <article className="product-card product-card--small">
-        <div className="product-card__top">
-          <div className="product-card__slider">
-            <div className="swiper-wrapper">
-              <div className="swiper-slide">
-                <img
-                  src="/images/banner1.png"
-                  className="product-card__image product-card__image--small"
-                  width="390px"
-                  height="440px"
-                  alt="product image"
-                />
-              </div>
-            </div>
-          </div>
-          <span className="sale-badge">-30%</span>
-        </div>
-        <div className="product-card__body">
-          <h5 className="product-card__title">
-            <a href="">Rode Recording Packages</a>
-          </h5>
-          <div className="price">
-         
-            <span className="price__current price__current--sale price__current--fsize20">
-              $40.00
-            </span>
-            <del className="price__old price__old--fsize16">$89.99</del>
-            <p>Incredible value - all you need for Podcasts.</p> 
-          </div>
-          <div className="product-card__props">
-            <div className="product-card__selects">
-            <p>In stock, immediate despatch</p> 
-            </div>
-            <button className="btn-reset product-card__btn product-card__btn--small">
-              View package
-            </button>
-          </div>
-        </div>
-      </article>
-      <article className="product-card product-card--small">
-        <div className="product-card__top">
-          <div className="product-card__slider">
-            <div className="swiper-wrapper">
-              <div className="swiper-slide">
-                <img
-                  src="/images/banner1.png"
-                  className="product-card__image product-card__image--small"
-                  width="390px"
-                  height="440px"
-                  alt="product image"
-                />
-              </div>
-            </div>
-          </div>
-          <span className="sale-badge">-30%</span>
-        </div>
-        <div className="product-card__body">
-          <h5 className="product-card__title">
-            <a href="">Rode Recording Packages</a>
-          </h5>
-          <div className="price">
-         
-            <span className="price__current price__current--sale price__current--fsize20">
-              $40.00
-            </span>
-            <del className="price__old price__old--fsize16">$89.99</del>
-            <p>Incredible value - all you need for Podcasts.</p> 
-          </div>
-          <div className="product-card__props">
-            <div className="product-card__selects">
-            <p>In stock, immediate despatch</p> 
-            </div>
-            <button className="btn-reset product-card__btn product-card__btn--small">
-              View package
-            </button>
-          </div>
-        </div>
-      </article>
-      <article className="product-card product-card--small">
-        <div className="product-card__top">
-          <div className="product-card__slider">
-            <div className="swiper-wrapper">
-              <div className="swiper-slide">
-                <img
-                  src="/images/banner1.png"
-                  className="product-card__image product-card__image--small"
-                  width="390px"
-                  height="440px"
-                  alt="product image"
-                />
-              </div>
-            </div>
-          </div>
-          <span className="sale-badge">-30%</span>
-        </div>
-        <div className="product-card__body">
-          <h5 className="product-card__title">
-            <a href="">Rode Recording Packages</a>
-          </h5>
-          <div className="price">
-         
-            <span className="price__current price__current--sale price__current--fsize20">
-              $40.00
-            </span>
-            <del className="price__old price__old--fsize16">$89.99</del>
-            <p>Incredible value - all you need for Podcasts.</p> 
-          </div>
-          <div className="product-card__props">
-            <div className="product-card__selects">
-           <p>In stock, immediate despatch</p> 
-            </div>
-            <button className="btn-reset product-card__btn product-card__btn--small">
-              View package
-            </button>
-          </div>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
-
-
       {/* end arrival section */}
       {/* product section */}
       <section  className="product_section layout_padding">
@@ -578,7 +454,7 @@ const Home = () => {
               Our <span>Clients</span>
             </h2>
             </div>
-            <div className="slider">
+            <div className="slider bg-[#ffffff]">
               <div className="slide-track">
                 <div className="slide">
                   <img className='h-[100%]' src="/images/Adda247.jpg" height={100} width={250} alt="" />
