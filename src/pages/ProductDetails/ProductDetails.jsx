@@ -37,7 +37,8 @@ const ProductDetails = () => {
         <div>
             <Navbar />
 
-            <div className='product-details container shadow-md'>
+        <div className='product-details container bg-[#f8f8f8]'>
+          
             <div className="box2">
                             <div className="info flex flex-col gap-[10px] mb-[0px] mr-[60px]">
                                 <h3 className='text-[2em] font-semibold' >{product?.name}</h3>
@@ -46,7 +47,7 @@ const ProductDetails = () => {
                             </div>
                         </div>
             
-                <div className='product-box items-center'>
+                <div className='product-box items-center '>
               
                     <div className=" w-[100%] shadow-xl py-[10px] px-[30px] border-20px">
                         
@@ -84,18 +85,19 @@ const ProductDetails = () => {
   
                         </div>
                         <div className='mt-[60px]'>
- <a href className="btn bg-[#f7444e] mt-[30px] ml-[200px] text-[25px] text-[#ffff]">
+                       <a href className="btn bg-[#f7444e] mt-[30px] ml-[200px] mb-[30px] text-[25px] text-[#ffff]">
                             Enquire Here
                           </a>
                     </div>
                  </div>
                 </div>
+                </div>
 
 
 
-
+                <div className='product-details container shadow-md'>
                 <section className="product_section layout_padding">
-                    <div className="container">
+                    <div className="container ">
                         <div className="heading_container heading_center">
                             <h2>
                                 Recommended Products

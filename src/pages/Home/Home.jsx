@@ -28,7 +28,7 @@ const Home = () => {
     return (
    
     <div>
-      <div className="hero_area">
+      <div className="hero_area bg-[#F8F8F8]">
         {/* header section strats */}
         <Navbar />
         {/* end header section */}
@@ -164,7 +164,7 @@ const Home = () => {
       </div>
       {/* why section */}
       <section data-aos="fade-left" className="why_section layout_padding">
-        <div className="container bg-[#f7f8f9]">
+        <div className="container">
           
           <div className="heading_container heading_center">
          
@@ -421,11 +421,11 @@ const Home = () => {
       {/* arrival section */}
       {/* end arrival section */}
       {/* product section */}
-      <section  className="product_section layout_padding">
+      <section  className="bg-[#F8F8F8] product_section layout_padding">
         <div data-aos="zoom-in-up" className="container">
           <div className="heading_container heading_center">
             <h2>
-              Our <span>products</span>
+              Our <span>Products</span>
             </h2>
           </div>
 
@@ -524,7 +524,7 @@ const Home = () => {
       {/* end subscribe section */}
       {/* client section */}
       
-  <div  data-aos="zoom-in" className='youtubeslider container mt-[25px] mb-[50px]' style={{ height: "100%", overflowX: "hidden", textAlign: "center" }}>
+  <div  data-aos="zoom-in" className='bg-[#F8F8F8] youtubeslider container pt-[50px] pb-[50px] mt-[25px]' style={{ height: "100%", overflowX: "hidden", textAlign: "center" }}>
   <div  className="heading_container heading_center">
             <h2>
             Customer's <span>Testimonial</span>

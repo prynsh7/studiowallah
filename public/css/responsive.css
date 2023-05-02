@@ -117,11 +117,11 @@
   }
   
   .slider_section .detail-box h1 span{
-    font-size: 50px;
+    font-size: 34px;
   } 
 
   .slider_section .detail-box h1{
-    font-size: 50px !important;
+    font-size: 34px !important;
   }
 
   .heading_container h2{
@@ -136,6 +136,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
   }
   .slider_section .detail-box, .about_section .detail-box{
     margin-bottom: 0px !important;
