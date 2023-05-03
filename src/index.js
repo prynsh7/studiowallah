@@ -23,7 +23,7 @@ root.render(
     {/* <Provider store={store}> */}
       <FirestoreProvider firebase={firebase}>
         <App />
-      </FirestoreProvider>,
+      </FirestoreProvider>
     {/* </Provider> */}
   </React.StrictMode>
 );

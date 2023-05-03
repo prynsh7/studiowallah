@@ -68,8 +68,10 @@ const Contact = ({ firestore }) => {
     <div>
       <Navbar />
       <ToastContainer />
-      <div className='text-center bg-[#f7444e] pt-[40px] pb-[40px]'>
-        <h6 className='text-3xl text-center font-extrabold text-white text-capitalize'>Contact Us</h6>
+      <div  className="heading_container heading_center text-center pt-[45px]">
+            <h2>
+            Contact <span>Us</span>
+            </h2>
       </div>
       <div className='big-box'>
         <div className='contactbox'>
@@ -246,7 +248,16 @@ const Contact = ({ firestore }) => {
             </div>
           </div>
         </div>
+        <div  className="heading_container heading_center text-center pt-[45px]">
+            <h2>
+            Our <span>Location</span>
+            </h2>
       </div>
+        <div className='flex justify-center items-center pb-[60px]'>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.1704014231714!2d77.30282299999999!3d28.383920800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdc3c102838d9%3A0x5d4739f5eabd27b5!2s1k%2C%2056%2C%20Block%20J%2C%20New%20Industrial%20Twp%201%2C%20New%20Industrial%20Township%2C%20Faridabad%2C%20Haryana%20121001!5e0!3m2!1sen!2sin!4v1683132639899!5m2!1sen!2sin" width={600} height={450} style={{border: 0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+      </div>
+      </div>
+      
       <Footer />
     </div>
   )
