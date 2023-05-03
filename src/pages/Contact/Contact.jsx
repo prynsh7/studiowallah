@@ -75,7 +75,7 @@ const Contact = ({ firestore }) => {
       </div>
       <div className='big-box'>
         <div className='contactbox'>
-          <div className='inside-box   border-[2px] drop-shadow rounded-[16px]'>
+          <div className='inside-box border-[2px] drop-shadow rounded-[16px]'>
 
             <div className="container mx-auto">
               <div>

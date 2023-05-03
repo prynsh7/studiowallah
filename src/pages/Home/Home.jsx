@@ -61,7 +61,7 @@ const Home = () => {
                     </div>
                     </div>
                         <div className="btn-box">
-                          <a href className="btn1 bg-[#f7444e]">
+                          <a href="https://wa.me/919871045001" className="btn1 bg-[#f7444e]">
                             Message Now
                           </a>
                         </div>
@@ -104,7 +104,7 @@ const Home = () => {
                       </div>
                     </div>
                         <div className="btn-box">
-                          <a href className="btn1 bg-[#f7444e]">
+                          <a href="https://wa.me/919871045001" className="btn1 bg-[#f7444e]">
                             Message Now
                           </a>
                         </div>
@@ -144,7 +144,7 @@ const Home = () => {
                     </div>
                     </div>
                         <div className="btn-box">
-                          <a href className="btn1 bg-[#f7444e]">
+                          <a href="https://wa.me/919871045001" className="btn1 bg-[#f7444e]">
                             Message Now
                           </a>
                         </div>
@@ -279,8 +279,9 @@ const Home = () => {
                   <h5>
                     Fast Delivery
                   </h5>
+                  <br />
                   <p>
-                    variations of passages of Lorem Ipsum available
+                  Our delivery service guarantees that your package will reach its destination as soon as possible by providing lightning-fast delivery.
                   </p>
                 </div>
               </div>
@@ -394,8 +395,9 @@ const Home = () => {
                   <h5>
                     Free Shiping
                   </h5>
+                  <br />
                   <p>
-                    variations of passages of Lorem Ipsum available
+                  We provide free shipping on all orders,  making it easy for you to shop from home without worrying about additional expenses.
                   </p>
                 </div>
               </div>
@@ -418,8 +420,9 @@ const Home = () => {
                   <h5>
                     Best Quality
                   </h5>
+                  <br />
                   <p>
-                    variations of passages of Lorem Ipsum available
+                  We believe that our customers deserve only the best, and we strive to deliver the highest quality products possible. 
                   </p>
                 </div>
               </div>
@@ -659,7 +662,7 @@ const Home = () => {
       <Footer / >
       {/* footer end */}
       <div  className="cpy_">
-        <p className="mx-auto">© 2021 All Rights Reserved By <a href="https://html.design/">Studio Wallah</a><br />
+        <p className="mx-auto">© 2021 All Rights Reserved By <a href="#">Studio Wallah</a><br />
         </p>
       </div>
       {/* jQery */}

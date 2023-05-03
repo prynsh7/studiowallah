@@ -65,7 +65,7 @@ const About = () => {
       <div data-aos="fade-right" className="container  py-[100px] bg-[#f8f8f8]">
         <div className="heading_container heading_center">
           <h2>
-            Our <span>products</span>
+            Our <span>Products</span>
           </h2>
         </div>
      

@@ -86,7 +86,7 @@ const ProductDetails = () => {
                         </div>
                         <div className="enq mt-[60px]">
                   
-                       <a href className="btn bg-[#f7444e] mt-[30px] ml-[200px] mb-[30px] text-[25px] text-[#ffff] font-semibold ">
+                       <a href="https://wa.me/919871045001" className="btn bg-[#f7444e] mt-[30px] ml-[200px] mb-[30px] text-[25px] text-[#ffff] font-medium ">
                             Enquire Here
                           </a>
                     </div>
@@ -99,10 +99,10 @@ const ProductDetails = () => {
                 <div className='product-details container shadow-md'>
                 <section className="product_section layout_padding">
                     <div className="container ">
-                        <div className="heading_container heading_center">
-                            <h2>
-                                Recommended Products
-                            </h2>
+                        <div className="heading_container  heading_center">
+                          <h2>
+                           Recommended <span>Products</span>
+                         </h2>
                         </div>
                         <div className="grid grid-cols-3 product_section container mx-auto gap-[20px]">
                             {
@@ -114,11 +114,11 @@ const ProductDetails = () => {
                 </section>
                 <section className="product_section layout_padding">
                     <div className="container">
-                        <div className="heading_container heading_center">
-                            <h2>
-                                Our other products
-                            </h2>
-                        </div>
+                    <div className="heading_container  heading_center">
+              <h2>
+              Our Other <span>Products</span>
+            </h2>
+            </div>
                         <div className="grid grid-cols-3 product_section container mx-auto gap-[20px]">
                             {
                                 ProductList && getRandomArr(ProductList).map((item, index) => (<ProductCard item={item} />))

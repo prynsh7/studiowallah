@@ -1,6 +1,9 @@
 import React from 'react'
+import { useNavigate } from 'react-router'
 
 const Footer = () => {
+    const navigate = useNavigate()
+    
     return (
         <footer>
             <div className="container mx-auto ">
@@ -10,15 +13,14 @@ const Footer = () => {
                             <div className="logo_footer">
                                 <a href="#"><img width="120px" src="/images/logo1-removebg-preview.png" /></a>
                             </div>
-                            <div className="col-md-5 text-[white] text-xl pb-[20px]">
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                                <a href="#"><i class="fa fa-youtube"></i></a>
+                            <div className="social col-md-5 text-[white] text-xl pb-[20px]">
+                                <a href="https://www.instagram.com/studiosmartclasssetup/" target='blank'><i class="fa fa-instagram"></i></a>
+                                <a href="https://www.youtube.com/@studiowallah" target='blank'><i class="fa fa-youtube"></i></a>
                                 <a href="#"><i class="fa fa-facebook"></i></a>
                                 <a href="#"><i class="fa fa-linkedin"></i></a>
                                 </div>
                             <div className="information_f">
-                                <p><strong>ADDRESS : </strong> 1K, 56, Block J, New Industrial Twp 1, New Industrial Township, Faridabad, <br /> Haryana 121001
-</p>
+                                <p><strong>ADDRESS : </strong> 1K, 56, Block J, New Industrial Twp 1, New Industrial Township, Faridabad, <br /> Haryana 121001</p>
                                 <p><strong>TELEPHONE : </strong>9871045001</p>
                                 <p><strong>EMAIL : </strong> studiowallah@gmail.com</p>
                                 <p><strong>For Enquiry : </strong>info@studiowallah.com</p>
@@ -34,10 +36,8 @@ const Footer = () => {
                                             <h3>Menu</h3>
                                             <ul>
                                                 <li><a href="#">Home</a></li>
-                                                <li><a href="#">About</a></li>
-                                                <li><a href="#">Services</a></li>
                                                 <li><a href="#">Testimonial</a></li>
-                                                <li><a href="#">Contact</a></li>
+                                                <li><a onClick={()=>{navigate('/contact')}} className='cursor-pointer'>Contact</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -46,10 +46,11 @@ const Footer = () => {
                                             <div className='products'>
                                             <h3>Products</h3>
                                             <ul>
-                                                <li><a href="#">Camera</a></li>
-                                                <li><a href="#">Mics</a></li>
-                                                <li><a href="#">Tripods</a></li>
-                                                <li><a href="#">Others</a></li>
+                                            <li><a className='cursor-pointer' onClick={()=>{navigate('/products?category=Interactive%20Flat%20Panel')}}>IFP</a></li>
+                                                <li><a className='cursor-pointer' onClick={()=>{navigate('/products?category=Camera')}}>Camera</a></li>
+                                                <li><a className='cursor-pointer' onClick={()=>{navigate('/products?category=Microphones')}}>Mics</a></li>
+                                                <li><a className='cursor-pointer' onClick={()=>{navigate('/products?category=Tripods')}}>Tripods</a></li>
+                                                
                                             </ul>
                                         </div>
                                         </div>
