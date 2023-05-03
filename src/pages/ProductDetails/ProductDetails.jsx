@@ -84,8 +84,9 @@ const ProductDetails = () => {
                             </div>
   
                         </div>
-                        <div className='mt-[60px]'>
-                       <a href className="btn bg-[#f7444e] mt-[30px] ml-[200px] mb-[30px] text-[25px] text-[#ffff]">
+                        <div className="enq mt-[60px]">
+                  
+                       <a href className="btn bg-[#f7444e] mt-[30px] ml-[200px] mb-[30px] text-[25px] text-[#ffff] font-semibold ">
                             Enquire Here
                           </a>
                     </div>

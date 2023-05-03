@@ -52,14 +52,7 @@ const Footer = () => {
                             </div>
                             <div className="col-md-5">
                                 <div className="widget_menu">
-                                    <div className='email'>
-                                    <div className="form_sub">
-                                        <div className='email-text flex' >
-                                            <input type="text" placeholder='Enter email' className='border-[1px] p-[10px]' />
-                                            <button className='p-[10px] font-bold bg-[#f7444e] text-[#fff]'>Subscribe</button>
-                                        </div>
-                                    </div>
-                                </div>
+                            
                                 </div>
                             </div>
                             

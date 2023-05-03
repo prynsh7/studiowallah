@@ -47,7 +47,7 @@ const Home = () => {
                             Interactive Flat Panels
                           </span>
                           <br />
-                          Interactive Flat Panels for Smart Teachers and Students
+                          For Smart Teachers and Students
                         </h1>
                         <p>
                           Price starts as low from INR 100000.<br/>
@@ -55,7 +55,7 @@ const Home = () => {
                         </p>
                         <div className="image1 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                      <img className='banner-img' src="/images/banner5.jpeg" alt="" />
+                      <img className='banner-img' src="/images/smart2.jpeg" alt="" />
                       </div>
                     </div>
                         <div className="btn-box">
@@ -67,7 +67,7 @@ const Home = () => {
                     </div>
                     <div className="image2 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                      <img className='banner-img' src="/images/banner5.jpeg" alt="" />
+                      <img className='banner-img' src="/images/smart2.jpeg" alt="" />
                       </div>
                     </div>
                   </div>
@@ -94,7 +94,7 @@ const Home = () => {
                         </p>
                         <div className="image1 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                      <img className='banner-img' src="/images/banner2.webp" alt="" />
+                      <img className='banner-img' src="/images/smart1.jpeg" alt="" />
                       
                       </div>
                     </div>
@@ -107,7 +107,7 @@ const Home = () => {
                     </div>
                     <div className="image2 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                      <img className='banner-img' src="/images/banner2.webp" alt="" />
+                      <img className='banner-img' src="/images/smart1.jpeg" alt="" />
                       </div>
                     </div>
                   </div>

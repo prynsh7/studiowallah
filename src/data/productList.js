@@ -1,5 +1,101 @@
-export const ProductList = [{
-    id: 1,
+export const ProductList = [
+    {
+        id: 1,
+        name: 'LG-65TR3BF Model"',
+        price: '₹165,200.00',
+        description: "Equipped with 7th Gen Intel CoreTM processors, MAXHUB X3 have strong performance and reliability, support Android 7.0 / Windows 10 dual-system and up to 16GB DDR4-RAM.",
+        image: '/images/lg.png',
+        images: ['/images/lg.png', '/images/lg2.png'],
+        category: "Interactive Flat Panel",
+        highlights: ['Built-in OPS Slot','Google CTS* Pass','Secure Mode blocks unauthorized contents to be shown via sharing screen function in various devices.','USB Block'],
+        specifications: ['Brand:   LG','Brightness:  370 nit (Typ.)','Touch Type:  IR','Size/Dimension:  65", 75", 86"','Display Type:  LED','Multi Touch Point:  Max 20 Points','Interface:   HDMI (3), RGB / Audio In,RS232C In,USB 2.0','(3, Front : 2ea, Bottom side: 1ea Only for software update),','USB 3.0 (3), Touch Out(USB2.0,B Type) (2),HDMI (1),','Optical Output / Audio Out','Screen Size :  86", 75", 65"','Panel Technology :  IPS','Back Light Type :  Direct','Aspect Ratio :  16 : 9','Native Resolution :  3,840 x 2,160 (UHD)','Refresh Rate :  60 Hz','Brightness :  370 nit','Weight(Head) 86",75", 65" :  67Kg, 53Kg, 40Kg']
+    },{
+        id:2,
+        name: 'LG-75TR3BF Model"',
+        price: '₹265,500.00',
+        description: "Equipped with 7th Gen Intel CoreTM processors, MAXHUB X3 have strong performance and reliability, support Android 7.0 / Windows 10 dual-system and up to 16GB DDR4-RAM.",
+        image: '/images/lg.png',
+        images: ['/images/lg.png', '/images/lg2.png'],
+        category: "Interactive Flat Panel",
+        highlights: ['Built-in OPS Slot','Google CTS* Pass','Secure Mode blocks unauthorized contents to be shown via sharing screen function in various devices.','USB Block'],
+        specifications: ['Brand:   LG','Brightness:  370 nit (Typ.)','Touch Type:  IR','Size/Dimension:  65", 75", 86"','Display Type:  LED','Multi Touch Point:  Max 20 Points','Interface:   HDMI (3), RGB / Audio In,RS232C In,USB 2.0','(3, Front : 2ea, Bottom side: 1ea Only for software update),','USB 3.0 (3), Touch Out(USB2.0,B Type) (2),HDMI (1),','Optical Output / Audio Out','Screen Size :  86", 75", 65"','Panel Technology :  IPS','Back Light Type :  Direct','Aspect Ratio :  16 : 9','Native Resolution :  3,840 x 2,160 (UHD)','Refresh Rate :  60 Hz','Brightness :  370 nit','Weight(Head) 86",75", 65" :  67Kg, 53Kg, 40Kg']
+    },{
+        id: 3,
+        name: 'LG-85TR3BF Model"',
+        price: '₹401,200.00',
+        description: "Equipped with 7th Gen Intel CoreTM processors, MAXHUB X3 have strong performance and reliability, support Android 7.0 / Windows 10 dual-system and up to 16GB DDR4-RAM.",
+        image: '/images/lg.png',
+        images: ['/images/lg.png', '/images/lg2.png'],
+        category: "Interactive Flat Panel",
+        highlights: ['Built-in OPS Slot','Google CTS* Pass','Secure Mode blocks unauthorized contents to be shown via sharing screen function in various devices.','USB Block'],
+        specifications: ['Brand:   LG','Brightness:  370 nit (Typ.)','Touch Type:  IR','Size/Dimension:  65", 75", 86"','Display Type:  LED','Multi Touch Point:  Max 20 Points','Interface:   HDMI (3), RGB / Audio In,RS232C In,USB 2.0','(3, Front : 2ea, Bottom side: 1ea Only for software update),','USB 3.0 (3), Touch Out(USB2.0,B Type) (2),HDMI (1),','Optical Output / Audio Out','Screen Size :  86", 75", 65"','Panel Technology :  IPS','Back Light Type :  Direct','Aspect Ratio :  16 : 9','Native Resolution :  3,840 x 2,160 (UHD)','Refresh Rate :  60 Hz','Brightness :  370 nit','Weight(Head) 86",75", 65" :  67Kg, 53Kg, 40Kg']
+    },
+    {
+        id: 4,
+        name: 'evota 65"',
+        price: '₹401,200.00',
+        description: "Equipped with 7th Gen Intel CoreTM processors, MAXHUB X3 have strong performance and reliability, support Android 7.0 / Windows 10 dual-system and up to 16GB DDR4-RAM.",
+        image: '/images/evota.png',
+        images: ['/images/evota.png', '/images/evota2.png'],
+        highlights: ['Big Viewing Experience','Beautiful Picture','Rich Audio','Intuitive 20 Points Of Touch','True Interactive Experience','Integrated Software Suite'],
+        specifications:['Screen 65″', 'UHD Resolution', 'OPS Compliance', 'Brightness 450 cd/m2', '10 / 20 Multi-Touch Technology', 'Powered By Android & Windows', 'Wireless Collaboration for Meeting Rooms', 'Video conferencing & Wireless Collaboration']
+    },
+    {
+        id: 5,
+        name: 'evota 75"',
+        price: '₹401,200.00',
+        description: "Equipped with 7th Gen Intel CoreTM processors, MAXHUB X3 have strong performance and reliability, support Android 7.0 / Windows 10 dual-system and up to 16GB DDR4-RAM.",
+        image: '/images/evota.png',
+        images: ['/images/evota.png', '/images/evota2.png'],
+        category: "Interactive Flat Panel",
+        highlights: ['Big Viewing Experience','Beautiful Picture','Rich Audio','Intuitive 20 Points Of Touch','True Interactive Experience','Integrated Software Suite'],
+        specifications:['Screen 75″', 'UHD Resolution', 'OPS Compliance', 'Brightness 450 cd/m2', '10 / 20 Multi-Touch Technology', 'Powered By Android & Windows', 'Wireless Collaboration for Meeting Rooms', 'Video conferencing & Wireless Collaboration']
+    },
+    {
+        id: 6,
+        name: 'evota 85"',
+        price: '₹401,200.00',
+        description: "Equipped with 7th Gen Intel CoreTM processors, MAXHUB X3 have strong performance and reliability, support Android 7.0 / Windows 10 dual-system and up to 16GB DDR4-RAM.",
+        image: '/images/evota.png',
+        images: ['/images/evota.png', '/images/evota2.png'],
+        category: "Interactive Flat Panel",
+        highlights: ['Big Viewing Experience','Beautiful Picture','Rich Audio','Intuitive 20 Points Of Touch','True Interactive Experience','Integrated Software Suite'],
+        specifications:['Screen 85″', 'UHD Resolution', 'OPS Compliance', 'Brightness 450 cd/m2', '10 / 20 Multi-Touch Technology', 'Powered By Android & Windows', 'Wireless Collaboration for Meeting Rooms', 'Video conferencing & Wireless Collaboration']
+    },
+    {
+        id: 7,
+        name: 'atvi 65"',
+        price: '₹401,200.00',
+        description: "Equipped with 7th Gen Intel CoreTM processors, MAXHUB X3 have strong performance and reliability, support Android 7.0 / Windows 10 dual-system and up to 16GB DDR4-RAM.",
+        image: '/images/atvi.png',
+        images: ['/images/atvi.png', '/images/atvi3.png'],
+        category: "Interactive Flat Panel",
+        highlights: ['High picture quality (UHD), and wide view angle (IPS) ','Support up to 20 points multi touch and 10 points writing with fast response.','Palm Erasing. ','Screen Sharing','Web Browser ','True Colours '],
+        specifications:['Size: 65"','Android: 8.0','Wi-Fi: YES','Ram: 3G','Storage: 32G','OPS: (OPTIONAL)','CPU: i3 / i5 / i7','RAM: 4G / 8G / 16G','ROM: SSD 128G / 256G / 512G / 1TB']
+    },
+    {
+        id: 8,
+        name: 'atvi 75"',
+        price: '₹401,200.00',
+        description: "Equipped with 7th Gen Intel CoreTM processors, MAXHUB X3 have strong performance and reliability, support Android 7.0 / Windows 10 dual-system and up to 16GB DDR4-RAM.",
+        image: '/images/atvi.png',
+        images: ['/images/atvi.png', '/images/atvi3.png'],
+        category: "Interactive Flat Panel",
+        highlights: ['High picture quality (UHD), and wide view angle (IPS) ','Support up to 20 points multi touch and 10 points writing with fast response.','Palm Erasing. ','Screen Sharing','Web Browser ','True Colours '],
+        specifications:['Size: 75"','Android: 8.0','Wi-Fi: YES','Ram: 3G','Storage: 32G','OPS: (OPTIONAL)','CPU: i3 / i5 / i7','RAM: 4G / 8G / 16G','ROM: SSD 128G / 256G / 512G / 1TB']
+    },
+    {
+        id: 9,
+        name: 'atvi 85"',
+        price: '₹401,200.00',
+        description: "Equipped with 7th Gen Intel CoreTM processors, MAXHUB X3 have strong performance and reliability, support Android 7.0 / Windows 10 dual-system and up to 16GB DDR4-RAM.",
+        image: '/images/atvi.png',
+        images: ['/images/atvi.png', '/images/atvi3.png'],
+        category: "Interactive Flat Panel",
+        highlights: ['High picture quality (UHD), and wide view angle (IPS) ','Support up to 20 points multi touch and 10 points writing with fast response.','Palm Erasing. ','Screen Sharing','Web Browser ','True Colours '],
+        specifications:['Size: 75"','Android: 8.0','Wi-Fi: YES','Ram: 3G','Storage: 32G','OPS: (OPTIONAL)','CPU: i3 / i5 / i7','RAM: 4G / 8G / 16G','ROM: SSD 128G / 256G / 512G / 1TB']
+    },{
+    id: 90,
     name: 'Canon XA 11',
     price: '₹ 96,795',
     description: "Canon XA11 Professional Camcorder, Optical, Black",
@@ -10,7 +106,7 @@ export const ProductList = [{
     specifications: ['Brand:  Canon', 'Connector Type:  Infrared', 'Flash Memory Type:  SD', 'Screen Size:  3 Inches','Optical Zoom	20 x','Photo Sensor Technology	CMOS','Camcorder type	Video Camera','Model Name	Canon Camcorder'],
 }, 
 {
-    id: 2,
+    id: 91,
     name: 'Canon XA40',
     price: '₹ 1000',
     description: "Canon XA40 4K camcorder with exceptional value",
@@ -22,7 +118,7 @@ export const ProductList = [{
     
 },
 {
-    id: 3,
+    id: 92,
     name: 'Panasonic CX8',
     price: '₹ 1,74,990',
     description: "Panasonic AG-CX8ED 4K Professional Camcorder",
@@ -33,7 +129,7 @@ export const ProductList = [{
     specifications: ['Flash Memory Type:	SDHC', 'Special Feature:	Face Detection', 'Screen Size:	3.5 Centimetres','Photo Sensor Technology:	CMOS','Camcorder type:	Video Camera','Optical Zoom:	24 x'],
 }, 
 {
-    id: 4,
+    id: 93,
     name: 'Canon XA60',
     price: '₹ 1000',
     description: "Canon XA60 High-resolution 4K Video Lens; Improved Usability ",
@@ -45,7 +141,7 @@ export const ProductList = [{
 
 },
 {
-    id: 5,
+    id: 94,
     name: 'Panasonic PV100',
     price: '₹ 1,24,990',
     description: "Panasonic HC-PV100GW Optical 6.03 MP Professional Camcorder (Black)",
@@ -56,7 +152,7 @@ export const ProductList = [{
     specifications: ['Flash Memory Type:	SD', 'Optical Zoom:	20 x', 'Camcorder type:	Video Camera', 'Model Name:	HC-PV100GW', 'Screen Size:	3.1 Inches', 'Connector Type:	USB'],
 }, 
 {
-    id: 6,
+    id: 95,
     name: 'Panasonic CX7',
     price: '₹ 1,59,990',
     description: "Panasonic AG CX7 4K 24x Optical Zoom Professional Video Camera, Black",
@@ -68,7 +164,7 @@ export const ProductList = [{
 },
 
 {
-    id: 7,
+    id: 96,
     name: 'Sony HXR MC88',
     price: '₹ 1000',
     description: "",
@@ -80,7 +176,7 @@ export const ProductList = [{
 
 },
 {
-    id: 8,
+    id: 97,
     name: 'XSW IEM SR Stereo Transmitter',
     price: '₹ 1000',
     description: "The XS Wireless IEM transmitter features metal housing designed for durability and can be rack-mounted system or used stand-alone.",
@@ -91,7 +187,7 @@ export const ProductList = [{
     specifications: ['Dimensions Approx.: 200 x 128 x 42 mm', 'Weight Approx.: 700 g', 'Switching bandwidth: up to 24 MHz', 'AF frequency response: 45 Hz to 15 kHz', 'Input rating: +12 V DC'],
 },
 {
-    id: 9,
+    id: 98,
     name: 'Sennheiser Xsw1 me2',
     price: '₹ 29,300',
     description: "Sennheiser wireless lavalier microphone XSW1-ME2-A for public speakers and presenters, Excellent for a powerful and inspiring presentation | 120feet Range & upto 10 channels",
@@ -1011,102 +1107,7 @@ export const ProductList = [{
     highlights: ['4K Resolution Multi-touch Interactive (10 Touch) Support OS','Ultra large, thin, clear create extraordinary vision.',],
     specifications: ['Brand:   MAXHUB','Color:  Black','Power Consumption:  450W','Size/Dimension:  65", 75", 85"','Display Type:  LED','Resolution:  3840(H)x2160(V) p RAM:   8 GB','CPU:  I5 7th Genration','Usage/Application:   Recording','Writing Tools:  Finger + electromagnetic pen','Touch Accuracy:  +-1mm','Power:  100-240V~ 50 / 60Hz','Altitude:  Below 5000 meters','Frequency-Domain:  80Hz~20KHz','Pick-up Distance:  8m']
 },
-{
-    id: 90,
-    name: 'LG-65TR3BF Model"',
-    price: '₹165,200.00',
-    description: "Equipped with 7th Gen Intel CoreTM processors, MAXHUB X3 have strong performance and reliability, support Android 7.0 / Windows 10 dual-system and up to 16GB DDR4-RAM.",
-    image: '/images/lg.png',
-    images: ['/images/lg.png', '/images/lg2.png'],
-    category: "Interactive Flat Panel",
-    highlights: ['Built-in OPS Slot','Google CTS* Pass','Secure Mode blocks unauthorized contents to be shown via sharing screen function in various devices.','USB Block'],
-    specifications: ['Brand:   LG','Brightness:  370 nit (Typ.)','Touch Type:  IR','Size/Dimension:  65", 75", 86"','Display Type:  LED','Multi Touch Point:  Max 20 Points','Interface:   HDMI (3), RGB / Audio In,RS232C In,USB 2.0','(3, Front : 2ea, Bottom side: 1ea Only for software update),','USB 3.0 (3), Touch Out(USB2.0,B Type) (2),HDMI (1),','Optical Output / Audio Out','Screen Size :  86", 75", 65"','Panel Technology :  IPS','Back Light Type :  Direct','Aspect Ratio :  16 : 9','Native Resolution :  3,840 x 2,160 (UHD)','Refresh Rate :  60 Hz','Brightness :  370 nit','Weight(Head) 86",75", 65" :  67Kg, 53Kg, 40Kg']
-},{
-    id:91,
-    name: 'LG-75TR3BF Model"',
-    price: '₹265,500.00',
-    description: "Equipped with 7th Gen Intel CoreTM processors, MAXHUB X3 have strong performance and reliability, support Android 7.0 / Windows 10 dual-system and up to 16GB DDR4-RAM.",
-    image: '/images/lg.png',
-    images: ['/images/lg.png', '/images/lg2.png'],
-    category: "Interactive Flat Panel",
-    highlights: ['Built-in OPS Slot','Google CTS* Pass','Secure Mode blocks unauthorized contents to be shown via sharing screen function in various devices.','USB Block'],
-    specifications: ['Brand:   LG','Brightness:  370 nit (Typ.)','Touch Type:  IR','Size/Dimension:  65", 75", 86"','Display Type:  LED','Multi Touch Point:  Max 20 Points','Interface:   HDMI (3), RGB / Audio In,RS232C In,USB 2.0','(3, Front : 2ea, Bottom side: 1ea Only for software update),','USB 3.0 (3), Touch Out(USB2.0,B Type) (2),HDMI (1),','Optical Output / Audio Out','Screen Size :  86", 75", 65"','Panel Technology :  IPS','Back Light Type :  Direct','Aspect Ratio :  16 : 9','Native Resolution :  3,840 x 2,160 (UHD)','Refresh Rate :  60 Hz','Brightness :  370 nit','Weight(Head) 86",75", 65" :  67Kg, 53Kg, 40Kg']
-},{
-    id: 92,
-    name: 'LG-85TR3BF Model"',
-    price: '₹401,200.00',
-    description: "Equipped with 7th Gen Intel CoreTM processors, MAXHUB X3 have strong performance and reliability, support Android 7.0 / Windows 10 dual-system and up to 16GB DDR4-RAM.",
-    image: '/images/lg.png',
-    images: ['/images/lg.png', '/images/lg2.png'],
-    category: "Interactive Flat Panel",
-    highlights: ['Built-in OPS Slot','Google CTS* Pass','Secure Mode blocks unauthorized contents to be shown via sharing screen function in various devices.','USB Block'],
-    specifications: ['Brand:   LG','Brightness:  370 nit (Typ.)','Touch Type:  IR','Size/Dimension:  65", 75", 86"','Display Type:  LED','Multi Touch Point:  Max 20 Points','Interface:   HDMI (3), RGB / Audio In,RS232C In,USB 2.0','(3, Front : 2ea, Bottom side: 1ea Only for software update),','USB 3.0 (3), Touch Out(USB2.0,B Type) (2),HDMI (1),','Optical Output / Audio Out','Screen Size :  86", 75", 65"','Panel Technology :  IPS','Back Light Type :  Direct','Aspect Ratio :  16 : 9','Native Resolution :  3,840 x 2,160 (UHD)','Refresh Rate :  60 Hz','Brightness :  370 nit','Weight(Head) 86",75", 65" :  67Kg, 53Kg, 40Kg']
-},
-{
-    id: 93,
-    name: 'evota 65"',
-    price: '₹401,200.00',
-    description: "Equipped with 7th Gen Intel CoreTM processors, MAXHUB X3 have strong performance and reliability, support Android 7.0 / Windows 10 dual-system and up to 16GB DDR4-RAM.",
-    image: '/images/evota.png',
-    images: ['/images/evota.png', '/images/evota2.png'],
-    highlights: ['Big Viewing Experience','Beautiful Picture','Rich Audio','Intuitive 20 Points Of Touch','True Interactive Experience','Integrated Software Suite'],
-    specifications:['Screen 65″', 'UHD Resolution', 'OPS Compliance', 'Brightness 450 cd/m2', '10 / 20 Multi-Touch Technology', 'Powered By Android & Windows', 'Wireless Collaboration for Meeting Rooms', 'Video conferencing & Wireless Collaboration']
-},
-{
-    id: 94,
-    name: 'evota 75"',
-    price: '₹401,200.00',
-    description: "Equipped with 7th Gen Intel CoreTM processors, MAXHUB X3 have strong performance and reliability, support Android 7.0 / Windows 10 dual-system and up to 16GB DDR4-RAM.",
-    image: '/images/evota.png',
-    images: ['/images/evota.png', '/images/evota2.png'],
-    category: "Interactive Flat Panel",
-    highlights: ['Big Viewing Experience','Beautiful Picture','Rich Audio','Intuitive 20 Points Of Touch','True Interactive Experience','Integrated Software Suite'],
-    specifications:['Screen 75″', 'UHD Resolution', 'OPS Compliance', 'Brightness 450 cd/m2', '10 / 20 Multi-Touch Technology', 'Powered By Android & Windows', 'Wireless Collaboration for Meeting Rooms', 'Video conferencing & Wireless Collaboration']
-},
-{
-    id: 95,
-    name: 'evota 85"',
-    price: '₹401,200.00',
-    description: "Equipped with 7th Gen Intel CoreTM processors, MAXHUB X3 have strong performance and reliability, support Android 7.0 / Windows 10 dual-system and up to 16GB DDR4-RAM.",
-    image: '/images/evota.png',
-    images: ['/images/evota.png', '/images/evota2.png'],
-    category: "Interactive Flat Panel",
-    highlights: ['Big Viewing Experience','Beautiful Picture','Rich Audio','Intuitive 20 Points Of Touch','True Interactive Experience','Integrated Software Suite'],
-    specifications:['Screen 85″', 'UHD Resolution', 'OPS Compliance', 'Brightness 450 cd/m2', '10 / 20 Multi-Touch Technology', 'Powered By Android & Windows', 'Wireless Collaboration for Meeting Rooms', 'Video conferencing & Wireless Collaboration']
-},
-{
-    id: 96,
-    name: 'atvi 65"',
-    price: '₹401,200.00',
-    description: "Equipped with 7th Gen Intel CoreTM processors, MAXHUB X3 have strong performance and reliability, support Android 7.0 / Windows 10 dual-system and up to 16GB DDR4-RAM.",
-    image: '/images/atvi.png',
-    images: ['/images/atvi.png', '/images/atvi3.png'],
-    category: "Interactive Flat Panel",
-    highlights: ['High picture quality (UHD), and wide view angle (IPS) ','Support up to 20 points multi touch and 10 points writing with fast response.','Palm Erasing. ','Screen Sharing','Web Browser ','True Colours '],
-    specifications:['Size: 65"','Android: 8.0','Wi-Fi: YES','Ram: 3G','Storage: 32G','OPS: (OPTIONAL)','CPU: i3 / i5 / i7','RAM: 4G / 8G / 16G','ROM: SSD 128G / 256G / 512G / 1TB']
-},
-{
-    id: 97,
-    name: 'atvi 75"',
-    price: '₹401,200.00',
-    description: "Equipped with 7th Gen Intel CoreTM processors, MAXHUB X3 have strong performance and reliability, support Android 7.0 / Windows 10 dual-system and up to 16GB DDR4-RAM.",
-    image: '/images/atvi.png',
-    images: ['/images/atvi.png', '/images/atvi3.png'],
-    category: "Interactive Flat Panel",
-    highlights: ['High picture quality (UHD), and wide view angle (IPS) ','Support up to 20 points multi touch and 10 points writing with fast response.','Palm Erasing. ','Screen Sharing','Web Browser ','True Colours '],
-    specifications:['Size: 75"','Android: 8.0','Wi-Fi: YES','Ram: 3G','Storage: 32G','OPS: (OPTIONAL)','CPU: i3 / i5 / i7','RAM: 4G / 8G / 16G','ROM: SSD 128G / 256G / 512G / 1TB']
-},
-{
-    id: 98,
-    name: 'atvi 85"',
-    price: '₹401,200.00',
-    description: "Equipped with 7th Gen Intel CoreTM processors, MAXHUB X3 have strong performance and reliability, support Android 7.0 / Windows 10 dual-system and up to 16GB DDR4-RAM.",
-    image: '/images/atvi.png',
-    images: ['/images/atvi.png', '/images/atvi3.png'],
-    category: "Interactive Flat Panel",
-    highlights: ['High picture quality (UHD), and wide view angle (IPS) ','Support up to 20 points multi touch and 10 points writing with fast response.','Palm Erasing. ','Screen Sharing','Web Browser ','True Colours '],
-    specifications:['Size: 75"','Android: 8.0','Wi-Fi: YES','Ram: 3G','Storage: 32G','OPS: (OPTIONAL)','CPU: i3 / i5 / i7','RAM: 4G / 8G / 16G','ROM: SSD 128G / 256G / 512G / 1TB']
-},
+
 {
     id: 99,
     name: 'Digitek Tripod',
