@@ -55,8 +55,10 @@ const Home = () => {
                         </p>
                         <div className="image1 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                      <img className='banner-img' src="/images/smart2.jpeg" alt="" />
+                        <div className='firstone'>
+                      <img className='banner-img' src="/images/b1.jpg" alt="" />
                       </div>
+                    </div>
                     </div>
                         <div className="btn-box">
                           <a href className="btn1 bg-[#f7444e]">
@@ -67,9 +69,11 @@ const Home = () => {
                     </div>
                     <div className="image2 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                      <img className='banner-img' src="/images/smart2.jpeg" alt="" />
+                      <div className='firstone'>
+                      <img className='banner-img' src="/images/b1.jpg" alt="" />
                       </div>
                     </div>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -94,8 +98,9 @@ const Home = () => {
                         </p>
                         <div className="image1 col-md-5 col-lg-6 ">
                       <div className="detail-box">
+                      <div className='secondone'>
                       <img className='banner-img' src="/images/smart1.jpeg" alt="" />
-                      
+                      </div>
                       </div>
                     </div>
                         <div className="btn-box">
@@ -107,10 +112,12 @@ const Home = () => {
                     </div>
                     <div className="image2 col-md-5 col-lg-6 ">
                       <div className="detail-box">
+                      <div className='secondone'>
                       <img className='banner-img' src="/images/smart1.jpeg" alt="" />
                       </div>
                     </div>
                   </div>
+                </div>
                 </div>
               </div>
               <div className="carousel-item">
@@ -131,8 +138,10 @@ const Home = () => {
                         </p>
                         <div className="image1 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                        <img className='banner-img' src="/images/evota.png" alt="" />
+                      <div className='thirdone'>
+                        <img className='banner-img' src="/images/b3.jpg" alt="" />
                       </div>
+                    </div>
                     </div>
                         <div className="btn-box">
                           <a href className="btn1 bg-[#f7444e]">
@@ -143,9 +152,11 @@ const Home = () => {
                     </div>
                     <div className="image2 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                        <img className='banner-img' src="/images/evota.png" alt="" />
+                      <div className='thirdone'>
+                        <img className='banner-img' src="/images/b3.jpg" alt="" />
                       </div>
                     </div>
+                  </div>
                   </div>
                 </div>
               </div>
