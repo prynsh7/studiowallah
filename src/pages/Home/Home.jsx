@@ -79,7 +79,7 @@ const Home = () => {
               </div>
               <div className="carousel-item">
 
-                <div className="container ">
+                <div className="container">
                   <div className="row">
                     <div className="col-md-7 col-lg-6 ">
                       <div className="detail-box">
@@ -101,8 +101,8 @@ const Home = () => {
                       <div className='secondone'>
                       <img className='banner-img' src="/images/smart1.jpeg" alt="" />
                       </div>
-                      </div>
                     </div>
+                  </div>
                         <div className="btn-box">
                           <a href="https://wa.me/919871045001" className="btn1 bg-[#f7444e]">
                             Message Now
@@ -158,11 +158,13 @@ const Home = () => {
                     </div>
                   </div>
                   </div>
+           
                 </div>
+       
               </div>
-
+             
             </div>
-            <div className="container carousel-res mt-[12px]">
+            <div className="container carousel-res">
               <ol className="carousel-indicators">
                 <li data-target="#customCarousel1" data-slide-to={0} className="active" />
                 <li data-target="#customCarousel1" data-slide-to={1} />
@@ -170,6 +172,7 @@ const Home = () => {
               </ol>
             </div>
           </div>
+     
         </section>
         {/* end slider section */}
       </div>

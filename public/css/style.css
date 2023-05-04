@@ -258,7 +258,7 @@ a:focus {
   position: relative;
 padding-left: 100px;
   height: 100px;
-  margin-left: 150px;
+
 }
 .slider_section .camera1{
   display: none;
@@ -272,7 +272,9 @@ padding-left: 100px;
 .slider_section .image2{
   max-width: 500px;
 }
-
+.slider_section .detail-box{
+  margin-left: 150px;
+}
 .slider_section .detail-box h1 {
     font-size: 40px;
     font-weight: bold;
@@ -326,6 +328,7 @@ padding-left: 100px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          margin-left: 150px !important;
 }
 
 .slider_section .carousel-indicators li {
@@ -628,6 +631,7 @@ padding-right: 130px;
   width: 55px;
   height: auto;
   fill: #ffffff;
+  margin-left: 150px !important;
 }
 
 .subscribe_section {
@@ -1265,9 +1269,10 @@ border:solid red 3px;
 
 
 }
-.enq .btn :hover{
-  background-color: transparent;
-  color: #f7444e;
+.enq .enqbtn :hover{
+  color: red;
+background-color: white;
+border:solid red 3px;
 }
 .df-svg-icon{
 
@@ -1298,7 +1303,10 @@ padding-left: 10px;
 .fa{
   align-items: center;
 }
-
+.secondone .banner-img{
+  max-width: 550px !important;
+  padding-right: 100px !important;
+}
 .productlist{
 display: grid;
 grid-template-columns: repeat(3,minmax(0,1fr));
@@ -1324,6 +1332,14 @@ grid-template-columns: repeat(3,minmax(0,1fr));
       padding: 30px !important;
       margin-left: 0px !important;
     }
+    .secondone .banner-img {
+      margin-left: 0px !important;
+      max-width: 670px !important;
+    
+    }
+    .banner-img {
+      margin-bottom: 50px !important;
+    }
     .shopus{
       display: grid;
       padding-left: 140px;
@@ -1343,9 +1359,19 @@ grid-template-columns: repeat(3,minmax(0,1fr));
   display: grid !important;
   font-size: 50px;
 }
+.enq .btn{
+  margin-left: 75% !important;
+  max-width: 70% !important;
+}
 .information_f p{
   font-size: 20px !important;
 line-height: 30px !important;
+}
+.detail-box{
+  margin-left: 0px !important;
+}
+.slider_section .carousel-indicators{
+  margin-left: 0px !important;
 }
 .first .col-md-4{
   max-width: 100%;
@@ -1558,11 +1584,22 @@ margin-left: 0px !important;
   
        margin-left: 5px !important;
      }
+     .enq .btn{
+      margin-left: 70% !important;
+      max-width: 70% !important;
+      font-size: 15px !important;
+    }
   .productlist{
     grid-template-columns:repeat(1,minmax(0,1fr)) !important;
   }
   .box{
     margin-bottom: 0% !important;
+  }
+  .detail-box{
+    margin-left: 0px !important;
+  }
+  .slider_section .carousel-indicators{
+    margin-left: 0px !important;
   }
      .ml-5{
       margin-left: 0px !important;

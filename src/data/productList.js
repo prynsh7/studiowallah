@@ -9,7 +9,8 @@ export const ProductList = [
         category: "Interactive Flat Panel",
         highlights: ['Built-in OPS Slot','Google CTS* Pass','Secure Mode blocks unauthorized contents to be shown via sharing screen function in various devices.','USB Block'],
         specifications: ['Brand:   LG','Brightness:  370 nit (Typ.)','Touch Type:  IR','Size/Dimension:  65", 75", 86"','Display Type:  LED','Multi Touch Point:  Max 20 Points','Interface:   HDMI (3), RGB / Audio In,RS232C In,USB 2.0','(3, Front : 2ea, Bottom side: 1ea Only for software update),','USB 3.0 (3), Touch Out(USB2.0,B Type) (2),HDMI (1),','Optical Output / Audio Out','Screen Size :  86", 75", 65"','Panel Technology :  IPS','Back Light Type :  Direct','Aspect Ratio :  16 : 9','Native Resolution :  3,840 x 2,160 (UHD)','Refresh Rate :  60 Hz','Brightness :  370 nit','Weight(Head) 86",75", 65" :  67Kg, 53Kg, 40Kg']
-    },{
+    },
+    {
         id:2,
         name: 'LG-75TR3BF Model"',
         price: '₹265,500.00',

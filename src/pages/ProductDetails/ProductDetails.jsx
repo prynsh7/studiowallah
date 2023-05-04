@@ -86,7 +86,7 @@ const ProductDetails = () => {
                         </div>
                         <div className="enq mt-[60px]">
                   
-                       <a href="https://wa.me/919871045001" className="btn bg-[#f7444e] mt-[30px] ml-[200px] mb-[30px] text-[25px] text-[#ffff] font-medium ">
+                       <a href="https://wa.me/919871045001" className="btn bg-[#f7444e] mt-[30px] ml-[200px] mb-[30px] text-[25px] text-[#ffff] font-semibold hover:bg-[#ffff] hover:text-[#f7444e] hover:border-[#f7444e]">
                             Enquire Here
                           </a>
                     </div>
