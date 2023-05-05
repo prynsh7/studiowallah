@@ -1304,10 +1304,14 @@ padding-left: 10px;
   align-items: center;
 }
 .secondone .banner-img{
-  max-width: 550px !important;
+
   padding-right: 100px !important;
 }
 .productlist{
+
+
+
+
 display: grid;
 grid-template-columns: repeat(3,minmax(0,1fr));
 }
@@ -1334,7 +1338,7 @@ grid-template-columns: repeat(3,minmax(0,1fr));
     }
     .secondone .banner-img {
       margin-left: 0px !important;
-      max-width: 670px !important;
+ /*     max-width: 670px !important;*/
     
     }
     .banner-img {
@@ -1562,7 +1566,10 @@ margin-left: 0px !important;
    .why_section{
     background-color: #f7f8f9;
    }
-   
+   .fa-whatsapp {
+    font-size: 22px !important;
+    padding-right: 5px !important;
+}
 }
 @media (max-width: 425px) {
 
@@ -1592,6 +1599,7 @@ margin-left: 0px !important;
   .productlist{
     grid-template-columns:repeat(1,minmax(0,1fr)) !important;
   }
+ 
   .box{
     margin-bottom: 0% !important;
   }
@@ -1611,6 +1619,7 @@ margin-left: 0px !important;
   
     .slider_section .detail-box h1{
       font-size: 50px !important;
+      line-height: 40px !important;
     }
   .slider_section{
     margin-left: 0% !important;
@@ -1702,7 +1711,11 @@ margin-left: 0px !important;
     .df-btn{
       margin-right: -55px !important;
     }
+  .secondone .banner-img{
+    max-width: 400px !important;
   
+  }
+
     /* coustomer testimonial */
   
     .youtube-slider{
