@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className="col-md-4">
                         <div className="full">
                             <div className="logo_footer">
-                                <a href="#"><img width="120px" src="/images/logo1-removebg-preview.png" /></a>
+                                <a href="#"><img width="120px" src="/images/logo2.png" /></a>
                             </div>
                             <div className="social col-md-5 text-[white] text-xl pb-[20px]">
                                 <a href="https://www.instagram.com/studiosmartclasssetup/" target='blank'><i class="fa fa-instagram"></i></a>

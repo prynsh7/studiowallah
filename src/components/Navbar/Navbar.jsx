@@ -94,7 +94,7 @@ const Navbar = () => {
         <header className="header_section ">
             <div className="container bg-[#f7f8f9]">
                 <nav className="navbar navbar-expand-lg custom_nav-container bg-[#f7f8f9]">
-                    <a className="navbar-brand" href="javascript:void(0)" onClick={() => navigate("/")}><img className='ml-5' width={150} src="/images/logo1-removebg-preview.png" alt="#" /></a>
+                    <a className="navbar-brand" href="javascript:void(0)" onClick={() => navigate("/")}><img className='ml-5' width={150} src="/images/logo2.png" alt="#" /></a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className> </span>
                     </button>
