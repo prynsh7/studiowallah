@@ -135,9 +135,9 @@ a:focus {
 
 }
 
-.full {
+/* .full {
     background-color: #002c3e;
-}
+} */
 
 .sub_page .hero_area {
     min-height: auto;
@@ -838,7 +838,7 @@ nav {
 
 /* footer section*/
 .footer_section {
-    background-color: #002c3e;
+    background-color: #f7444e;
     color: #ffffff;
     padding-top: 70px;
     margin-left: 100px;
@@ -1025,7 +1025,7 @@ li.nav-item ul li a:focus {
 /** footer **/
 
 footer {
-    background: #002c3e;
+    background: #f7444e;
     padding-left: 100px;
     padding-right: 200px;
     padding-bottom: 50px;
@@ -1174,7 +1174,7 @@ form input[type="submit"]:focus {
 
 .cpy_ p a {
     margin: 0;
-    color: #f7444e;
+    color: #ffffff;
     font-size: 15px;
     font-weight: 400;
 }
@@ -1956,14 +1956,11 @@ article {
 }
 
 @media screen and (max-width: 545px) {
-    span {
-        
-    }
 
     .float-button {
         bottom: 15px;
         right: 15px;
-        width: 20px;
+        width: 170px;
         border-radius: 20px 20px 5px 20px;
     }
 

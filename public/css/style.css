@@ -849,7 +849,7 @@ padding-right: 130px;
 }
 /* footer section*/
 .footer_section {
-  background-color: #002c3e;
+  background-color: #f7444e;
   color: #ffffff;
   padding-top: 70px;
   margin-left: 100px;
@@ -1175,7 +1175,7 @@ form input[type="submit"]:focus {
 /** cpy **/
 
 .cpy_ {
-    background: #002c3e !important;
+    background: #f7444e !important;
     border-top: 1px solid rgba(255,255,255,0.2);
     text-align: center;
     padding: 20px 0;

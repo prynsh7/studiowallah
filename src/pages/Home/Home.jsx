@@ -665,7 +665,7 @@ const Home = () => {
       <Footer / >
       {/* footer end */}
       <div  className="cpy_">
-        <p className="mx-auto">© 2021 All Rights Reserved By <a href="#">Studio Wallah</a><br />
+        <p className="mx-auto">© 2023 All Rights Reserved By <a href="#">Studio Wallah</a><br />
         </p>
       </div>
       {/* jQery */}
