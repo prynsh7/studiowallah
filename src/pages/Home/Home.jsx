@@ -97,7 +97,7 @@ Available in 65/75/86 inches
         <div className="image1 col-md-5 col-lg-6 ">
       <div className="detail-box">
       <div className='thirdone'>
-        <img className='banner-img' src="/images/ban5.webp" alt="" />
+        <img className='banner-img' src="/images/smart1.jpeg" alt="" />
       </div>
     </div>
     </div>
@@ -111,7 +111,7 @@ Available in 65/75/86 inches
     <div className="image2 col-md-5 col-lg-6 ">
       <div className="detail-box">
       <div className='thirdone'>
-        <img className='banner-img' src="/images/ban5.webp" alt="" />
+        <img className='banner-img' src="/images/smart1.jpeg" alt="" />
       </div>
     </div>
   </div>

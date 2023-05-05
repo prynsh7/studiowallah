@@ -82,16 +82,17 @@ const ProductDetails = () => {
                                 }
 
                             </div>
-  
+      
                         </div>
-                        <div className="enq mt-[60px]">
-                  
-                       <a href="https://wa.me/919871045001" className="btn bg-[#f7444e] mt-[30px] ml-[200px] mb-[30px] text-[25px] text-[#ffff] font-semibold hover:bg-[#ffff] hover:text-[#f7444e] hover:border-[#f7444e]">
-                            Enquire Here
-                          </a>
-                    </div>
+      
                  </div>
+         
                 </div>
+                <div className="btnp-box mt-[25px] pl-[900px] mb-[20px]">
+          <a href="https://wa.me/919871045001" className="btn1 bg-[#f7444e] mb-[20px] text-bold text-[20px]">
+            Enquire Here
+          </a>
+        </div>
                 </div>
 
 
