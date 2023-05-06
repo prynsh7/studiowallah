@@ -9,7 +9,12 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
 }
-
+.col-md-7 .col-lg-6  .col-md-5{
+  padding-left: 15px ;
+  padding-right: 15px;
+  position: relative;
+  width: 100%;
+}
 .layout_padding {
   padding: 70px 0;
 }
@@ -1335,22 +1340,24 @@ padding-left: 10px;
 .fa{
   align-items: center;
 }
-.secondone .banner-img{
 
-  padding-right: 100px !important;
-}
 .productlist{
-
-
-
-
 display: grid;
 grid-template-columns: repeat(3,minmax(0,1fr));
 }
 .grid-cols-3{
   grid-template-columns: repeat(3,minmax(0,1fr));
 }
-
+.banner-img{
+  max-width: 400px !important;
+  margin-left: 0px !important;
+}
+.sec .banner-img{
+  max-width: 600px !important;
+  margin-left: 0px !important;
+  padding-left: 0px !important;
+ 
+}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .productlist{
     display: grid !important;
@@ -1611,6 +1618,14 @@ margin-left: 0px !important;
     font-size: 22px !important;
     padding-right: 5px !important;
 }
+.banner-img{
+  max-width: 400px !important;
+  margin-left: 20px !important;
+}
+.sec .banner-img{
+  max-width: 550px !important;
+  margin-left: 55px !important;
+}
 }
 @media (max-width: 425px) {
 
@@ -1618,7 +1633,21 @@ margin-left: 0px !important;
      html{
       overflow-x: hidden;
      }
-   
+     .banner-img{
+      max-width: 330px !important;
+     margin-left: 50px !important;
+     
+    }
+    .sec .banner-img{
+      max-width: 370px !important;
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+
+    }
+    .col-md-7 .col-lg-6  .col-md-5{
+      padding-left:0px !important;
+    padding-right: 0px !important;
+    }
      .boxin{
       margin-bottom: 40px !important;
      }
@@ -1826,6 +1855,10 @@ margin-left: 0px !important;
       .contactbox .btn-box{
         padding-left: 0%;
         margin-left: 0%;
+      }
+      .slider_section .btn-box{
+        margin-bottom: 20px !important;
+        margin-top: 10px !important;
       }
       .image2password{
         display: none;
