@@ -123,13 +123,13 @@ const Navbar = () => {
 
                             <div className="form_sub flex flex-col">
                                 <div className='flex relative'>
-                                    <input type="text" placeholder='Search Products' className='text rounded h-[40px] border-[1px] border-[#000]/[0.6] p-[15px]'
+                                    <input  style={{outline: 'none'}} type="text" placeholder='Search Products' className='text rounded-l h-[40px] border-[1px] border-[#808080]/[0.6] p-[15px]'
                                         ref={searchRef}
                                         onChange={(e) => {
                                             filterBySearch(e.target.value);
                                         }}
                                     />
-                                    <button className='h-[40px] pl-[10px] bg-[#f7444e] text-[#fff] justify-center'><i className="fa fa-search" aria-hidden="true" /></button>
+                                    <button  style={{outline: 'none'}} className='h-[40px] rounded-r pl-[10px] bg-[#f7444e] text-[#ffff] justify-center'><i className="fa fa-search" aria-hidden="true" /></button>
 
 
                                 </div>

@@ -1304,15 +1304,15 @@ border:solid red 3px;
 
 .btnp-box a {
   display: inline-block;
-  padding: 10px 40px;
+  padding: 12px 25px;
   background-color: #f7444e;
   border: 1px solid #f7444e;
   color: #ffffff;
-  border-radius: 0;
+  border-radius: 4px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  font-weight: 500;
-  font-size: 25px;
+  font-weight: 700;
+  font-size: 18px;
 }
  
 .btnp-box a:hover {
@@ -1354,7 +1354,7 @@ grid-template-columns: repeat(3,minmax(0,1fr));
 }
 .sec .banner-img{
   max-width: 600px !important;
-  margin-left: 0px !important;
+  margin-left: -64px !important;
   padding-left: 0px !important;
  
 }
