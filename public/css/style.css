@@ -9,7 +9,12 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
 }
-
+.col-md-7 .col-lg-6  .col-md-5{
+  padding-left: 15px ;
+  padding-right: 15px;
+  position: relative;
+  width: 100%;
+}
 .layout_padding {
   padding: 70px 0;
 }
@@ -546,15 +551,16 @@ width: 150px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-.banner-img{
- /* box-shadow: 0 7px 9px rgba(0, 0, 0, 0.5);*/
-  border-radius: 10px;
-  margin-left: 50px;
-} 
+ 
 .product_section .btn-box a:hover {
   background-color: transparent;
   color: #f7444e;
 }
+.banner-img{
+  /* box-shadow: 0 7px 9px rgba(0, 0, 0, 0.5);*/
+   border-radius: 10px;
+   margin-left: 50px;
+ }
 .arrival_section {
   background-color: #d4ced0 !important;
 padding-right: 130px;
@@ -864,7 +870,9 @@ padding-right: 130px;
 .footer_section h4 {
   font-size: 28px;
 }
-
+.info2{
+  margin-bottom: 30px;
+}
 .footer_section h4,
 .footer_section .footer-logo {
   font-weight: 600;
@@ -1282,6 +1290,35 @@ border:solid red 3px;
   
   
 }
+.btnp-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  padding-left: 50px;
+}
+
+.btnp-box a {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #f7444e;
+  border: 1px solid #f7444e;
+  color: #ffffff;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-weight: 700;
+  font-size: 18px;
+}
+ 
+.btnp-box a:hover {
+  background-color: transparent;
+  color: #f7444e;
+}
 .btn{
   cursor: pointer;
 }
@@ -1303,10 +1340,7 @@ padding-left: 10px;
 .fa{
   align-items: center;
 }
-.secondone .banner-img{
-  max-width: 550px !important;
-  padding-right: 100px !important;
-}
+
 .productlist{
 display: grid;
 grid-template-columns: repeat(3,minmax(0,1fr));
@@ -1314,7 +1348,16 @@ grid-template-columns: repeat(3,minmax(0,1fr));
 .grid-cols-3{
   grid-template-columns: repeat(3,minmax(0,1fr));
 }
-
+.banner-img{
+  max-width: 400px !important;
+  margin-left: 0px !important;
+}
+.sec .banner-img{
+  max-width: 600px !important;
+  margin-left: -64px !important;
+  padding-left: 0px !important;
+ 
+}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .productlist{
     display: grid !important;
@@ -1334,7 +1377,7 @@ grid-template-columns: repeat(3,minmax(0,1fr));
     }
     .secondone .banner-img {
       margin-left: 0px !important;
-      max-width: 670px !important;
+ /*     max-width: 670px !important;*/
     
     }
     .banner-img {
@@ -1501,6 +1544,15 @@ line-height: 40px !important;
   padding-right: 0%;
   text-align: center;
 }
+.btnp-box{
+  padding-left: 0% !important;
+  margin-bottom: 0px !important;
+  margin-top: 30px !important;
+}
+.btnp-box .btn1{
+  margin-top: 30px !important;
+  margin-bottom: 0px !important;
+}
 .big-box2{
   padding: 0%;
   padding-left: 0%;
@@ -1562,7 +1614,18 @@ margin-left: 0px !important;
    .why_section{
     background-color: #f7f8f9;
    }
-   
+   .fa-whatsapp {
+    font-size: 22px !important;
+    padding-right: 5px !important;
+}
+.banner-img{
+  max-width: 400px !important;
+  margin-left: 20px !important;
+}
+.sec .banner-img{
+  max-width: 550px !important;
+  margin-left: 55px !important;
+}
 }
 @media (max-width: 425px) {
 
@@ -1570,7 +1633,21 @@ margin-left: 0px !important;
      html{
       overflow-x: hidden;
      }
-   
+     .banner-img{
+      max-width: 330px !important;
+     margin-left: 50px !important;
+     
+    }
+    .sec .banner-img{
+      max-width: 370px !important;
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+
+    }
+    .col-md-7 .col-lg-6  .col-md-5{
+      padding-left:0px !important;
+    padding-right: 0px !important;
+    }
      .boxin{
       margin-bottom: 40px !important;
      }
@@ -1592,6 +1669,9 @@ margin-left: 0px !important;
   .productlist{
     grid-template-columns:repeat(1,minmax(0,1fr)) !important;
   }
+ .btnp-box{
+  padding-left: 0% !important;
+ }
   .box{
     margin-bottom: 0% !important;
   }
@@ -1611,6 +1691,7 @@ margin-left: 0px !important;
   
     .slider_section .detail-box h1{
       font-size: 50px !important;
+      line-height: 40px !important;
     }
   .slider_section{
     margin-left: 0% !important;
@@ -1702,7 +1783,11 @@ margin-left: 0px !important;
     .df-btn{
       margin-right: -55px !important;
     }
+  .secondone .banner-img{
+    max-width: 400px !important;
   
+  }
+
     /* coustomer testimonial */
   
     .youtube-slider{
@@ -1770,6 +1855,10 @@ margin-left: 0px !important;
       .contactbox .btn-box{
         padding-left: 0%;
         margin-left: 0%;
+      }
+      .slider_section .btn-box{
+        margin-bottom: 20px !important;
+        margin-top: 10px !important;
       }
       .image2password{
         display: none;

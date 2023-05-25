@@ -130,47 +130,48 @@ const Home = ({ firestore }) => {
               </div>
               <div className="carousel-item">
 
-                <div className="container">
-                  <div className="row">
-                    <div className="col-md-7 col-lg-6 ">
-                      <div className="detail-box">
-                        <h1>
-                          <span>
-                            Smart Class Solutions for School/College
-                          </span>
-                          <br />
-                          Interactive Flat Panels<br />
-                          Camera & Microphone
-                        </h1>
-                        <p>
-                          Collaborative learning between students and teachers.<br />
-                          Prices start as low from INR 100000.<br />
-                          Available in 65/75/86 inches.
-                        </p>
-                        <div className="image1 col-md-5 col-lg-6 ">
-                          <div className="detail-box">
-                            <div className='secondone'>
-                              <img className='banner-img' src="/images/smart1.jpeg" alt="" />
-                            </div>
-                          </div>
-                        </div>
-                        <div className="btn-box">
-                          <a href="https://wa.me/919871045001" className="btn1 bg-[#f7444e]">
-                            Message Now
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="image2 col-md-5 col-lg-6 ">
-                      <div className="detail-box">
-                        <div className='secondone'>
-                          <img className='banner-img' src="/images/smart1.jpeg" alt="" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+<div className="container ">
+  <div className="row">
+    <div className="col-md-7 col-lg-6 ">
+      <div className="detail-box">
+        <h1>
+          <span>
+            Smart Class Solutions for School/College 
+          </span>
+          <br />
+          Interactive Flat Panel, Camera & Microphone
+        </h1>
+        <p>Collaborative learning between teacher and student<br/>
+Price starts as low from INR 100000<br />
+Available in 65/75/86 inches
+          </p>
+        <div className="image1 col-md-5 col-lg-6 ">
+      <div className="detail-box">
+      <div className='sec'>
+        <img className='banner-img sepeat' src="/images/smart1.jpeg" alt="" />
+      </div>
+    </div>
+    </div>
+        <div className="btn-box">
+          <a href="https://wa.me/919871045001" className="btn1 bg-[#f7444e]">
+            Message Now
+          </a>
+        </div>
+      </div>
+    </div>
+    <div className="image2 col-md-5 col-lg-6 ">
+      <div className="detail-box">
+      <div className='sec '>
+        <img className='banner-img sepeat' src="/images/smart1.jpeg" alt="" />
+      </div>
+    </div>
+  </div>
+  </div>
+
+</div>
+
+</div>
+
               <div className="carousel-item">
 
                 <div className="container ">
