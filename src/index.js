@@ -9,8 +9,9 @@ import 'firebase/compat/firestore';
 import { FirestoreProvider } from 'react-firestore';
 
 const config = {
-  apiKey: 'AIzaSyAu_vONu9fTQR-Ea_qLUV1w37tnh0WEKVA',
-  projectId: 'studio-wallah',
+  apiKey: "AIzaSyDX5-U5031Mk3yUa7yVtfY9-RQf1v0TvPU",
+  authDomain: "studio-wallah-b7238.firebaseapp.com",
+  projectId: "studio-wallah-b7238",
 };
 
 const container = document.getElementById('root');

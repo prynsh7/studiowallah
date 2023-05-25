@@ -1,15 +1,17 @@
-import React, { useEffect } from 'react'
-import { useNavigate} from 'react-router-dom'
+import React, { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import Footer from '../../components/footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
 import ProductCard from '../../components/ProductCard/ProductCard'
-import { ProductList } from '../../data/productList'
+// import { ProductList } from '../../data/productList'
 import { ROUTES } from '../../routes/RouterConfig'
 import Slider from "react-slick";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // optional
+import { withFirestore } from "react-firestore";
 
-const Home = () => {
+
+const Home = ({ firestore }) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -25,18 +27,67 @@ const Home = () => {
   const changeDir = (dir) => {
     navigate(dir)
   }
-    return (
-   
+
+  const [ProductList, setProductList] = useState([])
+
+
+  async function getAllProducts() {
+    const productsRef = firestore.collection('products');
+    const snapshot = await productsRef.get();
+  
+    const products = [];
+    snapshot.forEach((doc) => {
+      products.push(doc.data());
+    });
+  
+    return products;
+  }
+  
+  // Retrieve all products
+  useEffect(() => {
+    getAllProducts()
+    .then((products) => {
+      setProductList(products);
+    })
+    .catch((error) => {
+      console.error('Error retrieving products:', error);
+    });
+  }, []);
+
+  async function migrateProducts() {
+    const productsRef = firestore.collection('products');
+
+    for (const product of ProductList) {
+      await productsRef.add(product);
+    }
+
+    console.log('Migration completed!');
+  }
+
+  const migrateTheProducts = async () => {
+  migrateProducts()
+    .catch((error) => {
+      console.error('Error migrating products:', error);
+    });
+  }
+
+  return (
+
     <div>
       <div className="hero_area bg-[#F8F8F8]">
         {/* header section strats */}
         <Navbar />
+        {/* <button
+          onClick={() => migrateTheProducts()}
+          className='btn btn-primary'
+        >Go to Products</button> */}
+
         {/* end header section */}
         {/* slider section */}
         <section className="slider_section gap-7" >
           <div id="customCarousel1" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
-            <div className="carousel-item active">
+              <div className="carousel-item active">
 
                 <div className="container ">
                   <div className="row">
@@ -50,16 +101,16 @@ const Home = () => {
                           For Smart Teachers and Students
                         </h1>
                         <p>
-                          Price starts as low from INR 100000.<br/>
+                          Price starts as low from INR 100000.<br />
                           Available in 65/75/86 inches.
                         </p>
                         <div className="image1 col-md-5 col-lg-6 ">
-                      <div className="detail-box">
-                        <div className='firstone'>
-                      <img className='banner-img' src="/images/b1.jpg" alt="" />
-                      </div>
-                    </div>
-                    </div>
+                          <div className="detail-box">
+                            <div className='firstone'>
+                              <img className='banner-img' src="/images/b1.jpg" alt="" />
+                            </div>
+                          </div>
+                        </div>
                         <div className="btn-box">
                           <a href="https://wa.me/919871045001" className="btn1 bg-[#f7444e]">
                             Message Now
@@ -69,11 +120,11 @@ const Home = () => {
                     </div>
                     <div className="image2 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                      <div className='firstone'>
-                      <img className='banner-img' src="/images/b1.jpg" alt="" />
+                        <div className='firstone'>
+                          <img className='banner-img' src="/images/b1.jpg" alt="" />
+                        </div>
                       </div>
                     </div>
-                  </div>
                   </div>
                 </div>
               </div>
@@ -88,21 +139,21 @@ const Home = () => {
                             Smart Class Solutions for School/College
                           </span>
                           <br />
-                          Interactive Flat Panels<br/>
+                          Interactive Flat Panels<br />
                           Camera & Microphone
                         </h1>
                         <p>
-                         Collaborative learning between students and teachers.<br/>
-                         Prices start as low from INR 100000.<br /> 
-                        Available in 65/75/86 inches.
+                          Collaborative learning between students and teachers.<br />
+                          Prices start as low from INR 100000.<br />
+                          Available in 65/75/86 inches.
                         </p>
                         <div className="image1 col-md-5 col-lg-6 ">
-                      <div className="detail-box">
-                      <div className='secondone'>
-                      <img className='banner-img' src="/images/smart1.jpeg" alt="" />
-                      </div>
-                    </div>
-                  </div>
+                          <div className="detail-box">
+                            <div className='secondone'>
+                              <img className='banner-img' src="/images/smart1.jpeg" alt="" />
+                            </div>
+                          </div>
+                        </div>
                         <div className="btn-box">
                           <a href="https://wa.me/919871045001" className="btn1 bg-[#f7444e]">
                             Message Now
@@ -112,12 +163,12 @@ const Home = () => {
                     </div>
                     <div className="image2 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                      <div className='secondone'>
-                      <img className='banner-img' src="/images/smart1.jpeg" alt="" />
+                        <div className='secondone'>
+                          <img className='banner-img' src="/images/smart1.jpeg" alt="" />
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
                 </div>
               </div>
               <div className="carousel-item">
@@ -137,12 +188,12 @@ const Home = () => {
                           Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
                         </p>
                         <div className="image1 col-md-5 col-lg-6 ">
-                      <div className="detail-box">
-                      <div className='thirdone'>
-                        <img className='banner-img' src="/images/b3.jpg" alt="" />
-                      </div>
-                    </div>
-                    </div>
+                          <div className="detail-box">
+                            <div className='thirdone'>
+                              <img className='banner-img' src="/images/b3.jpg" alt="" />
+                            </div>
+                          </div>
+                        </div>
                         <div className="btn-box">
                           <a href="https://wa.me/919871045001" className="btn1 bg-[#f7444e]">
                             Message Now
@@ -152,17 +203,17 @@ const Home = () => {
                     </div>
                     <div className="image2 col-md-5 col-lg-6 ">
                       <div className="detail-box">
-                      <div className='thirdone'>
-                        <img className='banner-img' src="/images/b3.jpg" alt="" />
+                        <div className='thirdone'>
+                          <img className='banner-img' src="/images/b3.jpg" alt="" />
+                        </div>
                       </div>
                     </div>
                   </div>
-                  </div>
-           
+
                 </div>
-       
+
               </div>
-             
+
             </div>
             <div className="container carousel-res">
               <ol className="carousel-indicators">
@@ -172,23 +223,23 @@ const Home = () => {
               </ol>
             </div>
           </div>
-     
+
         </section>
         {/* end slider section */}
       </div>
       {/* why section */}
       <section data-aos="fade-left" className="why_section layout_padding">
         <div className="container">
-          
+
           <div className="heading_container heading_center">
-         
+
             <h2 className='mt-[40px]'>
-              Why Shop <span>With Us</span> 
+              Why Shop <span>With Us</span>
             </h2>
           </div>
-          
+
           <div className="shopus row ">
-          
+
             <div className="firstwu col-md-4">
               <div className="box mb-[60px]">
                 <div className="img-box ">
@@ -284,7 +335,7 @@ const Home = () => {
                   </h5>
                   <br />
                   <p>
-                  Our delivery service guarantees that your package will reach its destination as soon as possible by providing lightning-fast delivery.
+                    Our delivery service guarantees that your package will reach its destination as soon as possible by providing lightning-fast delivery.
                   </p>
                 </div>
               </div>
@@ -400,7 +451,7 @@ const Home = () => {
                   </h5>
                   <br />
                   <p>
-                  We provide free shipping on all orders,  making it easy for you to shop from home without worrying about additional expenses.
+                    We provide free shipping on all orders,  making it easy for you to shop from home without worrying about additional expenses.
                   </p>
                 </div>
               </div>
@@ -408,37 +459,37 @@ const Home = () => {
             <div className="col-md-4">
               <div className="box mb-[40px]">
                 <div className='boxin'>
-                <div className="img-box">
-                  <svg id="_30_Premium" height={512} viewBox="0 0 512 512" width={512} xmlns="http://www.w3.org/2000/svg" data-name="30_Premium">
-                    <g id="filled">
-                      <path d="m252.92 300h3.08a124.245 124.245 0 1 0 -4.49-.09c.075.009.15.023.226.03.394.039.789.06 1.184.06zm-96.92-124a100 100 0 1 1 100 100 100.113 100.113 0 0 1 -100-100z" />
-                      <path d="m447.445 387.635-80.4-80.4a171.682 171.682 0 0 0 60.955-131.235c0-94.841-77.159-172-172-172s-172 77.159-172 172c0 73.747 46.657 136.794 112 161.2v158.8c-.3 9.289 11.094 15.384 18.656 9.984l41.344-27.562 41.344 27.562c7.574 5.4 18.949-.7 18.656-9.984v-70.109l46.6 46.594c6.395 6.789 18.712 3.025 20.253-6.132l9.74-48.724 48.725-9.742c9.163-1.531 12.904-13.893 6.127-20.252zm-339.445-211.635c0-81.607 66.393-148 148-148s148 66.393 148 148-66.393 148-148 148-148-66.393-148-148zm154.656 278.016a12 12 0 0 0 -13.312 0l-29.344 19.562v-129.378a172.338 172.338 0 0 0 72 0v129.38zm117.381-58.353a12 12 0 0 0 -9.415 9.415l-6.913 34.58-47.709-47.709v-54.749a171.469 171.469 0 0 0 31.467-15.6l67.151 67.152z" />
-                      <path d="m287.62 236.985c8.349 4.694 19.251-3.212 17.367-12.618l-5.841-35.145 25.384-25c7.049-6.5 2.89-19.3-6.634-20.415l-35.23-5.306-15.933-31.867c-4.009-8.713-17.457-8.711-21.466 0l-15.933 31.866-35.23 5.306c-9.526 1.119-13.681 13.911-6.634 20.415l25.384 25-5.841 35.145c-1.879 9.406 9 17.31 17.367 12.618l31.62-16.414zm-53-32.359 2.928-17.615a12 12 0 0 0 -3.417-10.516l-12.721-12.531 17.658-2.66a12 12 0 0 0 8.947-6.5l7.985-15.971 7.985 15.972a12 12 0 0 0 8.947 6.5l17.658 2.66-12.723 12.535a12 12 0 0 0 -3.417 10.516l2.928 17.615-15.849-8.231a12 12 0 0 0 -11.058 0z" />
-                    </g>
-                  </svg>
-                </div>
-                
-                
-                <div className="detail-box">
-                  <h5>
-                    Best Quality
-                  </h5>
-                  <br />
-                  <p>
-                  We believe that our customers deserve only the best, and we strive to deliver the highest quality products possible. 
-                  </p>
+                  <div className="img-box">
+                    <svg id="_30_Premium" height={512} viewBox="0 0 512 512" width={512} xmlns="http://www.w3.org/2000/svg" data-name="30_Premium">
+                      <g id="filled">
+                        <path d="m252.92 300h3.08a124.245 124.245 0 1 0 -4.49-.09c.075.009.15.023.226.03.394.039.789.06 1.184.06zm-96.92-124a100 100 0 1 1 100 100 100.113 100.113 0 0 1 -100-100z" />
+                        <path d="m447.445 387.635-80.4-80.4a171.682 171.682 0 0 0 60.955-131.235c0-94.841-77.159-172-172-172s-172 77.159-172 172c0 73.747 46.657 136.794 112 161.2v158.8c-.3 9.289 11.094 15.384 18.656 9.984l41.344-27.562 41.344 27.562c7.574 5.4 18.949-.7 18.656-9.984v-70.109l46.6 46.594c6.395 6.789 18.712 3.025 20.253-6.132l9.74-48.724 48.725-9.742c9.163-1.531 12.904-13.893 6.127-20.252zm-339.445-211.635c0-81.607 66.393-148 148-148s148 66.393 148 148-66.393 148-148 148-148-66.393-148-148zm154.656 278.016a12 12 0 0 0 -13.312 0l-29.344 19.562v-129.378a172.338 172.338 0 0 0 72 0v129.38zm117.381-58.353a12 12 0 0 0 -9.415 9.415l-6.913 34.58-47.709-47.709v-54.749a171.469 171.469 0 0 0 31.467-15.6l67.151 67.152z" />
+                        <path d="m287.62 236.985c8.349 4.694 19.251-3.212 17.367-12.618l-5.841-35.145 25.384-25c7.049-6.5 2.89-19.3-6.634-20.415l-35.23-5.306-15.933-31.867c-4.009-8.713-17.457-8.711-21.466 0l-15.933 31.866-35.23 5.306c-9.526 1.119-13.681 13.911-6.634 20.415l25.384 25-5.841 35.145c-1.879 9.406 9 17.31 17.367 12.618l31.62-16.414zm-53-32.359 2.928-17.615a12 12 0 0 0 -3.417-10.516l-12.721-12.531 17.658-2.66a12 12 0 0 0 8.947-6.5l7.985-15.971 7.985 15.972a12 12 0 0 0 8.947 6.5l17.658 2.66-12.723 12.535a12 12 0 0 0 -3.417 10.516l2.928 17.615-15.849-8.231a12 12 0 0 0 -11.058 0z" />
+                      </g>
+                    </svg>
+                  </div>
+
+
+                  <div className="detail-box">
+                    <h5>
+                      Best Quality
+                    </h5>
+                    <br />
+                    <p>
+                      We believe that our customers deserve only the best, and we strive to deliver the highest quality products possible.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-    </div>
       </section>
       {/* end why section */}
       {/* arrival section */}
       {/* end arrival section */}
       {/* product section */}
-      <section  className="bg-[#F8F8F8] product_section layout_padding">
+      <section className="bg-[#F8F8F8] product_section layout_padding">
         <div data-aos="zoom-in-up" className="container">
           <div className="heading_container heading_center">
             <h2>
@@ -468,8 +519,8 @@ const Home = () => {
           <div className="row logo-slide layout_padding">
             <div className="heading_container  heading_center">
               <h2>
-              Our <span>Clients</span>
-            </h2>
+                Our <span>Clients</span>
+              </h2>
             </div>
             <div className="slider bg-[#ffffff]">
               <div className="slide-track">
@@ -540,80 +591,80 @@ const Home = () => {
       </section>
       {/* end subscribe section */}
       {/* client section */}
-      
-  <div  data-aos="zoom-in" className='bg-[#F8F8F8] youtubeslider container pt-[50px] pb-[50px] mt-[25px]' style={{ height: "100%", overflowX: "hidden", textAlign: "center" }}>
-  <div  className="heading_container heading_center">
-            <h2>
+
+      <div data-aos="zoom-in" className='bg-[#F8F8F8] youtubeslider container pt-[50px] pb-[50px] mt-[25px]' style={{ height: "100%", overflowX: "hidden", textAlign: "center" }}>
+        <div className="heading_container heading_center">
+          <h2>
             Customer's <span>Testimonial</span>
-            </h2>
-      </div>
-  <div className="csslider infinity" id="slider1">
-    <input type="radio" name="slides" defaultChecked="checked" id="slides_1" />
-    <input type="radio" name="slides" id="slides_2" />
-    <input type="radio" name="slides" id="slides_3" />
-    <input type="radio" name="slides" id="slides_4" />
-    <input type="radio" name="slides" id="slides_5" />
-    <input type="radio" name="slides" id="slides_6" />
-    <input type="radio" name="slides" id="slides_7" />
-    <input type="radio" name="slides" id="slides_8" />
-    <input type="radio" name="slides" id="slides_9" />
-    <input type="radio" name="slides" id="slides_10" />
-    <ul className='youtube-slider'>
-      <li>
-        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/irIqm49Eyh4" title="YouTube video   player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;   picture-in-picture; web-share" allowFullScreen></iframe> 
-        <p />
-      </li>
-      <li>
-        <p>
-        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/FaBpcWkk3Qw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-        </p>
-      </li>
-      <li>
-        <p>
-        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/DRYI8h6UsI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-        </p>
-      </li>
-      <li>
-        <p>
-        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/EfVOvB657xA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-        </p>
-      </li>
-      <li>
-        <p>
-        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/tZ3zhPTC8AY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-        </p>
-      </li>
-      <li>
-        <p></p>
-        <p>
-        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/9PRi6lkUEnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-        </p>
-      </li>
-      <li>
-        <p></p>
-        <p>
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/JGLhpfC8NnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-        </p>
-      </li>
-      <li>
-        <p></p>
-        <p>
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/8cKYIruMah0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-        </p>
-      </li>
-      <li>
-        <p></p>
-        <p>
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/1VCKNn-1PTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-        </p>
-      </li>
-      <li>
-        <p></p>
-        <p>
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/vZCvluL50Ks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-        </p>
-      </li>
-      {/* <li>
+          </h2>
+        </div>
+        <div className="csslider infinity" id="slider1">
+          <input type="radio" name="slides" defaultChecked="checked" id="slides_1" />
+          <input type="radio" name="slides" id="slides_2" />
+          <input type="radio" name="slides" id="slides_3" />
+          <input type="radio" name="slides" id="slides_4" />
+          <input type="radio" name="slides" id="slides_5" />
+          <input type="radio" name="slides" id="slides_6" />
+          <input type="radio" name="slides" id="slides_7" />
+          <input type="radio" name="slides" id="slides_8" />
+          <input type="radio" name="slides" id="slides_9" />
+          <input type="radio" name="slides" id="slides_10" />
+          <ul className='youtube-slider'>
+            <li>
+              <iframe width="100%" height="400px" src="https://www.youtube.com/embed/irIqm49Eyh4" title="YouTube video   player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;   picture-in-picture; web-share" allowFullScreen></iframe>
+              <p />
+            </li>
+            <li>
+              <p>
+                <iframe width="100%" height="400px" src="https://www.youtube.com/embed/FaBpcWkk3Qw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+              </p>
+            </li>
+            <li>
+              <p>
+                <iframe width="100%" height="400px" src="https://www.youtube.com/embed/DRYI8h6UsI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+              </p>
+            </li>
+            <li>
+              <p>
+                <iframe width="100%" height="400px" src="https://www.youtube.com/embed/EfVOvB657xA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+              </p>
+            </li>
+            <li>
+              <p>
+                <iframe width="100%" height="400px" src="https://www.youtube.com/embed/tZ3zhPTC8AY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+              </p>
+            </li>
+            <li>
+              <p></p>
+              <p>
+                <iframe width="100%" height="400px" src="https://www.youtube.com/embed/9PRi6lkUEnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+              </p>
+            </li>
+            <li>
+              <p></p>
+              <p>
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/JGLhpfC8NnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+              </p>
+            </li>
+            <li>
+              <p></p>
+              <p>
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/8cKYIruMah0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+              </p>
+            </li>
+            <li>
+              <p></p>
+              <p>
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/1VCKNn-1PTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+              </p>
+            </li>
+            <li>
+              <p></p>
+              <p>
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/vZCvluL50Ks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+              </p>
+            </li>
+            {/* <li>
         <p>
           <video controls="" preload="">
             <source src="" />
@@ -627,44 +678,44 @@ const Home = () => {
           </video>
         </p>
       </li> */}
-    </ul>
-    <div className="arrows">
-      <label htmlFor="slides_1" />
-      <label htmlFor="slides_2" />
-      <label htmlFor="slides_3" />
-      <label htmlFor="slides_4" />
-      <label htmlFor="slides_5" />
-      <label htmlFor="slides_6" />
-      <label htmlFor="slides_7" />
-      <label htmlFor="slides_8" />
-      <label htmlFor="slides_9" />
-      <label htmlFor="slides_10" />
-      <label className="goto-first" htmlFor="slides_1" />
-      <label className="goto-last" htmlFor="slides_10" />
-    </div>
-    <div className="navigation">
-      <div>
-        <label htmlFor="slides_1" />
-        <label htmlFor="slides_2" />
-        <label htmlFor="slides_3" />
-        <label htmlFor="slides_4" />
-        <label htmlFor="slides_5" />
-        <label htmlFor="slides_6" />
-        <label htmlFor="slides_7" />
-        <label htmlFor="slides_8" />
-        <label htmlFor="slides_9" />
-        <label htmlFor="slides_10" />
+          </ul>
+          <div className="arrows">
+            <label htmlFor="slides_1" />
+            <label htmlFor="slides_2" />
+            <label htmlFor="slides_3" />
+            <label htmlFor="slides_4" />
+            <label htmlFor="slides_5" />
+            <label htmlFor="slides_6" />
+            <label htmlFor="slides_7" />
+            <label htmlFor="slides_8" />
+            <label htmlFor="slides_9" />
+            <label htmlFor="slides_10" />
+            <label className="goto-first" htmlFor="slides_1" />
+            <label className="goto-last" htmlFor="slides_10" />
+          </div>
+          <div className="navigation">
+            <div>
+              <label htmlFor="slides_1" />
+              <label htmlFor="slides_2" />
+              <label htmlFor="slides_3" />
+              <label htmlFor="slides_4" />
+              <label htmlFor="slides_5" />
+              <label htmlFor="slides_6" />
+              <label htmlFor="slides_7" />
+              <label htmlFor="slides_8" />
+              <label htmlFor="slides_9" />
+              <label htmlFor="slides_10" />
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
 
 
       {/* end client section */}
       {/* footer start */}
-      <Footer / >
+      <Footer />
       {/* footer end */}
-      <div  className="cpy_">
+      <div className="cpy_">
         <p className="mx-auto">© 2023 All Rights Reserved By <a href="#">Studio Wallah</a><br />
         </p>
       </div>
@@ -674,7 +725,7 @@ const Home = () => {
       {/* custom js */}
     </div>
   )
-    }
+}
 
 
-export default Home
+export default withFirestore(Home)

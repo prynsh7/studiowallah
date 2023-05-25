@@ -1,13 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import Footer from '../../components/footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
 import ProductCard from '../../components/ProductCard/ProductCard'
-import { ProductList } from '../../data/productList'
+// import { ProductList } from '../../data/productList'
 import { ROUTES } from '../../routes/RouterConfig'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // optional
 import { useEffect } from 'react'
+import { withFirestore } from 'react-firestore'
+
 
 const categories = [
   "All",
@@ -20,14 +22,40 @@ const categories = [
   "Smart Board Softwares",
 ]
 
-const About = () => {
+const About = ({firestore}) => {
 
 
   const [selectedCategory, setSelectedCategory] = React.useState(categories[0])
 
-  const [products, setProducts] = React.useState(ProductList)
+  const [products, setProducts] = React.useState([])
 
   const navigate = useNavigate()
+
+  const [ProductList, setProductList] = useState([])
+
+
+  async function getAllProducts() {
+    const productsRef = firestore.collection('products');
+    const snapshot = await productsRef.get();
+  
+    const products = [];
+    snapshot.forEach((doc) => {
+      products.push(doc.data());
+    });
+  
+    return products;
+  }
+  
+  // Retrieve all products
+  useEffect(() => {
+    getAllProducts()
+    .then((products) => {
+      setProducts(products);
+    })
+    .catch((error) => {
+      console.error('Error retrieving products:', error);
+    });
+  }, []);
 
   const changeDir = (dir) => {
     navigate(dir)
@@ -98,4 +126,4 @@ const About = () => {
   )
 }
 
-export default About
+export default withFirestore(About)
